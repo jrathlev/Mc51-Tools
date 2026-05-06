@@ -1,0 +1,18 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=MC-Tools.chm
+Contents file=MC-Tools.hhc
+Default topic=mc-contents.html
+Display compile progress=No
+Language=0x407 Deutsch (Deutschland)
+Title=MC51 documentation
+
+
+[FILES]
+mc-contents.html
+mc-intro-d.html
+mc-cmd.html
+mc-intro-e.html
+
+[INFOTYPES]
+

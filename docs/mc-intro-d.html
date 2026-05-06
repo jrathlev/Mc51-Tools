@@ -1,0 +1,257 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>MC-Tools - Einführung</title>
+<meta name="description" content="(c) 2004 - 2021, J. Rathlev, 24222 Schwentinental, Germany">
+<meta name="author" content="J. Rathlev">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html;CHARSET=iso-8859-1">
+<link rel=stylesheet type="text/css" href="styles.css">
+</head>
+
+<body>
+<table>
+<tr>
+  <td rowspan="2" valign="center"><img src="images/mc-51.png" width="48" height="48"" border="0" align="left"></td>
+  <td align="Left"><h2 style="margin-top:2pt;margin-bottom:2pt;">MC-Tools Version 6.3</h2></td>
+</tr>
+<tr valign="top"">
+    <td><b>&copy; 2004 - 2021, J. Rathlev</a>, D-24222 Schwentinental</b></td>
+</tr>
+</table>
+<hr>
+
+<h2>Einführung</h2>
+<p>MC-Tools ist ein unter alle aktuellen Windows-Versionen lauffähiges Programmpaket, 
+  mit dem sich Anwendungen für Mikrocontroller der 8051-Familie (Siemens, Philips, Atmel, etc.)
+  erstellen lassen. Es enthält eine Entwicklungsumgebung (IDE) für die Quelltexterstellung
+  und Compilierung, einen Simulator, um die erstellten Programme auf dem PC zu testen, 
+  eine Projektverwaltung und Hilfsprogramme für die Flash-Programmierung.
+  </p>
+<h3>Überblick:</h3>
+<ul>
+  <li><strong>Entwicklungsumgebung (IDE):</strong>
+  <ul>
+    <li><strong>Texteditor</strong> für das Erstellen der Quelltexte von Assembler-, Pascal- 
+    und C-Programmen für die Mikrocontroller mit Syntax-Hervorhebung</li>
+    <li>Interface zum Assembler <strong>ASEM-51</strong> von W.W. Heinz</li>
+    <li>Interface zum Pascal-Compiler <strong>Turbo51</strong> von Igor Funa</li>
+    <li>Interface zum C-Compiler <strong>SDCC</strong> (sdcc.sourceforge.net/)</li>
+    <li><strong>Integrierter Simulator / Debugger</strong>für alle Grundfunktionen des
+      8051, einschließlich Timer und serieller Schnittstelle</li>
+    <li><strong>Terminalfenster</strong>, um über die serielle Schnittstelle mit einem Monitorprogramm 
+      im Mikrocontroller zu kommunizieren und um Programme im Hex-Intel-Format herunterzuladen</li>
+    <li>Flash-Programmier-Modul für die Atmel-Controller AT89S51, AT89S52, AT89S8252 
+      und AT89S8253 unter Verwendung der seriellen Schnittstelle</li>
+  </ul>
+  </li>
+  <li><strong>Projektverwaltung:</strong> Mit diesem Programm können komplexere Projekte,
+    die aus mehreren Modulen (z.B. Pascal-Units) bestehen, zusammgestellt und
+    bearbeitet werden. Zur Compilierung wird die o.g. Entwicklungsumgebung in einem
+    Projektmodus gestartet, wobei nur die zu dem Projekt gehörenden Quelltexte 
+    geladen werden.</li>
+  <li>Hilfsprogramm zum Auslesen der Signaturen und des Programmspeichers von
+    Atmel-Prozessoren per ISP</li>
+  <li>Vergleich der Programmierung Atmel-Prozessoren mit einer Intel-Hexdatei per ISP</li>
+</ul>
+<img src="images/mc-51-d.png" width="999" height="707" align="left" border="0" hspace="5" vspace="5">
+<br clear="all">
+
+<h3>Entwicklungsumgebung <i>MC51</i></h3>
+<p>Die Compiler <a href="http://plit.de/asem-51/home.htm" target="_blank">ASEMW</a>, 
+  <a href="http://turbo51.com/" target="_blank">Turbo51</a> und
+  <a href="http://sdcc.sourceforge.net/" target="_blank">SDCC</a> sind
+  Programme, die über die Befehlszeile gesteuert werden. Zur Übersetzung von 
+  Quellprogrammen müssen sie mit den erforderlichen Parametern aufgerufen werden.
+  Dies erledigt die Entwicklungsumgebung <em>MC51</em> automatisch auf Knopfdruck.
+  Die Ausgabe dieser Programme (insbesondere eventuelle Fehlermeldungen) wird im
+  unteren Teil des Desktop-Fensters eingeblendet. Mit einem Klick auf eine 
+  Fehlermeldung wird die Positionsmarke des Editors direkt auf die fehlerhafte
+  Zeile gesetzt.</p>
+
+<p>Da es viele Mikrocontroller in der 8051-Familie gibt, die sich in der Struktur
+  der Special-Function-Register (SFR) unterscheiden, muss am Anfang des Quelltextes
+  das passende Modul per Include-Befehl, bzw. bei Pascal
+  die entsprechende Unit eingebunden werden. Das <b>MC-Tools</b>-Paket enthält Module und Units
+  für alle gängigen Mikrocontroller der 8051-Familie. Beim Anlegen einer neuen 
+  Quelltext-Datei fügt die Entwicklungsumgebung automatisch den für den ausgewählten
+  Mikrocontroller benötigten Quellcode in den Text ein (siehe die Auswahlliste
+  oben rechts in der Werkzeugleiste). Entsprechend wird beim Laden eines Quelltextes
+  das dort verwendete Modul automatisch erkannt.</p>
+
+<p>Für die Kommunikation mit einer Mikrocontroller-Experimentierplatine über die
+  serielle Schnittstelle wird in <em>MC-51</em> ein <strong>Terminal-Modus</strong> bereit gestellt.
+  Die für die Verbindung erforderlichen Parameter können über das Hauptmenü
+  eingestellt werden.<br>
+  Die Anzeige ist in zwei Fenster aufgeteilt: Im oberen Teil
+  werden die über die serielle PC-Schnittstelle empfangenen Daten angezeigt,
+  im unteren die von der Tastatur eingegeben zu sendenden Daten. Wenn im
+  Mikrocontroller ein Monitor-Programm wie z.B.  
+  <a href="http://www.pjrc.com/tech/8051/pm2_docs/index.html" target="_blank">PAULMON</a>
+  installiert wurde, können außerdem Hex-Dateien, die vom Assembler, dem Pascal-Compiler
+  oder dem C-Compiler erzeugt wurden, in den Mikrocontroller-Speicher herunter geladen werden.</p>
+
+<p>Mit dem <strong>Simulator / Debugger</strong> können kleine Programm ohne 
+  externe Hardware getestet werden. Es stehen alle üblichen Debug-Funktionen 
+  (Start, Stopp, Einzelschritt, Schritt über Unterroutinen, Lauf bis zu einer 
+  ausgewählten Zeile) zur Verfügung. An jeder Stelle können außerdem Haltepunkte 
+  gesetzt werden, und das zu testende Programm kann auch Schritt-für-Schritt ausgeführt 
+  werden.<br>
+  Der Simulator zeigt sowohl den Quellcode mit den 
+  Adressmarken als auch die Adressen und den kompilierten Code im Hex-Format an. 
+  Alle Register und Speicherzellen können eingesehen und, falls erforderlich, 
+  verändert werden. Zahlen werden wahlweise im Hex-, Dezimal- oder Binärformat 
+  angezeigt.<br>
+  Die Port-Anschlüsse (P0,P1,..) werden als SFRs und als Schaltflächen mit einer 
+  LED-artigen Statusanzeige angezeigt. Zum Ändern eines dieser Port-Bits genügt ein Klick auf 
+  die zugehörige Schaltfläche (nur möglich, wenn sie im zu testenden Programm
+  zuvor als Eingang definiert wurden).<br>
+  Außerdem werden zwei Timer und eine serielle Schnittstelle (die Ausgabe wird
+  als Text angezeigt, die Eingabe erfolgt über die Tastatur) simuliert. Eine
+  Interruptsteuerung für diese Komponenten ist ebenfalls vorhanden. Die beiden
+  externen Interrupts können über Mausklicks auf die zugeordneten Schaltflächen
+  ausgelöst werden. Nicht unterstützt wird die Prioritätssteuerung der Interrupts.
+  Außerdem ist es möglich, die Symbol- und Befehlstabellen für die verschiedenen 
+  Abarten auch direkt zu laden.</p>
+
+<p>Daneben enthält <em>MC-51</em> ein Modul für die Flash-Programmierung von einigen
+  Atmel-Mikrocontrollern (AT89S51/52 and AT89S8252/8253) über die serielle
+  Schnittstelle. Wie die serielle Schnittstelle mit dem Mikrocontroller 
+  verbunden werden muss, kann der Beschreibung der
+  <a href="exp-board.html">Experimentier-Platine</a> entnommen werden.</p>
+
+<p>Der integrierte Text-Editor verwendet Komponenten des Open-Source-Projekts
+  <a href="https://github.com/SynEdit/SynEdit" target="_blank"><i>SynEdit</i></a>. 
+  Neben den üblichen Funktionen eines Editors enthält er eine
+  compilerabhängige Syntax-Hervorhebung des Quelltextes. Viele
+  Einstellungen können individuell angepasst werden.</p>
+  
+<a name="vers63"><h4>Hinweise zur Version 6.3</h4></a>
+<img src="images/subdirs.png" width="153" height="230" align="left" border="0" hspace="5">
+<p>Mit der Version 6.3 ist es mÃ¶glich, eine neue <strong>Struktur der Quellverzeichnisse</strong>
+  zu verwenden. Dabei werden die Quelltexte der verschiedenen unterstÃ¼tzten Compiler,
+  sowie deren Includes, Units, bzw. Libraries und Ausgaben in voneinander getrennten Verzeichnissen
+  abgelegt (siehe Abb. links). Nach einer Erstinstallation erfolgt das Anlegen dieser Struktur 
+  automatisch beim ersten Start des Programms,
+  bei einem Update wird die von der Vorversion vorhandene Struktur weiter verwendet. 
+  Die Umstellung auf die neue Verzeichnisstruktur kann Ã¼ber den MenÃ¼punkt
+  <i>Einstellungen &rArr; Stammverzeichnis fÃ¼r Quelltexte ...</i> erfolgen. Man gibt ein neues
+  Stammverzeichnis an, unter dem dann automatisch die links dargestellte Unterverzeichnis-Struktur
+  angelegt wird.<br>
+  Evtl. bereits vorhandene Quelltexte, die mit der Vorversion erstellt wurden, mÃ¼ssen 
+  danach von Hand in die neuen Verzeichnisse kopiert werden. Aus dem Programm heraus kann dies
+  auch mit der <i>Sichern als ..</i>-Funktion erfolgen.<br>
+  </p>
+<br clear="all">
+<p>&nbsp;</p>
+
+<img src="images/mc-p-d.png" width="591" height="327" align="right" border="0" hspace="5">
+<h3><a name="prjman">Projektverwaltung</a> <i>McProjects</i></h3>
+<p>Für eine effiziente Softwareentwicklung ist es vorteilhaft, häufig verwendete
+  Programmteile in getrennten Module (Include-Dateien beim Assembler und C, Units bei
+  Pascal) unterzubringen. <em>MC-51</em> kann alle zu einem Projekt gehörenden
+  Programmteile (Hauptprogramm und Module) und die erforderlichen Compiler-Optionen
+  in einer Projekt-Datei abspeichern (<a href="mc-cmd.html">siehe dazu</a>). 
+  Wird <em>MC-51</em> mit einer solchen Projekt-Datei in der Befehlszeile gestartet, 
+  werden automatisch alle zugehörigen Quelltexte und Einstellungen in die
+  Entwicklungsumgebung geladen.</p>
+<ul>
+  <li><b>Erstellen eines Projekts</b><br>
+  <b>mit <em>MC-51</em>:</b> Hauptmenü: <i>Datei -> Als Projekt speichern ..</i><br>
+    Nach Angabe eines Projektnamens (unbedingt erforderlich) wird eine Projekt-Datei
+    erstellt, in der die Einstellungen für die Hauptdatei (siehe auch <i>Menü - Compiler</i>)
+    und die Compileroptionen ebenso gesichert werden wie die Namen aller geöffneter
+    Dateien.<br>
+  <b>mit dem Projektmanager:</b> Schaltfläche: <i>Neues Projekt</i><br>
+    Zuerst werden ein Projektname (unbedingt erforderlich) und optional ein
+    Kommentar und die Optionen angegeben. Anschließend wählt man die Hauptdatei
+    und die benötigten Module aus und speichert das Projekt.
+  </li>
+  <li><b>Auswahl eines Projektes mit dem Projektmanager</b><br>
+    Nach dem Start des Programms werden alle zuletzt verwendeten Projekte in einer
+    Liste angezeigt.
+    Man wählt das gewünschte aus und klickt auf <i>Starte MC-51</i> (alternativ:
+    Doppelklick auf das ausgewählte Projekt), um das Projekt mit <em>MC-51</em> zu
+    öffnen.<br>
+    &nbsp;
+  </li>
+</ul>
+
+<h2><a name="Install">Installation</a></h2>
+<p>Das bereit gestellte Installationspaket enthält die oben beschriebenen Programme, 
+  die Standardeinstellungen für den Editor, den 
+  <b><a href="http://turbo51.com/download-free-pascal-compiler-8051" target="_blank">Pascal-Compiler Turbo-51</a> (Vers. 0.1.3.17)</b>, den
+  <b><a href="software/asem5113.zip">Assembler ASEM-51</a> von 
+  <a href="http://plit.de/asem-51/home.htm" target="_blank">W.W. Heinz</a></b>,
+  sowie Include-Module und Units für viele Mikrocontroller der 8051-Familie.<br>
+  Der C-Compiler <a href="http://sdcc.sourceforge.net/" target="_blank">SDCC</a> muss getrennt 
+  <a href="https://sourceforge.net/projects/sdcc/files/sdcc-win32/">heruntergeladen</a> 
+  und installiert werden. Beim Start prüft <em>MC51</em>, ob <i>SDCC</i>
+  auf dem System installiert ist, und integriert es automatisch in das Entwicklungssystem. 
+  </p>
+<p>Zur Installation startet man das bereit gestellte Windows-Setup (mc-setup-6.x.yy.exe,
+  wobei x.yy für die jeweilige Version steht). Dazu sind unter
+  Windows 7, 8 und 10 die Rechte eines Administrators erforderlich. 
+  Die Installation kann in ein beliebiges Verzeichnis erfolgen  (Standard:
+  <i>C:\Program Files\Mc-Tools</i> auf 32-Bit-Systemen, bzw. <i>C:\Program Files(x86)\Mc-Tools</i>
+  auf 64-Bit-Systemen). Auf Wunsch werden bei der Installation Verknüpfungen
+  im Startmenü und auf dem Desktop angelegt.</p>
+  
+<p style="margin-bottom:10px;">Im Installationsverzeichnis wird die nachfolgende Verzeichnis- und Dateistruktur 
+  erstellt:</p>
+<pre style="margin-top:-7px;">
+   &lt;Install directory&gt;
+     mc51.exe                Programm
+     mc51.key                Tastaturbelegung für den eingebauten Editor
+     mc51-asm.hlt            Einstellungen für die Syntax-Hervorhebung (Assembler))
+     mc51-pas.hlt            Einstellungen für die Syntax-Hervorhebung (Pascal))
+     mc51-cco.hlt            Einstellungen für die Syntax-Hervorhebung (C-Compiler))
+     opcodes.mco             Liste der 8051-Befehle für den Simulator
+     8051.mcu                Liste der vordefinierten Symbol für den Simulator 
+     mcprojects.exe          Projektmanager
+     checkisp.exe            Programm zur Prüfung von Atmel-Mikrocontrollern 
+                             und zum Auslesen des Programmspeichers über ISP
+     diffisp.exe             Programm zur Überprüfung von Programmierungen über ISP
+     &lt;locale&gt;                Sprachdateien für <b>MC-Tools</b> (z.Zt.: Deutsch)
+     &lt;Asem-51&gt;               Verzeichnis für Assembler
+       AsemW.exe             Assembler für die Verwendung unter Windows
+       ...                   Einige andere Programme und die Dokumentation
+       &lt;Mcu&gt;                 Verzeichnis für die Include-Module (s.o.)
+         *.mcu               Include-Module für die verschiedenen Mikrocontroller
+     &lt;Turbo-51&gt;              Verzeichnis für Pascal
+       &lt;bin&gt;                 Pascal-Compiler
+       &lt;rtl&gt;                 Laufzeit-Bibliotheken 
+       &lt;manual&gt;              Dokumentation
+     &lt;Units&gt;                 Verzeichnis für die System-Units
+         Sys_*.pas           Units für die verschiedenen Mikrocontroller</pre>
+         
+<p>Beim ersten Start von <em>MC-51</em> (MC51.EXE) werden alle erforderlichen
+  Einstellungen (Ort des Assemblers, des Pascal- und C-Compilers, etc.) vom Programm
+  automatisch vorgenommen.</p>
+
+<p>Wenn eine Experimentierplatine an den Computer angeschlossen ist, muss vor der
+  ersten Aktion der richtige Anschluss für die serielle Schnittstelle ausgewählt
+  werden:<br>
+  <div style="text-indent:2.0em;margin-top:-7px;">
+  <i>Hauptmenü &rArr; Einstellungen &rArr; Terminal &rArr; Com-Port &rArr; COM1, COM2, ..</i>
+  </div></p>
+  
+<p>Je nachdem, welches Monitorprogramm verwendet wird, sind einige weitere Einstellungen
+  erforderlich:</p>
+<dl style="text-indent:2.0em;margin-top:-7px;">
+  <dt><i>Hauptmenü &rArr; Einstellungen &rArr; Terminal &rArr; Baudrate  &rArr; 1200, .. ,115200</i></dt>
+  <dt><i>Hauptmenü &rArr; Einstellungen &rArr; Terminal &rArr; Verzögerung &rArr;</i></dt>
+  <dd><i>Pause zwischen Zeichen in ms</i></dd>
+  <dd><i>Pause am Zeilende in ms</i></dd>
+</dl>
+<p>Beim Einsatz von <i>PAULMON</i> als Monitorprogramm, können alle Einstellungen
+  auf den Standardwerten belassen werden (9600 baud, 0 ms and 50 ms). Es muss nur
+  nach dem Einschalten oder einem Reset auf der Experimentierplatine einmal die
+  Enter-Taste gedrückt werden, damit der Mikrocontroller seine Baudrate anpassen kann.<br>
+  &nbsp;</p>
+
+<hr>
+<i>J. Rathlev, D-24222 Schwentinental, November 2021</i>
+</body>
+</html>
+
+

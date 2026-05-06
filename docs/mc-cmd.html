@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>MC-Tools - Command line options</title>
+<meta name="description" content="(c) 2004 - 2021, J. Rathlev, 24222 Schwentinental, Germany">
+<meta name="author" content="J. Rathlev">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html;CHARSET=iso-8859-1">
+<link rel=stylesheet type="text/css" href="styles.css">
+</head>
+
+<body>
+<table>
+<tr>
+  <td rowspan="2" valign="center"><img src="images/mc-51.png" width="48" height="48"" border="0" align="left"></td>
+  <td align="Left"><h2 style="margin-top:2pt;margin-bottom:2pt;">MC-Tools Version 6.3</h2></td>
+</tr>
+<tr valign="top"">
+    <td><b>&copy; 2004 - 2021, J. Rathlev</a>, 24222 Schwentinental, Germany</b></td>
+</tr>
+</table>
+<hr>
+
+<h2><a name="Commandline">Command line options</a></h2>
+<p>Having started the program via a desktop shortcut or having invoked it from another program, 
+  you can control it by setting the following command line options. The command line options can
+  also be used to organize projects containing more than one source file (see at end of page).</p>
+<dl>
+  <dt><b>none</b></dt>
+  <dd>The MC51 program will reload all files opened in the previous session.</dd>
+  
+  <dt style="margin-top:12px;"><b>[<em>&lt;Source1&gt;</em>] [<em>&lt;Source2&gt;</em>] ..</b></dt>
+  <dd>The MC51 program will only load the specified source files.</dd>
+  
+  <dt style="margin-top:12px;"><b>/term [<em>&lt;Filename&gt;</em>.hex]</b></dt>
+  <dd>Start the program in terminal mode and prepare the download of the optional
+  denoted Hex file.</dd>
+  
+  <dt style="margin-top:12px;"><b>/sim[:<em>&lt;Filename&gt;</em>.omf|hex]</b></dt>
+  <dd>If no filename is specified, the MC51 program  will start the simulator 
+    immediately after opening all active sources loading the last program that was edited.
+    If an OMF or Hex filename is specified, the MC51 program  will start the simulator 
+    and load the specified binary file immediately after opening all active sources.</dd> 
+  
+  <dt style="margin-top:12px;"><b><a name="Ini"></a>/ini:[<em>&lt;Filename&gt;</em>]</b></dt>
+  <dd>By default the user configuration is saved in the file <em>Mc51.ini</em>. 
+    This file is located in the <i>Application Data</i> directory of the user:
+    <ul>
+      <li><b>Vista, Windows 7,8,10 and 11:</b> <i>C:\Users\&lt;Username&gt;\AppData\Roaming</i></li>
+      <li><b>Windows 2000 and XP:</b> <i>C:\Documents and Settings\&lt;Username&gt;\Application Data</i></li>
+    </ul>      
+    Using the "ini" option, allows you can to select an alternative configuration file at any other location
+    (e.g. <tt>E:\MyConfiguration\mc-1.ini)</tt>. 
+    </dd>
+  
+  <dt style="margin-top:12px;"><b>/project:<em>&lt;project name&gt;</em></b></dt>
+  <dd>Specifies the name of the project</dd>
+  
+  <dt style="margin-top:12px;"><b>/main:<em>&lt;main file&gt;</em></b></dt>
+  <dd>Specifies the main file of the project</dd>
+
+  <dt style="margin-top:12px;"><b>/compiler:<em>&lt;n&gt;</em></b></dt>
+  <dd>Specifies the compiler type: <i>0 = Assembler, 1 = Pascal, 2 = C</i></dd>
+  
+  <dt style="margin-top:12px;"><b>/options:<em>&lt;options&gt;</em></b></dt>
+  <dd>Specifies the options for the Turbo51 compiler</dd>
+  
+  <dt style="margin-top:12px;"><b>/coptions:<em>&lt;options&gt;</em></b></dt>
+  <dd>Specifies the options for the C compiler</dd>
+  
+  <dt style="margin-top:12px;"><b>/memalloc:<em>CodeStart;CodeSize;ExtStart;ExtSize</em></b></dt>
+  <dd>Specifies the memory allocation (<i>code</i> and <i>Extended RAM</i>) as hex or decimal values
+  (only required for C programs).<br>
+  <strong>Example:</strong> <i>/memalloc:$8000;$01000;$9000;$01000</i></dd>
+  
+  <dt style="margin-top:12px;"><b>@<em>&lt;ProjectFile</em>&gt;</b></dt>
+  <dd>The command line options are loaded from a project file with the following structure:  
+    <pre style="margin-top:-2px;">
+    ; comment
+    /project:&lt;project name&gt;   ; name of the project
+    /compiler:1                     ; Pascal
+    /main:&lt;mainfile&gt;          ; main file of the project
+    /options:-A -J -T
+    &lt;source1&gt;                 ; source files
+    &lt;source2&gt;
+    ..</pre>
+  </dd>
+  
+</dl>
+  
+<hr>
+<i>J. Rathlev, 24222 Schwentinental, Germany, November 2021</i>
+</body>
+</html>

@@ -1,0 +1,4589 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-09-16 13:23+0200\n"
+"PO-Revision-Date: 2024-09-16 13:23+0200\n"
+"Last-Translator: Somebody <your.email@address.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: GgtTranslate 3.2.2\n"
+
+#. AppListDialog.Caption
+#: AppListDlg.dfm:4
+msgid "Edit application list"
+msgstr ""
+
+#. AppListDialog.paButtons.DownBtn.Hint
+#: AppListDlg.dfm:30
+msgid "Move entry down"
+msgstr ""
+
+#. AppListDialog.paButtons.UpBtn.Hint
+#: AppListDlg.dfm:68
+msgid "Move entry up"
+msgstr ""
+
+#. AppListDialog.paButtons.btnAdd.Caption
+#: AppListDlg.dfm:106
+msgid "Add application"
+msgstr ""
+
+#. AppListDialog.paButtons.btnDelete.Caption
+#: AppListDlg.dfm:195
+msgid "Remove application"
+msgstr ""
+
+#. AppListDialog.paButtons.btnEdit.Caption
+#: AppListDlg.dfm:284
+msgid "Change application"
+msgstr ""
+
+#. AppListDialog.paBottom.cbPlaceholder.Items.Strings
+#: AppListDlg.dfm:412
+msgid "%s - source file file with full path"
+msgstr ""
+
+#. AppListDialog.paBottom.cbPlaceholder.Items.Strings
+#: AppListDlg.dfm:413
+msgid "%p - path of source file"
+msgstr ""
+
+#. AppListDialog.paBottom.cbPlaceholder.Items.Strings
+#: AppListDlg.dfm:414
+msgid "%n - source file without path and extension"
+msgstr ""
+
+#. AppListDialog.paBottom.edAppPath.EditLabel.Caption
+#: AppListDlg.dfm:423
+msgid "Path:"
+msgstr ""
+
+#. AppListDialog.paBottom.edOptions.EditLabel.Caption
+#: AppListDlg.dfm:433
+msgid "Command line options:"
+msgstr ""
+
+#. AppListDialog.paBottom.btSelApp.Hint
+#: AppListDlg.dfm:441
+#. AppListDialog.OpenDialog.Title
+#: AppListDlg.dfm:606
+msgid "Select application"
+msgstr ""
+
+#. AppListDialog.paBottom.edCaption.EditLabel.Caption
+#: AppListDlg.dfm:475
+msgid "Caption:"
+msgstr ""
+
+#. AppListDialog.paBottom.CancelBtn.Caption
+#: AppListDlg.dfm:484
+#. ISPDialog.PageControl.TabSheet1.btnCancel1.Caption
+#: ATISPDlg.dfm:91
+#. ISPDialog.PageControl.TabSheet2.btnCancel2.Caption
+#: ATISPDlg.dfm:277
+#. ISPDialog.PageControl.TabSheet3.btnCancel3.Caption
+#: ATISPDlg.dfm:550
+#. ISPDialog.PageControl.TabSheet5.btnCancel.Caption
+#: ATISPDlg.dfm:1163
+#. IspSelectDialog.CancelBtn.Caption
+#: ATISPSelectDlg.dfm:90
+#. CompilerOptionsDialog.CancelBtn.Caption
+#: CompilerOptionsDlg.dfm:89
+#. CompilerPathDialog.pnBottom.CancelBtn.Caption
+#: CompilerPathDlg.dfm:639
+#. ValueDialog.paMain.CancelBtn.Caption
+#: InpValue.dfm:66
+#. KeyboardDialog.CancelBtn.Caption
+#: KeyboardDlg.dfm:127
+#. McOptionsDialog.CancelBtn.Caption
+#: McOptionsDlg.dfm:89
+#. MainForm.pcMain.tsEdit.bbCancel.Caption
+#: McProjectMain.dfm:1145
+#. MemoryDialog.CancelBtn.Caption
+#: MemoryDlg.dfm:92
+#. PageFormatDialog.CancelBtn.Caption
+#: PageFormatDlg.dfm:88
+#. PathDialog.pnBottom.CancelBtn.Caption
+#: PathDlg.dfm:627
+#. SelectISPDialog.btbCancel.Caption
+#: SelectISPDlg.dfm:28
+#. TableDialog.CancelBtn.Caption
+#: TableDlg.dfm:88
+#. 'Abbrechen';
+#. Programmer's name for it: rsCancel
+#: McStrings.pas:88
+msgid "Cancel"
+msgstr ""
+
+#. AppListDialog.paBottom.OKBtn.Caption
+#: AppListDlg.dfm:545
+#. IspSelectDialog.OKBtn.Caption
+#: ATISPSelectDlg.dfm:27
+#. CompilerOptionsDialog.OKBtn.Caption
+#: CompilerOptionsDlg.dfm:25
+#. CompilerPathDialog.pnBottom.OKBtn.Caption
+#: CompilerPathDlg.dfm:707
+#. ValueDialog.paMain.OKBtn.Caption
+#: InpValue.dfm:200
+#. KeyboardDialog.OKBtn.Caption
+#: KeyboardDlg.dfm:57
+#. McOptionsDialog.OKBtn.Caption
+#: McOptionsDlg.dfm:26
+#. MainForm.pcMain.tsSettings.bbOK.Caption
+#: McProjectMain.dfm:2115
+#. MemoryDialog.OKBtn.Caption
+#: MemoryDlg.dfm:28
+#. PageFormatDialog.OKBtn.Caption
+#: PageFormatDlg.dfm:25
+#. PathDialog.pnBottom.OKBtn.Caption
+#: PathDlg.dfm:695
+#. SelectISPDialog.btbOK.Caption
+#: SelectISPDlg.dfm:90
+#. TableDialog.OKBtn.Caption
+#: TableDlg.dfm:24
+msgid "OK"
+msgstr ""
+
+#. AppListDialog.OpenDialog.Filter
+#: AppListDlg.dfm:604
+msgid "Programs|*.exe|Batch files|*.bat;*.cmd|all|*.*"
+msgstr ""
+
+#. ISPDialog.Caption
+#: ATISPDlg.dfm:5
+#: ATISPDlg.pas:1004
+msgid "In System Programming"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet1.Caption
+#: ATISPDlg.dfm:29
+msgid "Preferences"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet1.Label2.Caption
+#: ATISPDlg.dfm:40
+#. ISPDialog.PageControl.TabSheet2.Label5.Caption
+#: ATISPDlg.dfm:245
+msgid "Serial interface:"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet1.Label1.Caption
+#: ATISPDlg.dfm:47
+#. ISPDialog.PageControl.TabSheet2.Label3.Caption
+#: ATISPDlg.dfm:225
+#. ISPDialog.PageControl.TabSheet4.Label7.Caption
+#: ATISPDlg.dfm:704
+msgid "Hex file:"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet1.cbxCom.Text
+#: ATISPDlg.dfm:78
+#. ISPDialog.PageControl.TabSheet1.cbxCom.Items.Strings
+#: ATISPDlg.dfm:80
+msgid "COM 1"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet1.cbxCom.Items.Strings
+#: ATISPDlg.dfm:81
+msgid "COM 2"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet1.cbxCom.Items.Strings
+#: ATISPDlg.dfm:82
+msgid "COM 3"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet1.cbxCom.Items.Strings
+#: ATISPDlg.dfm:83
+msgid "COM 4"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet1.btnNext1.Caption
+#: ATISPDlg.dfm:157
+#. ISPDialog.PageControl.TabSheet2.btnNext2.Caption
+#: ATISPDlg.dfm:343
+#. ISPDialog.PageControl.TabSheet3.btnNext3.Caption
+#: ATISPDlg.dfm:616
+msgid "Next"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet2.Caption
+#: ATISPDlg.dfm:213
+msgid "Confirmation"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet2.Label6.Caption
+#: ATISPDlg.dfm:268
+msgid "Please connect your PC to the controller and switch the controller "
+"board to the programming mode!"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet2.btnBack2.Caption
+#: ATISPDlg.dfm:394
+#. ISPDialog.PageControl.TabSheet3.btnBack3.Caption
+#: ATISPDlg.dfm:466
+msgid "Back"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet3.Caption
+#: ATISPDlg.dfm:441
+msgid "Programming"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet3.lblAdr3.Caption
+#: ATISPDlg.dfm:453
+msgid "Addr. 1234H"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet3.btnProg.Caption
+#: ATISPDlg.dfm:525
+msgid "Start programming"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet3.gbMem.Caption
+#: ATISPDlg.dfm:667
+msgid "Memory"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet3.gbMem.rbProg.Caption
+#: ATISPDlg.dfm:674
+msgid "Program"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet3.gbMem.rbData.Caption
+#: ATISPDlg.dfm:685
+msgid "Data"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet4.Caption
+#: ATISPDlg.dfm:692
+msgid "Verifying"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet4.lblStatus.Caption
+#: ATISPDlg.dfm:724
+msgid "Verification"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet4.btnVerify.Caption
+#: ATISPDlg.dfm:760
+msgid "Verify"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet4.btnOK.Caption
+#: ATISPDlg.dfm:875
+#. 'Fertig';
+#. Programmer's name for it: rsIspReady
+#: McStrings.pas:140
+msgid "Done"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet5.btnVerifyProg.Caption
+#: ATISPDlg.dfm:946
+msgid "Verify program memory"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet5.btnVerifyData.Caption
+#: ATISPDlg.dfm:1054
+msgid "Verify data memory"
+msgstr ""
+
+#. IspSelectDialog.Caption
+#: ATISPSelectDlg.dfm:5
+msgid "Select ISP-Target-Processor"
+msgstr ""
+
+#. IspSelectDialog.Label1.Caption
+#: ATISPSelectDlg.dfm:20
+msgid "Processor types:"
+msgstr ""
+
+#. MainForm.Caption
+#: ChkIspMain.dfm:4
+msgid "Check Atmel ISP Microprocessors"
+msgstr ""
+
+#. MainForm.Panel1.InfoBtn.Hint
+#: ChkIspMain.dfm:37
+#. MainForm.paRight.InfoBtn.Hint
+#: DiffIspMain.dfm:36
+msgid "Info"
+msgstr ""
+
+#. MainForm.Panel1.Label1.Caption
+#: ChkIspMain.dfm:127
+#. MainForm.paRight.Label1.Caption
+#: DiffIspMain.dfm:126
+msgid "Select Processor:"
+msgstr ""
+
+#. MainForm.Panel1.btnQuit.Caption
+#: ChkIspMain.dfm:135
+#. HauptForm.MainMenu.itmQuit.Caption
+#: ComReadMain.dfm:338
+#. MainForm.paRight.btnQuit.Caption
+#: DiffIspMain.dfm:268
+#. HauptForm.MainMenu.itmFile.Ende.Caption
+#: MpMain.dfm:2125
+msgid "&Quit"
+msgstr ""
+
+#. MainForm.Panel1.btnSig.Caption
+#: ChkIspMain.dfm:144
+msgid "Read &Signatures"
+msgstr ""
+
+#. MainForm.Panel1.edSignatures.EditLabel.Caption
+#: ChkIspMain.dfm:156
+msgid "Signatures:"
+msgstr ""
+
+#. MainForm.Panel1.rgComPort.Caption
+#: ChkIspMain.dfm:173
+#. MainForm.paRight.rgComPort.Caption
+#: DiffIspMain.dfm:286
+msgid "COM-Nr.:"
+msgstr ""
+
+#. MainForm.Panel1.edLockBits.EditLabel.Caption
+#: ChkIspMain.dfm:192
+msgid "Lock Bits:"
+msgstr ""
+
+#. MainForm.Panel1.btnLock.Caption
+#: ChkIspMain.dfm:200
+msgid "Read &Lock Bits"
+msgstr ""
+
+#. MainForm.Panel1.btnErase.Caption
+#: ChkIspMain.dfm:209
+msgid "Erase"
+msgstr ""
+
+#. MainForm.Panel1.btnCopy.Hint
+#: ChkIspMain.dfm:218
+msgid "Copy to clipboard"
+msgstr ""
+
+#. MainForm.Panel1.btnExport.Hint
+#: ChkIspMain.dfm:309
+msgid "Export as Intel HEX"
+msgstr ""
+
+#. MainForm.Panel2.gbData.Caption
+#: ChkIspMain.dfm:411
+#. MainForm.paRight.gbData.Caption
+#: DiffIspMain.dfm:301
+msgid "Read Program Memory:"
+msgstr ""
+
+#. MainForm.Panel2.gbData.Label2.Caption
+#: ChkIspMain.dfm:421
+#. MainForm.paRight.gbData.Label2.Caption
+#: DiffIspMain.dfm:308
+msgid "From Address:"
+msgstr ""
+
+#. MainForm.Panel2.gbData.Label3.Caption
+#: ChkIspMain.dfm:428
+#. MainForm.paRight.gbData.Label3.Caption
+#: DiffIspMain.dfm:315
+msgid "To Address:"
+msgstr ""
+
+#. MainForm.Panel2.gbData.btnReadMem.Caption
+#: ChkIspMain.dfm:435
+#. MainForm.paRight.gbData.btnReadMem.Caption
+#: DiffIspMain.dfm:322
+msgid "&Read"
+msgstr ""
+
+#. MainForm.SaveDialog.DefaultExt
+#: ChkIspMain.dfm:503
+msgid "hex"
+msgstr ""
+
+#. MainForm.SaveDialog.Filter
+#: ChkIspMain.dfm:504
+msgid "Intel HEX|*.hex|all|*.*"
+msgstr ""
+
+#. CompilerOptionsDialog.Caption
+#: CompilerOptionsDlg.dfm:6
+msgid "Pascal compiler options  (Turbo 51)"
+msgstr ""
+
+#. CompilerOptionsDialog.edOptions.EditLabel.Caption
+#: CompilerOptionsDlg.dfm:152
+msgid "Other command line options:"
+msgstr ""
+
+#. CompilerOptionsDialog.pcCompiler.tsPascal.gbMemType.Caption
+#: CompilerOptionsDlg.dfm:175
+msgid "Memory allocations for"
+msgstr ""
+
+#. CompilerOptionsDialog.pcCompiler.tsPascal.gbMemType.Default.Caption
+#: CompilerOptionsDlg.dfm:182
+#: PageFormatDlg.pas:132
+msgid "Default"
+msgstr ""
+
+#. CompilerOptionsDialog.pcCompiler.tsPascal.gbMemType.Label1.Caption
+#: CompilerOptionsDlg.dfm:189
+msgid "DATA"
+msgstr ""
+
+#. CompilerOptionsDialog.pcCompiler.tsPascal.gbMemType.Label2.Caption
+#: CompilerOptionsDlg.dfm:196
+msgid "IDATA"
+msgstr ""
+
+#. CompilerOptionsDialog.pcCompiler.tsPascal.gbMemType.Label3.Caption
+#: CompilerOptionsDlg.dfm:203
+msgid "XDATA"
+msgstr ""
+
+#. CompilerOptionsDialog.pcCompiler.tsPascal.gbMemType.Label4.Caption
+#: CompilerOptionsDlg.dfm:210
+msgid "Global variables:"
+msgstr ""
+
+#. CompilerOptionsDialog.pcCompiler.tsPascal.gbMemType.Label5.Caption
+#: CompilerOptionsDlg.dfm:217
+msgid "Parameter variables:"
+msgstr ""
+
+#. CompilerOptionsDialog.pcCompiler.tsPascal.gbMemType.Label6.Caption
+#: CompilerOptionsDlg.dfm:224
+msgid "Local variables:"
+msgstr ""
+
+#. CompilerOptionsDialog.pcCompiler.tsPascal.gbMemType.Label7.Caption
+#: CompilerOptionsDlg.dfm:231
+msgid "Temporary variables:"
+msgstr ""
+
+#. CompilerOptionsDialog.pcCompiler.tsCpp.rgMemModel.Caption
+#: CompilerOptionsDlg.dfm:396
+msgid "Memory model"
+msgstr ""
+
+#. CompilerOptionsDialog.pcCompiler.tsCpp.rgMemModel.Items.Strings
+#: CompilerOptionsDlg.dfm:400
+msgid "Small"
+msgstr ""
+
+#. CompilerOptionsDialog.pcCompiler.tsCpp.rgMemModel.Items.Strings
+#: CompilerOptionsDlg.dfm:401
+msgid "Medium"
+msgstr ""
+
+#. CompilerOptionsDialog.pcCompiler.tsCpp.rgMemModel.Items.Strings
+#: CompilerOptionsDlg.dfm:402
+msgid "Large"
+msgstr ""
+
+#. CompilerOptionsDialog.pcCompiler.tsCpp.rgMemModel.Items.Strings
+#: CompilerOptionsDlg.dfm:403
+msgid "Huge"
+msgstr ""
+
+#. CompilerOptionsDialog.pcCompiler.tsCpp.cbPseudoStack.Caption
+#: CompilerOptionsDlg.dfm:411
+msgid "Use pseudo stack"
+msgstr ""
+
+#. CompilerOptionsDialog.pcCompiler.tsCpp.cbACall.Caption
+#: CompilerOptionsDlg.dfm:419
+msgid "Use ACALL/AJMP"
+msgstr ""
+
+#. CompilerOptionsDialog.pcCompiler.tsCpp.rgCompilerVariant.Caption
+#: CompilerOptionsDlg.dfm:427
+msgid "C compiler variant"
+msgstr ""
+
+#. CompilerOptionsDialog.pcCompiler.tsCpp.rgCompilerVariant.Items.Strings
+#: CompilerOptionsDlg.dfm:431
+msgid "Standard"
+msgstr ""
+
+#. CompilerOptionsDialog.pcCompiler.tsCpp.rgCompilerVariant.Items.Strings
+#: CompilerOptionsDlg.dfm:432
+msgid "ISO C90"
+msgstr ""
+
+#. CompilerOptionsDialog.pcCompiler.tsCpp.rgCompilerVariant.Items.Strings
+#: CompilerOptionsDlg.dfm:433
+msgid "ISO C99"
+msgstr ""
+
+#. CompilerOptionsDialog.pcCompiler.tsCpp.rgCompilerVariant.Items.Strings
+#: CompilerOptionsDlg.dfm:434
+msgid "ISO C11"
+msgstr ""
+
+#. CompilerPathDialog.Caption
+#: CompilerPathDlg.dfm:5
+#. PathDialog.Caption
+#: PathDlg.dfm:5
+msgid "Path settings"
+msgstr ""
+
+#. CompilerPathDialog.Panel1.pcCompiler.tsAssembler.Caption
+#: CompilerPathDlg.dfm:35
+#. MpSimulator.pnTop.pcDebug.tsAssembler.Caption
+#: MpSim.dfm:1440
+#. PathDialog.Panel1.pcCompiler.tsAssembler.Caption
+#: PathDlg.dfm:35
+msgid "Assembler"
+msgstr ""
+
+#. CompilerPathDialog.Panel1.pcCompiler.tsAssembler.leOutPath.EditLabel.Caption
+#: CompilerPathDlg.dfm:294
+#. PathDialog.Panel1.pcCompiler.tsAssembler.leOutPath.EditLabel.Caption
+#: PathDlg.dfm:290
+msgid "Output path for HEX and OMF"
+msgstr ""
+
+#. CompilerPathDialog.Panel1.pcCompiler.tsAssembler.leIncludePath.EditLabel.Caption
+#: CompilerPathDlg.dfm:304
+#. CompilerPathDialog.Panel1.pcCompiler.tsPascal.lePasIncludePath.EditLabel.Caption
+#: CompilerPathDlg.dfm:442
+#. PathDialog.Panel1.pcCompiler.tsAssembler.leIncludePath.EditLabel.Caption
+#: PathDlg.dfm:300
+#. PathDialog.Panel1.pcCompiler.tsPascal.lePasIncludePath.EditLabel.Caption
+#: PathDlg.dfm:434
+msgid "Include paths"
+msgstr ""
+
+#. CompilerPathDialog.Panel1.pcCompiler.tsAssembler.leListPath.EditLabel.Caption
+#: CompilerPathDlg.dfm:314
+#. PathDialog.Panel1.pcCompiler.tsAssembler.leListPath.EditLabel.Caption
+#: PathDlg.dfm:310
+msgid "Path for listings"
+msgstr ""
+
+#. CompilerPathDialog.Panel1.pcCompiler.tsAssembler.leAsmModPath.EditLabel.Caption
+#: CompilerPathDlg.dfm:324
+#. CompilerPathDialog.Panel1.pcCompiler.tsPascal.lePasModPath.EditLabel.Caption
+#: CompilerPathDlg.dfm:462
+#. CompilerPathDialog.Panel1.pcCompiler.tsCpp.leCppModPath.EditLabel.Caption
+#: CompilerPathDlg.dfm:605
+#. PathDialog.Panel1.pcCompiler.tsAssembler.leAsmModPath.EditLabel.Caption
+#: PathDlg.dfm:320
+#. PathDialog.Panel1.pcCompiler.tsPascal.lePasModPath.EditLabel.Caption
+#: PathDlg.dfm:454
+#. PathDialog.Panel1.pcCompiler.tsCpp.leCppModPath.EditLabel.Caption
+#: PathDlg.dfm:593
+msgid "Modules path"
+msgstr ""
+
+#. CompilerPathDialog.Panel1.pcCompiler.tsPascal.Caption
+#: CompilerPathDlg.dfm:329
+#. PathDialog.Panel1.pcCompiler.tsPascal.Caption
+#: PathDlg.dfm:325
+msgid "Pascal"
+msgstr ""
+
+#. CompilerPathDialog.Panel1.pcCompiler.tsPascal.lePasUnitPath.EditLabel.Caption
+#: CompilerPathDlg.dfm:432
+#. PathDialog.Panel1.pcCompiler.tsPascal.lePasUnitPath.EditLabel.Caption
+#: PathDlg.dfm:424
+msgid "Unit paths"
+msgstr ""
+
+#. CompilerPathDialog.Panel1.pcCompiler.tsPascal.lePasOutPath.EditLabel.Caption
+#: CompilerPathDlg.dfm:452
+#. PathDialog.Panel1.pcCompiler.tsPascal.lePasOutPath.EditLabel.Caption
+#: PathDlg.dfm:444
+msgid "Output path for HEX, OMF, ASM and U51"
+msgstr ""
+
+#. CompilerPathDialog.Panel1.pcCompiler.tsCpp.Caption
+#: CompilerPathDlg.dfm:467
+#. PathDialog.Panel1.pcCompiler.tsCpp.Caption
+#: PathDlg.dfm:459
+msgid "C"
+msgstr ""
+
+#. CompilerPathDialog.Panel1.pcCompiler.tsCpp.leCppIncludePath.EditLabel.Caption
+#: CompilerPathDlg.dfm:575
+#. PathDialog.Panel1.pcCompiler.tsCpp.leCppIncludePath.EditLabel.Caption
+#: PathDlg.dfm:563
+msgid "Additional include paths"
+msgstr ""
+
+#. CompilerPathDialog.Panel1.pcCompiler.tsCpp.leCppLibPath.EditLabel.Caption
+#: CompilerPathDlg.dfm:585
+#. PathDialog.Panel1.pcCompiler.tsCpp.leCppLibPath.EditLabel.Caption
+#: PathDlg.dfm:573
+msgid "Library path"
+msgstr ""
+
+#. CompilerPathDialog.Panel1.pcCompiler.tsCpp.leCppOutPath.EditLabel.Caption
+#: CompilerPathDlg.dfm:595
+#. PathDialog.Panel1.pcCompiler.tsCpp.leCppOutPath.EditLabel.Caption
+#: PathDlg.dfm:583
+msgid "Output path for IHX, OMF, ASM etc."
+msgstr ""
+
+#. CompilerPathDialog.pnBottom.Label1.Caption
+#: CompilerPathDlg.dfm:629
+#. PathDialog.pnBottom.Label1.Caption
+#: PathDlg.dfm:617
+msgid "Empty paths will be replaced by path of source "
+"file"
+msgstr ""
+
+#. HauptForm.Caption
+#: ComReadMain.dfm:4
+msgid "Read data from serial port"
+msgstr ""
+
+#. HauptForm.pnTop.SaveBtn.Hint
+#: ComReadMain.dfm:76
+msgid "Select file to save data"
+msgstr ""
+
+#. HauptForm.pnTop.edOutFile.EditLabel.Caption
+#: ComReadMain.dfm:105
+msgid "Save to file:"
+msgstr ""
+
+#. HauptForm.pnTop.rgFormat.Caption
+#: ComReadMain.dfm:113
+msgid "Format:"
+msgstr ""
+
+#. HauptForm.pnTop.rgFormat.Items.Strings
+#: ComReadMain.dfm:117
+msgid "ASCII"
+msgstr ""
+
+#. HauptForm.pnTop.rgFormat.Items.Strings
+#: ComReadMain.dfm:118
+msgid "Binary"
+msgstr ""
+
+#. HauptForm.pnTop.btWrite.Caption
+#: ComReadMain.dfm:128
+#: ComReadMain.pas:484
+msgid "Start saving data to file"
+msgstr ""
+
+#. HauptForm.pnTop.cbLineNumber.Caption
+#: ComReadMain.dfm:137
+msgid "Write line numbers"
+msgstr ""
+
+#. HauptForm.pnTop.cbAppend.Caption
+#: ComReadMain.dfm:145
+msgid "Append to existing file"
+msgstr ""
+
+#. HauptForm.pnTop.btClear.Hint
+#: ComReadMain.dfm:153
+msgid "Clear view"
+msgstr ""
+
+#. HauptForm.SaveDialog.DefaultExt
+#: ComReadMain.dfm:177
+#. MpSimulator.SaveDialog.DefaultExt
+#: MpSim.dfm:3865
+msgid "txt"
+msgstr ""
+
+#. HauptForm.SaveDialog.Filter
+#: ComReadMain.dfm:178
+msgid "Text file|*.txt|all|*.*"
+msgstr ""
+
+#. HauptForm.MainMenu.itmSettings.Caption
+#: ComReadMain.dfm:194
+#. HauptForm.MainMenu.itmOptions.Caption
+#: MpMain.dfm:2209
+msgid "&Settings"
+msgstr ""
+
+#. HauptForm.MainMenu.itmSettings.itmComSettings.Caption
+#: ComReadMain.dfm:196
+msgid "&Com port"
+msgstr ""
+
+#. HauptForm.MainMenu.itmSettings.itmComSettings.ComPortItem.Caption
+#: ComReadMain.dfm:198
+#. HauptForm.MainMenu.itmOptions.TermItem.ComPortItem.Caption
+#: MpMain.dfm:2260
+msgid "&Com-Port"
+msgstr ""
+
+#. HauptForm.MainMenu.itmSettings.itmComSettings.BaudrateItem.Caption
+#: ComReadMain.dfm:228
+#. HauptForm.MainMenu.itmOptions.TermItem.BaudrateItem.Caption
+#: MpMain.dfm:2314
+msgid "&Baudrate"
+msgstr ""
+
+#. HauptForm.MainMenu.itmSettings.itmComSettings.ParityItem.Caption
+#: ComReadMain.dfm:278
+#. HauptForm.MainMenu.itmOptions.TermItem.ParityItem.Caption
+#: MpMain.dfm:2365
+msgid "&Parity"
+msgstr ""
+
+#. HauptForm.MainMenu.itmSettings.itmComSettings.ParityItem.NoParItem.Caption
+#: ComReadMain.dfm:280
+#. HauptForm.MainMenu.itmOptions.TermItem.ParityItem.NoParItem.Caption
+#: MpMain.dfm:2367
+msgid "&no"
+msgstr ""
+
+#. HauptForm.MainMenu.itmSettings.itmComSettings.ParityItem.OddParItem.Caption
+#: ComReadMain.dfm:286
+#. HauptForm.MainMenu.itmOptions.TermItem.ParityItem.OddParItem.Caption
+#: MpMain.dfm:2373
+msgid "&odd"
+msgstr ""
+
+#. HauptForm.MainMenu.itmSettings.itmComSettings.ParityItem.EvenParItem.Caption
+#: ComReadMain.dfm:292
+#. HauptForm.MainMenu.itmOptions.TermItem.ParityItem.EvenParItem.Caption
+#: MpMain.dfm:2379
+msgid "&even"
+msgstr ""
+
+#. HauptForm.MainMenu.itmSettings.itmComSettings.DataBitsItem.Caption
+#: ComReadMain.dfm:299
+#. HauptForm.MainMenu.itmOptions.TermItem.DataBitsItem.Caption
+#: MpMain.dfm:2386
+msgid "&Data bits"
+msgstr ""
+
+#. HauptForm.MainMenu.itmSettings.itmComSettings.StopbitsItem.Caption
+#: ComReadMain.dfm:314
+#. HauptForm.MainMenu.itmOptions.TermItem.StopbitsItem.Caption
+#: MpMain.dfm:2401
+msgid "&Stop bits"
+msgstr ""
+
+#. HauptForm.MainMenu.itmSettings.itmLanguage.Caption
+#: ComReadMain.dfm:330
+#. HauptForm.MainMenu.itmOptions.itmLang.Caption
+#: MpMain.dfm:2546
+msgid "&Language"
+msgstr ""
+
+#. HauptForm.MainMenu.itmInfo.Caption
+#: ComReadMain.dfm:334
+msgid "&Info"
+msgstr ""
+
+#. MainForm.Caption
+#: DiffIspMain.dfm:4
+msgid "Differences between Hex file and Flash "
+"memory"
+msgstr ""
+
+#. MainForm.paRight.sbPrev.Hint
+#: DiffIspMain.dfm:133
+msgid "Goto previous difference"
+msgstr ""
+
+#. MainForm.paRight.sbNextDiff.Hint
+#: DiffIspMain.dfm:194
+msgid "Goto next difference"
+msgstr ""
+
+#. MainForm.paRight.gbData.edProgress.EditLabel.Caption
+#: DiffIspMain.dfm:380
+msgid "Reading:"
+msgstr ""
+
+#. MainForm.paRight.gbRefFile.Caption
+#: DiffIspMain.dfm:397
+msgid "Reference file:"
+msgstr ""
+
+#. MainForm.paRight.gbRefFile.bbRefFile.Caption
+#: DiffIspMain.dfm:404
+msgid "Select"
+msgstr ""
+
+#. MainForm.lvDiff.Caption
+#: DiffIspMain.dfm:448
+#. frmBreakPoints.lvBreakpoints.Caption
+#: ShowBreakpoints.dfm:387
+msgid "Address"
+msgstr ""
+
+#. MainForm.lvDiff.Caption
+#: DiffIspMain.dfm:452
+msgid "Hex data"
+msgstr ""
+
+#. MainForm.lvDiff.Caption
+#: DiffIspMain.dfm:456
+msgid "Flash data"
+msgstr ""
+
+#. ValueDialog.Caption
+#: InpValue.dfm:5
+msgid "Input value"
+msgstr ""
+
+#. ValueDialog.paMain.gbDesc.Caption
+#: InpValue.dfm:127
+msgid "Prefixes for numeric inputs"
+msgstr ""
+
+#. ValueDialog.paMain.gbDesc.Label1.Caption
+#: InpValue.dfm:134
+msgid "$ - Hex (e.g. $5D)"
+msgstr ""
+
+#. ValueDialog.paMain.gbDesc.Label2.Caption
+#: InpValue.dfm:141
+msgid "none - Decimal (e.g. 93)"
+msgstr ""
+
+#. ValueDialog.paMain.gbDesc.Label3.Caption
+#: InpValue.dfm:148
+msgid "! - Binary (e.g. !01011101)"
+msgstr ""
+
+#. ValueDialog.paMain.gbDesc.Label4.Caption
+#: InpValue.dfm:155
+msgid "% - Octal (e.g. %135)"
+msgstr ""
+
+#. ValueDialog.paMain.gbNum.Caption
+#: InpValue.dfm:163
+msgid "Display as"
+msgstr ""
+
+#. ValueDialog.paMain.gbNum.rbDecimal.Caption
+#: InpValue.dfm:170
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel6.Panel5.rbDReg.Caption
+#: MpSim.dfm:2739
+msgid "Dec."
+msgstr ""
+
+#. ValueDialog.paMain.gbNum.rbHex.Caption
+#: InpValue.dfm:179
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel6.Panel5.rbHReg.Caption
+#: MpSim.dfm:2728
+msgid "Hex."
+msgstr ""
+
+#. ValueDialog.paMain.gbNum.rbBin.Caption
+#: InpValue.dfm:190
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel6.Panel5.rbBReg.Caption
+#: MpSim.dfm:2748
+msgid "Bin."
+msgstr ""
+
+#. KeyboardDialog.Caption
+#: KeyboardDlg.dfm:6
+msgid "Keyboard layout"
+msgstr ""
+
+#. KeyboardDialog.Label1.Caption
+#: KeyboardDlg.dfm:30
+msgid "Key codes:"
+msgstr ""
+
+#. KeyboardDialog.Label2.Caption
+#: KeyboardDlg.dfm:43
+msgid "Command:"
+msgstr ""
+
+#. KeyboardDialog.KeyCmdList.Caption
+#: KeyboardDlg.dfm:197
+#. MpSimulator.pnTop.pcDebug.tsAssembler.lvCode.Caption
+#: MpSim.dfm:1465
+msgid "Command"
+msgstr ""
+
+#. KeyboardDialog.KeyCmdList.Caption
+#: KeyboardDlg.dfm:201
+msgid "Key code"
+msgstr ""
+
+#. KeyboardDialog.btnClear.Caption
+#: KeyboardDlg.dfm:223
+msgid "Remove code"
+msgstr ""
+
+#. KeyboardDialog.btnChange.Caption
+#: KeyboardDlg.dfm:289
+msgid "Change code"
+msgstr ""
+
+#. McOptionsDialog.Caption
+#: McOptionsDlg.dfm:5
+msgid "Editor options"
+msgstr ""
+
+#. McOptionsDialog.fbTabs.Caption
+#: McOptionsDlg.dfm:150
+msgid "Tabs"
+msgstr ""
+
+#. McOptionsDialog.fbTabs.Label1.Caption
+#: McOptionsDlg.dfm:157
+msgid "Tab width:"
+msgstr ""
+
+#. McOptionsDialog.fbTabs.cbSpaces.Caption
+#: McOptionsDlg.dfm:164
+msgid "Fill with spaces"
+msgstr ""
+
+#. McOptionsDialog.fbTabs.cbTabs.Caption
+#: McOptionsDlg.dfm:173
+msgid "Automatic"
+msgstr ""
+
+#. McOptionsDialog.gbHighlight.Caption
+#: McOptionsDlg.dfm:198
+#. PageFormatDialog.GroupBox2.PageControl.TabSheet1.cbxHighlight.Caption
+#: PageFormatDlg.dfm:354
+msgid "Syntax highlighting"
+msgstr ""
+
+#. McOptionsDialog.gbHighlight.btnFgColor.Caption
+#: McOptionsDlg.dfm:205
+msgid "Foreground"
+msgstr ""
+
+#. McOptionsDialog.gbHighlight.btnBgColor.Caption
+#: McOptionsDlg.dfm:213
+msgid "Background"
+msgstr ""
+
+#. McOptionsDialog.gbHighlight.cbBold.Caption
+#: McOptionsDlg.dfm:221
+#: PageFormatDlg.pas:129
+msgid "Bold"
+msgstr ""
+
+#. McOptionsDialog.gbHighlight.cbItalic.Caption
+#: McOptionsDlg.dfm:230
+#: PageFormatDlg.pas:130
+msgid "Italic"
+msgstr ""
+
+#. McOptionsDialog.gbHighlight.cbUnderline.Caption
+#: McOptionsDlg.dfm:239
+msgid "Underline"
+msgstr ""
+
+#. McOptionsDialog.gbHighlight.cbxKeyTypes.Items.Strings
+#: McOptionsDlg.dfm:258
+msgid "Commands (z.B. ADD, MOV)"
+msgstr ""
+
+#. McOptionsDialog.gbHighlight.cbxKeyTypes.Items.Strings
+#: McOptionsDlg.dfm:259
+msgid "Pseudo Inst. (z.B. ORG, EQU)"
+msgstr ""
+
+#. McOptionsDialog.gbHighlight.cbxKeyTypes.Items.Strings
+#: McOptionsDlg.dfm:260
+msgid "Operators (z.B. LOW)"
+msgstr ""
+
+#. McOptionsDialog.gbHighlight.cbxKeyTypes.Items.Strings
+#: McOptionsDlg.dfm:261
+msgid "Data-SFRs (z.B. DPL, P1)"
+msgstr ""
+
+#. McOptionsDialog.gbHighlight.cbxKeyTypes.Items.Strings
+#: McOptionsDlg.dfm:262
+msgid "Bit-SFRs (z.B. IE0, SCON)"
+msgstr ""
+
+#. McOptionsDialog.gbHighlight.cbxKeyTypes.Items.Strings
+#: McOptionsDlg.dfm:263
+msgid "Code-Addresses (z.B. EXTI0)"
+msgstr ""
+
+#. McOptionsDialog.gbHighlight.cbxKeyTypes.Items.Strings
+#: McOptionsDlg.dfm:264
+msgid "spec. Symbols (z.B. DPTR)"
+msgstr ""
+
+#. McOptionsDialog.gbHighlight.cbxKeyTypes.Items.Strings
+#: McOptionsDlg.dfm:265
+msgid "Assembler controls (z.B. $INCLUDE)"
+msgstr ""
+
+#. McOptionsDialog.gbHighlight.cbxKeyTypes.Items.Strings
+#: McOptionsDlg.dfm:266
+msgid "Meta controls (z.B. IFDEF)"
+msgstr ""
+
+#. McOptionsDialog.gbHighlight.cbxKeyTypes.Items.Strings
+#: McOptionsDlg.dfm:267
+msgid "Constants (z.B. #34H, #'A')"
+msgstr ""
+
+#. McOptionsDialog.gbHighlight.cbxKeyTypes.Items.Strings
+#: McOptionsDlg.dfm:268
+msgid "Strings (z.B. 'String')"
+msgstr ""
+
+#. McOptionsDialog.gbHighlight.cbxKeyTypes.Items.Strings
+#: McOptionsDlg.dfm:269
+msgid "Comments (z.B. ;Kommentar)"
+msgstr ""
+
+#. McOptionsDialog.gbHighlight.cbxKeyTypes.Items.Strings
+#: McOptionsDlg.dfm:270
+msgid "Space"
+msgstr ""
+
+#. McOptionsDialog.gbHighlight.cbxKeyTypes.Items.Strings
+#: McOptionsDlg.dfm:271
+msgid "other"
+msgstr ""
+
+#. McOptionsDialog.gbHighlight.cbHighlight.Caption
+#: McOptionsDlg.dfm:296
+msgid "Use for these types:"
+msgstr ""
+
+#. McOptionsDialog.gbLines.Caption
+#: McOptionsDlg.dfm:305
+msgid "Line numbers"
+msgstr ""
+
+#. McOptionsDialog.gbLines.Label2.Caption
+#: McOptionsDlg.dfm:312
+msgid "Digits:"
+msgstr ""
+
+#. McOptionsDialog.gbLines.cbShow.Caption
+#: McOptionsDlg.dfm:319
+msgid "Show"
+msgstr ""
+
+#. McOptionsDialog.gbLines.cbZeroes.Caption
+#: McOptionsDlg.dfm:329
+msgid "Leading zeros"
+msgstr ""
+
+#. McOptionsDialog.gbMargins.Caption
+#: McOptionsDlg.dfm:354
+#. PageFormatDialog.GroupBox1.Caption
+#: PageFormatDlg.dfm:149
+msgid "Margins"
+msgstr ""
+
+#. McOptionsDialog.gbMargins.Label5.Caption
+#: McOptionsDlg.dfm:362
+msgid "Right edge marker at:"
+msgstr ""
+
+#. McOptionsDialog.gbMargins.cbGutter.Caption
+#: McOptionsDlg.dfm:370
+msgid "Gutter at left margin"
+msgstr ""
+
+#. McOptionsDialog.gbOther.Caption
+#: McOptionsDlg.dfm:397
+msgid "Other"
+msgstr ""
+
+#. McOptionsDialog.gbOther.cbAutoIndent.Caption
+#: McOptionsDlg.dfm:404
+msgid "Automatic indent"
+msgstr ""
+
+#. McOptionsDialog.gbOther.cbSpecChars.Caption
+#: McOptionsDlg.dfm:414
+msgid "Show special characters"
+msgstr ""
+
+#. McOptionsDialog.gbOther.cbKeepCaretX.Caption
+#: McOptionsDlg.dfm:422
+msgid "Keep cursor position"
+msgstr ""
+
+#. McOptionsDialog.gbOther.cbScrolEol.Caption
+#: McOptionsDlg.dfm:430
+msgid "Cursor behind line end"
+msgstr ""
+
+#. McOptionsDialog.gbOther.cbColSelect.Caption
+#: McOptionsDlg.dfm:441
+msgid "Mark columns with Alt"
+msgstr ""
+
+#. McOptionsDialog.bbFont.Caption
+#: McOptionsDlg.dfm:452
+msgid "Font"
+msgstr ""
+
+#. McOptionsDialog.bbBgColor.Hint
+#: McOptionsDlg.dfm:513
+msgid "Default background color"
+msgstr ""
+
+#. McOptionsDialog.bbBgColor.Caption
+#: McOptionsDlg.dfm:514
+msgid "Bg. Color"
+msgstr ""
+
+#. MainForm.pcMain.tsProject.Caption
+#: McProjectMain.dfm:28
+msgid "Projects"
+msgstr ""
+
+#. MainForm.pcMain.tsProject.bbAddProject.Hint
+#: McProjectMain.dfm:42
+msgid "Add existing project"
+msgstr ""
+
+#. MainForm.pcMain.tsProject.bbEdit.Hint
+#: McProjectMain.dfm:250
+#. MainForm.pcMain.tsProject.bbEdit.Caption
+#: McProjectMain.dfm:252
+msgid "Edit project"
+msgstr ""
+
+#. MainForm.pcMain.tsProject.bbNew.Hint
+#: McProjectMain.dfm:465
+msgid "Create new project"
+msgstr ""
+
+#. MainForm.pcMain.tsProject.bbNew.Caption
+#: McProjectMain.dfm:467
+msgid "New project"
+msgstr ""
+
+#. MainForm.pcMain.tsProject.bbSettings.Hint
+#: McProjectMain.dfm:680
+#. MainForm.pcMain.tsSettings.Caption
+#: McProjectMain.dfm:1965
+msgid "Settings"
+msgstr ""
+
+#. MainForm.pcMain.tsProject.btnStartMc51.Hint
+#: McProjectMain.dfm:771
+msgid "Open MC-51 Development System"
+msgstr ""
+
+#. MainForm.pcMain.tsProject.btnStartMc51.Caption
+#: McProjectMain.dfm:773
+msgid "Start MC-51"
+msgstr ""
+
+#. MainForm.pcMain.tsProject.lvProjects.Caption
+#: McProjectMain.dfm:891
+#. frmBits.pnUser.lvData.Caption
+#: ShowBitSeg.dfm:52
+#. frmBits.pnSfr.lvSfr.Caption
+#: ShowBitSeg.dfm:102
+#. frmData.lvData.Caption
+#: ShowData.dfm:33
+#. frmSfr.lvData.Caption
+#: ShowSfr.dfm:33
+#. frmXData.lvData.Caption
+#: ShowXData.dfm:33
+msgid "Name"
+msgstr ""
+
+#. MainForm.pcMain.tsProject.lvProjects.Caption
+#: McProjectMain.dfm:898
+msgid "File"
+msgstr ""
+
+#. MainForm.pcMain.tsProject.lvProjects.Caption
+#: McProjectMain.dfm:902
+msgid "Date"
+msgstr ""
+
+#. MainForm.pcMain.tsProject.bbDelete.Hint
+#: McProjectMain.dfm:923
+msgid "Remove selected project from list"
+msgstr ""
+
+#. MainForm.pcMain.tsProject.bbDeleteAll.Hint
+#: McProjectMain.dfm:1014
+msgid "Remove all projects from list"
+msgstr ""
+
+#. MainForm.pcMain.tsEdit.Caption
+#: McProjectMain.dfm:1102
+msgid "Edit"
+msgstr ""
+
+#. MainForm.pcMain.tsEdit.Label1.Caption
+#: McProjectMain.dfm:1117
+msgid "Source files:"
+msgstr ""
+
+#. MainForm.pcMain.tsEdit.Label2.Caption
+#: McProjectMain.dfm:1124
+msgid "Type:"
+msgstr ""
+
+#. MainForm.pcMain.tsEdit.bbSave.Caption
+#: McProjectMain.dfm:1234
+msgid "Save project"
+msgstr ""
+
+#. MainForm.pcMain.tsEdit.bbSaveAs.Caption
+#: McProjectMain.dfm:1369
+msgid "Save project as .."
+msgstr ""
+
+#. MainForm.pcMain.tsEdit.edComment.EditLabel.Caption
+#: McProjectMain.dfm:1505
+msgid "Comment:"
+msgstr ""
+
+#. MainForm.pcMain.tsEdit.edMainFile.EditLabel.Caption
+#: McProjectMain.dfm:1516
+msgid "Main source file:"
+msgstr ""
+
+#. MainForm.pcMain.tsEdit.edProject.EditLabel.Caption
+#: McProjectMain.dfm:1527
+#: MpMain.pas:2681
+msgid "Name of project:"
+msgstr ""
+
+#. MainForm.pcMain.tsEdit.bbAddFiles.Hint
+#: McProjectMain.dfm:1546
+msgid "Add source files"
+msgstr ""
+
+#. MainForm.pcMain.tsEdit.bbMainFile.Hint
+#: McProjectMain.dfm:1637
+msgid "Select main file"
+msgstr ""
+
+#. MainForm.pcMain.tsEdit.bbRemFiles.Hint
+#: McProjectMain.dfm:1728
+msgid "Remove selected source files"
+msgstr ""
+
+#. MainForm.pcMain.tsEdit.edOptions.EditLabel.Caption
+#: McProjectMain.dfm:1822
+msgid "Compiler options:"
+msgstr ""
+
+#. MainForm.pcMain.tsEdit.bbOptions.Hint
+#: McProjectMain.dfm:1830
+msgid "Set compiler options"
+msgstr ""
+
+#. MainForm.pcMain.tsEdit.bbMemory.Hint
+#: McProjectMain.dfm:1877
+msgid "Set memory allocations"
+msgstr ""
+
+#. MainForm.pcMain.tsSettings.bbMc51Path.Hint
+#: McProjectMain.dfm:1980
+msgid "Get path to MC Tools"
+msgstr ""
+
+#. MainForm.pcMain.tsSettings.btnProjectRoot.Hint
+#: McProjectMain.dfm:2044
+msgid "Select project directory"
+msgstr ""
+
+#. MainForm.pcMain.tsSettings.edMc51Path.EditLabel.Caption
+#: McProjectMain.dfm:2180
+msgid "Path to MC-51 program:"
+msgstr ""
+
+#. MainForm.pcMain.tsSettings.edProjectDir.EditLabel.Caption
+#: McProjectMain.dfm:2191
+msgid "Project directory:"
+msgstr ""
+
+#. MainForm.pcMain.tsSettings.btnLang.Caption
+#: McProjectMain.dfm:2199
+msgid "Language"
+msgstr ""
+
+#. MainForm.pnBottom.bbInfo.Hint
+#: McProjectMain.dfm:2229
+msgid "Program info"
+msgstr ""
+
+#. MainForm.pnBottom.EndeBtn.Hint
+#: McProjectMain.dfm:2320
+#. HauptForm.PanelSpace.BtnPanel2.ProgEndeBtn.Hint
+#: MpMain.dfm:1205
+msgid "Quit program"
+msgstr ""
+
+#. MainForm.pnBottom.bbWeb.Hint
+#: McProjectMain.dfm:2411
+msgid "Web page"
+msgstr ""
+
+#. StartScreen.lblStat.Caption
+#: McStart.dfm:5288
+msgid "Loading files ..."
+msgstr ""
+
+#. MemoryDialog.Caption
+#: MemoryDlg.dfm:5
+msgid "Memory allocations"
+msgstr ""
+
+#. MemoryDialog.gbCode.Caption
+#: MemoryDlg.dfm:153
+#. MpSimulator.pnTop.pcDebug.tsAssembler.lvCode.Caption
+#: MpSim.dfm:1457
+msgid "Code"
+msgstr ""
+
+#. MemoryDialog.gbCode.Label1.Caption
+#: MemoryDlg.dfm:160
+#. MemoryDialog.gbXdata.Label3.Caption
+#: MemoryDlg.dfm:228
+msgid "Start address:"
+msgstr ""
+
+#. MemoryDialog.gbCode.Label2.Caption
+#: MemoryDlg.dfm:167
+#. MemoryDialog.gbXdata.Label4.Caption
+#: MemoryDlg.dfm:235
+msgid "End address:"
+msgstr ""
+
+#. MemoryDialog.gbXdata.Caption
+#: MemoryDlg.dfm:221
+msgid "External RAM"
+msgstr ""
+
+#. HauptForm.Caption
+#: MpMain.dfm:4
+#. 'MC-51-Entwicklungssystem';
+#. Programmer's name for it: rsProgName
+#: McStrings.pas:24
+msgid "MC-51 Development System"
+msgstr ""
+
+#. HauptForm.PanelSpace.BtnPanel1.NewTextBtn.Hint
+#: MpMain.dfm:77
+msgid "New source"
+msgstr ""
+
+#. HauptForm.PanelSpace.BtnPanel1.CompileBtn.Hint
+#: MpMain.dfm:141
+msgid "Compile source"
+msgstr ""
+
+#. HauptForm.PanelSpace.BtnPanel1.ViewAssBtn.Hint
+#: MpMain.dfm:204
+#. MDIForm.PopupMenu.ViewItem.Caption
+#: MpMDISynEdit.dfm:981
+#. Programmer's name for it: rsViewAsm
+#: McStrings.pas:116
+msgid "View assembler code"
+msgstr ""
+
+#. HauptForm.PanelSpace.BtnPanel1.TermBtn.Hint
+#: MpMain.dfm:267
+#. HauptForm.PageControl.TermPage.Caption
+#: MpMain.dfm:1717
+#. HauptForm.TCFiles.Tabs.Strings
+#: MpMain.dfm:1982
+#. Programmer's name for it: rsTerminal
+#: McStrings.pas:100
+msgid "Terminal"
+msgstr ""
+
+#. HauptForm.PanelSpace.BtnPanel1.LoadTextBtn.Hint
+#: MpMain.dfm:331
+msgid "Load source"
+msgstr ""
+
+#. HauptForm.PanelSpace.BtnPanel1.CloseTextBtn.Hint
+#: MpMain.dfm:394
+msgid "Close source"
+msgstr ""
+
+#. HauptForm.PanelSpace.BtnPanel1.SaveTextBtn.Hint
+#: MpMain.dfm:440
+msgid "Save source"
+msgstr ""
+
+#. HauptForm.PanelSpace.BtnPanel1.DruckBtn.Hint
+#: MpMain.dfm:503
+msgid "Print source"
+msgstr ""
+
+#. HauptForm.PanelSpace.BtnPanel1.SimBtn.Hint
+#: MpMain.dfm:567
+msgid "Start simulator"
+msgstr ""
+
+#. HauptForm.PanelSpace.BtnPanel1.EditBtn.Hint
+#: MpMain.dfm:630
+msgid "Editor"
+msgstr ""
+
+#. HauptForm.PanelSpace.BtnPanel1.ProgBtn.Hint
+#: MpMain.dfm:694
+msgid "Start in system programming"
+msgstr ""
+
+#. HauptForm.PanelSpace.BtnPanel1.VerifyBtn.Hint
+#: MpMain.dfm:757
+msgid "Verify programming"
+msgstr ""
+
+#. HauptForm.PanelSpace.BtnPanel1.SaveAsBtn.Hint
+#: MpMain.dfm:820
+msgid "Save source as"
+msgstr ""
+
+#. HauptForm.PanelSpace.BtnPanel1.SaveAllBtn.Hint
+#: MpMain.dfm:883
+msgid "Save all modified sources"
+msgstr ""
+
+#. HauptForm.PanelSpace.BtnPanel1.ProjectBtn.Hint
+#: MpMain.dfm:946
+msgid "Project manager"
+msgstr ""
+
+#. HauptForm.PanelSpace.BtnPanel1.FilelistBtn.Hint
+#: MpMain.dfm:993
+msgid "Recently-loaded files"
+msgstr ""
+
+#. HauptForm.PanelSpace.BtnPanel1.SpeedButton1.Hint
+#: MpMain.dfm:1049
+msgid "Run application"
+msgstr ""
+
+#. HauptForm.PanelSpace.BtnPanel2.MDIZurBtn.Hint
+#: MpMain.dfm:1079
+msgid "Last window"
+msgstr ""
+
+#. HauptForm.PanelSpace.BtnPanel2.MDIVorBtn.Hint
+#: MpMain.dfm:1142
+msgid "Next window"
+msgstr ""
+
+#. HauptForm.PanelSpace.ModulPanel.Label1.Caption
+#: MpMain.dfm:1314
+msgid "Module:"
+msgstr ""
+
+#. HauptForm.PanelSpace.ModulPanel.ModulDetectBtn.Hint
+#: MpMain.dfm:1327
+msgid "Retrieve module from source"
+msgstr ""
+
+#. HauptForm.PanelSpace.ModulPanel.ModulInsertBtn.Hint
+#: MpMain.dfm:1390
+msgid "Insert module to source"
+msgstr ""
+
+#. HauptForm.PanelSpace.ModulPanel.ModulViewBtn.Hint
+#: MpMain.dfm:1453
+msgid "Show module data"
+msgstr ""
+
+#. HauptForm.PageControl.DosPage.Caption
+#: MpMain.dfm:1557
+msgid "Assembler:"
+msgstr ""
+
+#. HauptForm.PageControl.DosPage.DosPanel.CloseDosWindowBtn.Hint
+#: MpMain.dfm:1586
+msgid "Close status window"
+msgstr ""
+
+#. HauptForm.PageControl.DosPage.DosPanel.CopyDosWindowBtn.Hint
+#: MpMain.dfm:1655
+msgid "Copy status to clipboard"
+msgstr ""
+
+#. HauptForm.PageControl.TermPage.ReceivePanel.Caption
+#: MpMain.dfm:1732
+msgid " Received data:"
+msgstr ""
+
+#. HauptForm.PageControl.TermPage.ReceivePanel.ClearReceive.Caption
+#: MpMain.dfm:1745
+#. HauptForm.PageControl.TermPage.SendPanel.ClearSend.Caption
+#: MpMain.dfm:1907
+msgid "Clear window"
+msgstr ""
+
+#. HauptForm.PageControl.TermPage.ReceivePanel.pnlNumbers.rbAscii.Caption
+#: MpMain.dfm:1767
+msgid "only ASCII"
+msgstr ""
+
+#. HauptForm.PageControl.TermPage.ReceivePanel.pnlNumbers.rbDecimal.Caption
+#: MpMain.dfm:1778
+msgid "Decimal"
+msgstr ""
+
+#. HauptForm.PageControl.TermPage.ReceivePanel.pnlNumbers.rbhex.Caption
+#: MpMain.dfm:1787
+msgid "Hex"
+msgstr ""
+
+#. HauptForm.PageControl.TermPage.DataSend.Hint
+#: MpMain.dfm:1798
+msgid "Type <Alt>+<Num> for Ascii codes"
+msgstr ""
+
+#. HauptForm.PageControl.TermPage.SendPanel.Caption
+#: MpMain.dfm:1823
+msgid " Data to transmit:"
+msgstr ""
+
+#. HauptForm.PageControl.TermPage.SendPanel.HexFileBtn.Hint
+#: MpMain.dfm:1843
+msgid "Select HEX file for download"
+msgstr ""
+
+#. HauptForm.PageControl.TermPage.SendPanel.DownloadHexBtn.Hint
+#: MpMain.dfm:1916
+msgid "Download Hex file to microcontroller"
+msgstr ""
+
+#. HauptForm.PageControl.TermPage.SendPanel.DownloadHexBtn.Caption
+#: MpMain.dfm:1917
+msgid "Start Down&load (F5):"
+msgstr ""
+
+#. HauptForm.MainMenu.itmFile.Caption
+#: MpMain.dfm:2008
+msgid "&File"
+msgstr ""
+
+#. HauptForm.MainMenu.itmFile.NewText.Caption
+#: MpMain.dfm:2011
+msgid "&New"
+msgstr ""
+
+#. HauptForm.MainMenu.itmFile.NewText.itmAsmSource.Caption
+#: MpMain.dfm:2016
+#. HauptForm.MainMenu.itmOptions.Assembler2.Caption
+#: MpMain.dfm:2468
+#. HauptForm.MainMenu.itmInfo.itmCompilerversions.itmAssVersion.Caption
+#: MpMain.dfm:2643
+msgid "&Assembler"
+msgstr ""
+
+#. HauptForm.MainMenu.itmFile.NewText.itmPasSource.Caption
+#: MpMain.dfm:2021
+#. HauptForm.MainMenu.itmOptions.Pascal1.Caption
+#: MpMain.dfm:2481
+#. HauptForm.MainMenu.itmInfo.itmCompilerversions.itmPasVersion.Caption
+#: MpMain.dfm:2647
+#. HauptForm.pmNew.itmNewPas.Caption
+#: MpMain.dfm:2761
+msgid "&Pascal"
+msgstr ""
+
+#. HauptForm.MainMenu.itmFile.NewText.itmCppSource.Caption
+#: MpMain.dfm:2026
+#. HauptForm.MainMenu.itmInfo.itmCompilerversions.itmSdccVersion.Caption
+#: MpMain.dfm:2651
+#. HauptForm.pmNew.itmNewCpp.Caption
+#: MpMain.dfm:2777
+msgid "&C"
+msgstr ""
+
+#. HauptForm.MainMenu.itmFile.NewText.itmText.Caption
+#: MpMain.dfm:2031
+msgid "&Text"
+msgstr ""
+
+#. HauptForm.MainMenu.itmFile.Load.Caption
+#: MpMain.dfm:2037
+msgid "&Load .."
+msgstr ""
+
+#. HauptForm.MainMenu.itmFile.Save.Caption
+#: MpMain.dfm:2044
+msgid "&Save"
+msgstr ""
+
+#. HauptForm.MainMenu.itmFile.SaveAs.Caption
+#: MpMain.dfm:2051
+msgid "Save &as .."
+msgstr ""
+
+#. HauptForm.MainMenu.itmFile.SaveAllItem.Caption
+#: MpMain.dfm:2057
+msgid "Save a&ll"
+msgstr ""
+
+#. HauptForm.MainMenu.itmFile.CloseMDIItem.Caption
+#: MpMain.dfm:2063
+#. MpSimulator.MainMenu.itAction.itClose.Caption
+#: MpSim.dfm:3747
+msgid "&Close"
+msgstr ""
+
+#. HauptForm.MainMenu.itmFile.Dateiliste.Caption
+#: MpMain.dfm:2074
+msgid "Recently-loaded &files"
+msgstr ""
+
+#. HauptForm.MainMenu.itmFile.SaveProjectItem.Caption
+#: MpMain.dfm:2082
+msgid "Save as &Project .."
+msgstr ""
+
+#. HauptForm.MainMenu.itmFile.ProjectItem.Caption
+#: MpMain.dfm:2088
+msgid "Project &manager .."
+msgstr ""
+
+#. HauptForm.MainMenu.itmFile.DownloadItem.Caption
+#: MpMain.dfm:2098
+msgid "Do&wnload Hex file"
+msgstr ""
+
+#. HauptForm.MainMenu.itmFile.IspItem.Caption
+#: MpMain.dfm:2105
+msgid "&In-System-Prog."
+msgstr ""
+
+#. HauptForm.MainMenu.itmFile.IspItem.Hint
+#: MpMain.dfm:2107
+msgid "In system programming"
+msgstr ""
+
+#. HauptForm.MainMenu.itmFile.IspItem.ProgItem.Caption
+#: MpMain.dfm:2110
+msgid "&Write"
+msgstr ""
+
+#. HauptForm.MainMenu.itmFile.IspItem.ProgItem.Hint
+#: MpMain.dfm:2111
+msgid "Write to flash memory"
+msgstr ""
+
+#. HauptForm.MainMenu.itmFile.IspItem.VerifyItem.Caption
+#: MpMain.dfm:2115
+msgid "&Verify"
+msgstr ""
+
+#. HauptForm.MainMenu.itmFile.IspItem.VerifyItem.Hint
+#: MpMain.dfm:2116
+msgid "Verify flash memory"
+msgstr ""
+
+#. HauptForm.MainMenu.itmCompiler.Caption
+#: MpMain.dfm:2132
+msgid "&Compiler"
+msgstr ""
+
+#. HauptForm.MainMenu.itmCompiler.itmStartCompile.Caption
+#: MpMain.dfm:2136
+msgid "&Compile"
+msgstr ""
+
+#. HauptForm.MainMenu.itmCompiler.itmBuild.Caption
+#: MpMain.dfm:2142
+msgid "&Build"
+msgstr ""
+
+#. HauptForm.MainMenu.itmCompiler.itmMainFile.Caption
+#: MpMain.dfm:2151
+msgid "&Main file"
+msgstr ""
+
+#. HauptForm.MainMenu.itmCompiler.itmPaths.Caption
+#: MpMain.dfm:2155
+msgid "&Path settings .."
+msgstr ""
+
+#. HauptForm.MainMenu.itmCompiler.ObjectformatItem.Caption
+#: MpMain.dfm:2160
+msgid "Object &format"
+msgstr ""
+
+#. HauptForm.MainMenu.itmCompiler.ObjectformatItem.HexFormatItem.Caption
+#: MpMain.dfm:2163
+msgid "&Hex"
+msgstr ""
+
+#. HauptForm.MainMenu.itmPrint.Caption
+#: MpMain.dfm:2180
+msgid "P&rint"
+msgstr ""
+
+#. HauptForm.MainMenu.itmPrint.DruckStart.Caption
+#: MpMain.dfm:2183
+#. HauptForm.pmNew.itmNewCpp.itmCppProg.Caption
+#: MpMain.dfm:2780
+msgid "&Source"
+msgstr ""
+
+#. HauptForm.MainMenu.itmPrint.PrintListingItem.Caption
+#: MpMain.dfm:2188
+msgid "&Listing"
+msgstr ""
+
+#. HauptForm.MainMenu.itmTools.Caption
+#: MpMain.dfm:2194
+msgid "&Tools"
+msgstr ""
+
+#. HauptForm.MainMenu.itmTools.SimulatorItem.Caption
+#: MpMain.dfm:2198
+msgid "&Simulator"
+msgstr ""
+
+#. HauptForm.MainMenu.itmTools.itmRunProg.Caption
+#: MpMain.dfm:2204
+msgid "&Run program .."
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.EditSettingsItem.Caption
+#: MpMain.dfm:2213
+#. HauptForm.MainMenu.itmWindows.EditorItem.Caption
+#: MpMain.dfm:2555
+msgid "&Editor"
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.EditSettingsItem.AnzeigeItem.Caption
+#: MpMain.dfm:2217
+msgid "&Display .."
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.EditSettingsItem.TastaturItem.Caption
+#: MpMain.dfm:2222
+msgid "&Keyboard .."
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.DruckEinst.Caption
+#: MpMain.dfm:2228
+msgid "&Printer"
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.DruckEinst.DruckSetup.Caption
+#: MpMain.dfm:2232
+msgid "&Selection .."
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.DruckEinst.PageSetupItem.Caption
+#: MpMain.dfm:2241
+msgid "&Page settings"
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.DruckEinst.PageSetupItem.TextpageSetupItem.Caption
+#: MpMain.dfm:2244
+msgid "for &Source"
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.DruckEinst.PageSetupItem.ListpageSetupItem.Caption
+#: MpMain.dfm:2249
+msgid "for &Listing"
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.TermItem.Caption
+#: MpMain.dfm:2256
+#. HauptForm.MainMenu.itmWindows.TerminalItem.Caption
+#: MpMain.dfm:2561
+msgid "&Terminal"
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.TermItem.DelayItem.Caption
+#: MpMain.dfm:2419
+msgid "Dela&y"
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.TermItem.DelayItem.DelayCharItem.Caption
+#: MpMain.dfm:2421
+msgid "&between characters"
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.TermItem.DelayItem.DelayLineItem.Caption
+#: MpMain.dfm:2425
+msgid "&at line end"
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.TermItem.LineendItem.Caption
+#: MpMain.dfm:2430
+msgid "Line &end on send"
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.TermItem.Linelength.Caption
+#: MpMain.dfm:2452
+msgid "&Line length .."
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.TermItem.ComStatusItem.Caption
+#: MpMain.dfm:2459
+msgid "S&tatus .."
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.Assembler2.itmAssembler.Caption
+#: MpMain.dfm:2472
+#. HauptForm.MainMenu.itmOptions.Pascal1.itmPasLocation.Caption
+#: MpMain.dfm:2485
+msgid "&Program .."
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.Assembler2.itmAsmSrcPath.Caption
+#: MpMain.dfm:2476
+#. HauptForm.MainMenu.itmOptions.Pascal1.itmPasSrcPath.Caption
+#: MpMain.dfm:2490
+#. HauptForm.MainMenu.itmOptions.C1.itmCppSrcPath.Caption
+#: MpMain.dfm:2510
+msgid "&Sources .."
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.Pascal1.itmPasOptions.Caption
+#: MpMain.dfm:2495
+#. HauptForm.MainMenu.itmOptions.C1.itmCppOptions.Caption
+#: MpMain.dfm:2515
+msgid "&Options .."
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.C1.Caption
+#: MpMain.dfm:2501
+msgid "&C compiler"
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.C1.itmCppLocation.Caption
+#: MpMain.dfm:2505
+msgid "Installation &directory .."
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.C1.itmCppMemory.Caption
+#: MpMain.dfm:2520
+msgid "&Memory allocations .."
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.StandardDir.Caption
+#: MpMain.dfm:2526
+msgid "Root folder for sources .."
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.itmAppSettings.Caption
+#: MpMain.dfm:2536
+msgid "&Other applications .."
+msgstr ""
+
+#. HauptForm.MainMenu.itmWindows.Caption
+#: MpMain.dfm:2551
+msgid "&Window"
+msgstr ""
+
+#. HauptForm.MainMenu.itmWindows.MDIVorItem.Caption
+#: MpMain.dfm:2570
+msgid "&Next"
+msgstr ""
+
+#. HauptForm.MainMenu.itmWindows.MDIZurItem.Caption
+#: MpMain.dfm:2575
+msgid "&Previous"
+msgstr ""
+
+#. HauptForm.MainMenu.itmWindows.WinHor.Caption
+#: MpMain.dfm:2583
+msgid "&Horizontal"
+msgstr ""
+
+#. HauptForm.MainMenu.itmWindows.WinVert.Caption
+#: MpMain.dfm:2588
+msgid "&Vertical"
+msgstr ""
+
+#. HauptForm.MainMenu.itmWindows.WinCascade.Caption
+#: MpMain.dfm:2593
+msgid "&Cascade"
+msgstr ""
+
+#. HauptForm.MainMenu.itmInfo.Caption
+#: MpMain.dfm:2599
+msgid "&Help"
+msgstr ""
+
+#. HauptForm.MainMenu.itmInfo.itmPrgHelp.Caption
+#: MpMain.dfm:2602
+#. HauptForm.pmNew.itmNewPas.itmNewProg.Caption
+#: MpMain.dfm:2764
+msgid "&Program"
+msgstr ""
+
+#. HauptForm.MainMenu.itmInfo.itmWeb.Caption
+#: MpMain.dfm:2607
+msgid "&Web page"
+msgstr ""
+
+#. HauptForm.MainMenu.itmInfo.itmVersion.Caption
+#: MpMain.dfm:2612
+msgid "&Version"
+msgstr ""
+
+#. HauptForm.MainMenu.itmInfo.itmRefs.Caption
+#: MpMain.dfm:2617
+msgid "&References"
+msgstr ""
+
+#. HauptForm.MainMenu.itmInfo.itmManuals.Caption
+#: MpMain.dfm:2621
+msgid "&Manuals"
+msgstr ""
+
+#. HauptForm.MainMenu.itmInfo.itmManuals.itmInstSet.Caption
+#: MpMain.dfm:2624
+msgid "&Instruction set .."
+msgstr ""
+
+#. HauptForm.MainMenu.itmInfo.itmManuals.itmAssManual.Caption
+#: MpMain.dfm:2628
+msgid "&Assembler .."
+msgstr ""
+
+#. HauptForm.MainMenu.itmInfo.itmManuals.itmPasManual.Caption
+#: MpMain.dfm:2632
+msgid "&Pascal .."
+msgstr ""
+
+#. HauptForm.MainMenu.itmInfo.itmManuals.itmSddcManual.Caption
+#: MpMain.dfm:2636
+msgid "&C compiler .."
+msgstr ""
+
+#. HauptForm.MainMenu.itmInfo.itmCompilerversions.Caption
+#: MpMain.dfm:2641
+msgid "&Compiler versions"
+msgstr ""
+
+#. HauptForm.pmNew.itmBewAss.Caption
+#: MpMain.dfm:2756
+msgid "&Assembler source"
+msgstr ""
+
+#. HauptForm.pmNew.itmNewPas.itmNewUnit.Caption
+#: MpMain.dfm:2768
+msgid "&Unit"
+msgstr ""
+
+#. HauptForm.pmNew.itmNewPas.itmNewInc.Caption
+#: MpMain.dfm:2772
+msgid "&Include"
+msgstr ""
+
+#. HauptForm.pmNew.itmNewCpp.itmCppHeader.Caption
+#: MpMain.dfm:2784
+msgid "&Header"
+msgstr ""
+
+#. HauptForm.pmNew.itmNewText.Caption
+#: MpMain.dfm:2789
+msgid "&Text document"
+msgstr ""
+
+#. HauptForm.pmFiles.pmiClearlist.Caption
+#: MpMain.dfm:4828
+msgid "Clear list"
+msgstr ""
+
+#. MDIForm.Caption
+#: MpMDISynEdit.dfm:4
+msgid "Text"
+msgstr ""
+
+#. MDIForm.LokPanel.UndoBtn.Hint
+#: MpMDISynEdit.dfm:41
+#. 'Rückgängig machen';
+#. Programmer's name for it: rsUndo
+#: KeyboardDlg.pas:66
+msgid "Undo"
+msgstr ""
+
+#. MDIForm.LokPanel.RedoBtn.Hint
+#: MpMDISynEdit.dfm:104
+#. 'Wieder herstellen';
+#. Programmer's name for it: rsReDo
+#: KeyboardDlg.pas:67
+msgid "Redo"
+msgstr ""
+
+#. MDIForm.LokPanel.CutBLockBtn.Hint
+#: MpMDISynEdit.dfm:167
+msgid "Cut block"
+msgstr ""
+
+#. MDIForm.LokPanel.CopBlockBtn.Hint
+#: MpMDISynEdit.dfm:230
+msgid "Copy block"
+msgstr ""
+
+#. MDIForm.LokPanel.InsBlockBtn.Hint
+#: MpMDISynEdit.dfm:293
+msgid "Insert block"
+msgstr ""
+
+#. MDIForm.LokPanel.FindBtn.Hint
+#: MpMDISynEdit.dfm:356
+#. MDIForm.PopupMenu.PSearchItem.Caption
+#: MpMDISynEdit.dfm:1017
+msgid "Find text"
+msgstr ""
+
+#. MDIForm.LokPanel.ReplBtn.Hint
+#: MpMDISynEdit.dfm:419
+#. MDIForm.PopupMenu.ReplaceItem.Caption
+#: MpMDISynEdit.dfm:1021
+msgid "Replace text"
+msgstr ""
+
+#. MDIForm.LokPanel.ColBtn.Hint
+#: MpMDISynEdit.dfm:482
+msgid "Mark column"
+msgstr ""
+
+#. MDIForm.LokPanel.BracketBtn.Hint
+#: MpMDISynEdit.dfm:545
+msgid "Find matching brace"
+msgstr ""
+
+#. MDIForm.MDIMenu.itmEdit.Caption
+#: MpMDISynEdit.dfm:678
+msgid "&Edit"
+msgstr ""
+
+#. MDIForm.MDIMenu.itmEdit.UndoEditItem.Caption
+#: MpMDISynEdit.dfm:681
+msgid "&Undo"
+msgstr ""
+
+#. MDIForm.MDIMenu.itmEdit.ClipBlockItem.Caption
+#: MpMDISynEdit.dfm:690
+msgid "Cu&t"
+msgstr ""
+
+#. MDIForm.MDIMenu.itmEdit.CopyBlockItem.Caption
+#: MpMDISynEdit.dfm:696
+msgid "&Copy"
+msgstr ""
+
+#. MDIForm.MDIMenu.itmEdit.InsertBlockItem.Caption
+#: MpMDISynEdit.dfm:702
+#. MDIForm.MDIMenu.Einfg.Caption
+#: MpMDISynEdit.dfm:761
+msgid "&Insert"
+msgstr ""
+
+#. MDIForm.MDIMenu.itmEdit.DeleteBlockItem.Caption
+#: MpMDISynEdit.dfm:708
+msgid "&Delete"
+msgstr ""
+
+#. MDIForm.MDIMenu.itmEdit.itmFind.Caption
+#: MpMDISynEdit.dfm:717
+#. MDIForm.MDIMenu.Navigieren1.Find.Caption
+#: MpMDISynEdit.dfm:828
+msgid "&Find text .."
+msgstr ""
+
+#. MDIForm.MDIMenu.itmEdit.itmReplace.Caption
+#: MpMDISynEdit.dfm:723
+msgid "&Replace text .."
+msgstr ""
+
+#. MDIForm.MDIMenu.itmEdit.ReplNext.Caption
+#: MpMDISynEdit.dfm:729
+msgid "&Find next (F3)"
+msgstr ""
+
+#. MDIForm.MDIMenu.itmEdit.Konvertieren1.Caption
+#: MpMDISynEdit.dfm:738
+msgid "Con&vert"
+msgstr ""
+
+#. MDIForm.MDIMenu.itmEdit.Konvertieren1.UpperCaseStr.Caption
+#: MpMDISynEdit.dfm:741
+msgid "to &upper case"
+msgstr ""
+
+#. MDIForm.MDIMenu.itmEdit.Konvertieren1.LowerCaseStr.Caption
+#: MpMDISynEdit.dfm:746
+msgid "to &lower case"
+msgstr ""
+
+#. MDIForm.MDIMenu.itmEdit.ColMarkItem.Caption
+#: MpMDISynEdit.dfm:755
+msgid "&Mark columns (Shift+Ctrl+C)"
+msgstr ""
+
+#. MDIForm.MDIMenu.Einfg.AssemblerControlsItem.Caption
+#: MpMDISynEdit.dfm:764
+msgid "&Assembler controls"
+msgstr ""
+
+#. MDIForm.MDIMenu.Einfg.AssemblerControlsItem.IncludeItem.Caption
+#: MpMDISynEdit.dfm:767
+msgid "&Include .."
+msgstr ""
+
+#. MDIForm.MDIMenu.Einfg.AssemblerControlsItem.NoTabsItem.Caption
+#: MpMDISynEdit.dfm:771
+msgid "&No Tabs"
+msgstr ""
+
+#. MDIForm.MDIMenu.Einfg.AssemblerControlsItem.PagelengthItem.Caption
+#: MpMDISynEdit.dfm:775
+msgid "Page &length"
+msgstr ""
+
+#. MDIForm.MDIMenu.Einfg.AssemblerControlsItem.PagewidthItem.Caption
+#: MpMDISynEdit.dfm:779
+msgid "Page &width"
+msgstr ""
+
+#. MDIForm.MDIMenu.Einfg.AssemblerControlsItem.NewPageItem.Caption
+#: MpMDISynEdit.dfm:783
+msgid "New &Page"
+msgstr ""
+
+#. MDIForm.MDIMenu.Einfg.AssemblerControlsItem.ListingOnItem.Caption
+#: MpMDISynEdit.dfm:790
+msgid "L&isting on"
+msgstr ""
+
+#. MDIForm.MDIMenu.Einfg.AssemblerControlsItem.ListingOffItem.Caption
+#: MpMDISynEdit.dfm:794
+msgid "Listing o&ff"
+msgstr ""
+
+#. MDIForm.MDIMenu.Einfg.AssemblerControlsItem.ModulnameItem.Caption
+#: MpMDISynEdit.dfm:801
+msgid "&Module name"
+msgstr ""
+
+#. MDIForm.MDIMenu.Einfg.FilenameItem.Caption
+#: MpMDISynEdit.dfm:809
+msgid "&Filename"
+msgstr ""
+
+#. MDIForm.MDIMenu.Einfg.FilePathItem.Caption
+#: MpMDISynEdit.dfm:814
+msgid "Filename with &path"
+msgstr ""
+
+#. MDIForm.MDIMenu.Einfg.DatumItem.Caption
+#: MpMDISynEdit.dfm:819
+msgid "D&ate"
+msgstr ""
+
+#. MDIForm.MDIMenu.Navigieren1.Caption
+#: MpMDISynEdit.dfm:825
+msgid "&Navigate"
+msgstr ""
+
+#. MDIForm.MDIMenu.Navigieren1.FindNext.Caption
+#: MpMDISynEdit.dfm:834
+msgid "&Find next"
+msgstr ""
+
+#. MDIForm.MDIMenu.Navigieren1.GotoLineItem.Caption
+#: MpMDISynEdit.dfm:844
+msgid "Go to &line number .."
+msgstr ""
+
+#. MDIForm.MDIMenu.Navigieren1.MatchingBracketsItem.Caption
+#: MpMDISynEdit.dfm:850
+msgid "Goto &matching brace"
+msgstr ""
+
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.Caption
+#: MpMDISynEdit.dfm:859
+msgid "&Bookmark"
+msgstr ""
+
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.SetBookmarkItem.Caption
+#: MpMDISynEdit.dfm:862
+msgid "&set"
+msgstr ""
+
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.SetBookmarkItem.Lesezeichen01.Caption
+#: MpMDISynEdit.dfm:864
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.GotoBookmarkItem.Lesezeichen02.Caption
+#: MpMDISynEdit.dfm:907
+msgid "Bookmark &0"
+msgstr ""
+
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.SetBookmarkItem.Lesezeichen11.Caption
+#: MpMDISynEdit.dfm:868
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.GotoBookmarkItem.Lesezeichen12.Caption
+#: MpMDISynEdit.dfm:911
+msgid "Bookmark &1"
+msgstr ""
+
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.SetBookmarkItem.Lesezeichen21.Caption
+#: MpMDISynEdit.dfm:872
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.GotoBookmarkItem.Lesezeichen22.Caption
+#: MpMDISynEdit.dfm:915
+msgid "Bookmark &2"
+msgstr ""
+
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.SetBookmarkItem.Lesezeichen31.Caption
+#: MpMDISynEdit.dfm:876
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.GotoBookmarkItem.Lesezeichen32.Caption
+#: MpMDISynEdit.dfm:919
+msgid "Bookmark &3"
+msgstr ""
+
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.SetBookmarkItem.Lesezeichen41.Caption
+#: MpMDISynEdit.dfm:880
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.GotoBookmarkItem.Lesezeichen42.Caption
+#: MpMDISynEdit.dfm:923
+msgid "Bookmark &4"
+msgstr ""
+
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.SetBookmarkItem.Lesezeichen51.Caption
+#: MpMDISynEdit.dfm:884
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.GotoBookmarkItem.Lesezeichen52.Caption
+#: MpMDISynEdit.dfm:927
+msgid "Bookmark &5"
+msgstr ""
+
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.SetBookmarkItem.Lesezeichen61.Caption
+#: MpMDISynEdit.dfm:888
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.GotoBookmarkItem.Lesezeichen62.Caption
+#: MpMDISynEdit.dfm:931
+msgid "Bookmark &6"
+msgstr ""
+
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.SetBookmarkItem.Lesezeichen71.Caption
+#: MpMDISynEdit.dfm:892
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.GotoBookmarkItem.Lesezeichen72.Caption
+#: MpMDISynEdit.dfm:935
+msgid "Bookmark &7"
+msgstr ""
+
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.SetBookmarkItem.Lesezeichen81.Caption
+#: MpMDISynEdit.dfm:896
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.GotoBookmarkItem.Lesezeichen82.Caption
+#: MpMDISynEdit.dfm:939
+msgid "Bookmark &8"
+msgstr ""
+
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.SetBookmarkItem.Lesezeichen91.Caption
+#: MpMDISynEdit.dfm:900
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.GotoBookmarkItem.Lesezeichen92.Caption
+#: MpMDISynEdit.dfm:943
+msgid "Bookmark &9"
+msgstr ""
+
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.GotoBookmarkItem.Caption
+#: MpMDISynEdit.dfm:905
+msgid "&goto to"
+msgstr ""
+
+#. MDIForm.MDIMenu.Navigieren1.Lesezeichen1.DeleteBookmarksItem.Caption
+#: MpMDISynEdit.dfm:948
+msgid "&clear all"
+msgstr ""
+
+#. MDIForm.OpenDialog.Filter
+#: MpMDISynEdit.dfm:955
+msgid "Include file|*.a51;*.inc|all|*.*"
+msgstr ""
+
+#. MDIForm.PopupMenu.ClosePageItem.Caption
+#: MpMDISynEdit.dfm:969
+msgid "Close page"
+msgstr ""
+
+#. MDIForm.PopupMenu.IncludeOpenItem.Caption
+#: MpMDISynEdit.dfm:973
+msgid "Open include file"
+msgstr ""
+
+#. MDIForm.PopupMenu.UnitOpenItem.Caption
+#: MpMDISynEdit.dfm:977
+msgid "Open unit"
+msgstr ""
+
+#. MDIForm.PopupMenu.MainItem.Caption
+#: MpMDISynEdit.dfm:988
+msgid "Main file"
+msgstr ""
+
+#. MDIForm.PopupMenu.MainItem.SetMainItem.Caption
+#: MpMDISynEdit.dfm:990
+msgid "Use current source"
+msgstr ""
+
+#. MDIForm.PopupMenu.MainItem.NoMainItem.Caption
+#: MpMDISynEdit.dfm:994
+#. Programmer's name for it: rsNoMain
+#: McStrings.pas:57
+msgid "No main file"
+msgstr ""
+
+#. MDIForm.PopupMenu.PCutItem.Caption
+#: MpMDISynEdit.dfm:1002
+#. 'Ausschneiden';
+#. Programmer's name for it: rsCut
+#: KeyboardDlg.pas:68
+msgid "Cut"
+msgstr ""
+
+#. MDIForm.PopupMenu.PCopyItem.Caption
+#: MpMDISynEdit.dfm:1006
+#. 'Kopieren';
+#. Programmer's name for it: rsCopy
+#: KeyboardDlg.pas:69
+msgid "Copy"
+msgstr ""
+
+#. MDIForm.PopupMenu.PPasteItem.Caption
+#: MpMDISynEdit.dfm:1010
+#. 'Einfügen';
+#. Programmer's name for it: rsPaste
+#: KeyboardDlg.pas:70
+msgid "Paste"
+msgstr ""
+
+#. MpSimulator.Caption
+#: MpSim.dfm:4
+#. load dummy
+#: MpSim.pas:2040
+#: MpSim.pas:2105
+msgid "MC-51 Simulator / Debugger"
+msgstr ""
+
+#. MpSimulator.pnBottom.Label1.Caption
+#: MpSim.dfm:53
+msgid "Serial output:"
+msgstr ""
+
+#. MpSimulator.pnBottom.Label11.Caption
+#: MpSim.dfm:61
+msgid "Serial input:"
+msgstr ""
+
+#. MpSimulator.pnBottom.pcMem.tsCode.Caption
+#: MpSim.dfm:195
+msgid "Code memory"
+msgstr ""
+
+#. MpSimulator.pnBottom.pcMem.tsCode.lvCodeMem.Caption
+#: MpSim.dfm:211
+#. MpSimulator.pnBottom.pcMem.tsData.lvDataMem.Caption
+#: MpSim.dfm:279
+#. MpSimulator.pnBottom.pcMem.tsXData.lvXDataMem.Caption
+#: MpSim.dfm:347
+#. MpSimulator.pnTop.pcDebug.tsAssembler.lvCode.Caption
+#: MpSim.dfm:1453
+#. frmBits.pnUser.lvData.Caption
+#: ShowBitSeg.dfm:48
+#. frmBits.pnSfr.lvSfr.Caption
+#: ShowBitSeg.dfm:98
+#. frmData.lvData.Caption
+#: ShowData.dfm:30
+#. frmSfr.lvData.Caption
+#: ShowSfr.dfm:30
+#. frmXData.lvData.Caption
+#: ShowXData.dfm:30
+msgid "Addr."
+msgstr ""
+
+#. MpSimulator.pnBottom.pcMem.tsData.Caption
+#: MpSim.dfm:262
+msgid "Internal memory"
+msgstr ""
+
+#. MpSimulator.pnBottom.pcMem.tsXData.Caption
+#: MpSim.dfm:330
+msgid "External memory"
+msgstr ""
+
+#. MpSimulator.pnBottom.gbActions.Caption
+#: MpSim.dfm:404
+msgid "Actions"
+msgstr ""
+
+#. MpSimulator.pnBottom.gbActions.btShowSteps.Hint
+#: MpSim.dfm:411
+msgid "Trace program"
+msgstr ""
+
+#. MpSimulator.pnBottom.gbActions.btBreakpoints.Hint
+#: MpSim.dfm:609
+msgid "Breakpoints"
+msgstr ""
+
+#. MpSimulator.pnBottom.gbActions.btReset.Hint
+#: MpSim.dfm:669
+msgid "Reset (F12)"
+msgstr ""
+
+#. MpSimulator.pnBottom.gbActions.btStep.Hint
+#: MpSim.dfm:747
+msgid "Program step (F7)"
+msgstr ""
+
+#. MpSimulator.pnBottom.gbActions.btStepOver.Hint
+#: MpSim.dfm:825
+msgid "Step over subroutine (F8)"
+msgstr ""
+
+#. MpSimulator.pnBottom.gbActions.btRunToCursor.Hint
+#: MpSim.dfm:903
+msgid "Run to cursor (F4)"
+msgstr ""
+
+#. MpSimulator.pnBottom.gbActions.btRun.Hint
+#: MpSim.dfm:981
+msgid "Run program (F9)"
+msgstr ""
+
+#. MpSimulator.pnBottom.gbActions.btStop.Hint
+#: MpSim.dfm:1059
+msgid "Stop program (F10)"
+msgstr ""
+
+#. MpSimulator.pnBottom.gbActions.btClose.Hint
+#: MpSim.dfm:1201
+msgid "Close simulator"
+msgstr ""
+
+#. MpSimulator.pnBottom.gbSymbols.Caption
+#: MpSim.dfm:1298
+msgid "Symbolic addresses"
+msgstr ""
+
+#. MpSimulator.pnBottom.gbSymbols.btSfr.Hint
+#: MpSim.dfm:1305
+msgid "Show special function registers"
+msgstr ""
+
+#. MpSimulator.pnBottom.gbSymbols.btSfr.Caption
+#: MpSim.dfm:1306
+msgid "SFR"
+msgstr ""
+
+#. MpSimulator.pnBottom.gbSymbols.btBits.Hint
+#: MpSim.dfm:1323
+msgid "Show bit declarations"
+msgstr ""
+
+#. MpSimulator.pnBottom.gbSymbols.btBits.Caption
+#: MpSim.dfm:1324
+msgid "Bits"
+msgstr ""
+
+#. MpSimulator.pnBottom.gbSymbols.btData.Hint
+#: MpSim.dfm:1341
+msgid "Show internal data declarations"
+msgstr ""
+
+#. MpSimulator.pnBottom.gbSymbols.btData.Caption
+#: MpSim.dfm:1342
+msgid "IDat"
+msgstr ""
+
+#. MpSimulator.pnBottom.gbSymbols.btXData.Hint
+#: MpSim.dfm:1359
+msgid "Show external data declarations"
+msgstr ""
+
+#. MpSimulator.pnBottom.gbSymbols.btXData.Caption
+#: MpSim.dfm:1360
+msgid "XDat"
+msgstr ""
+
+#. MpSimulator.pnBottom.gbInt.Caption
+#: MpSim.dfm:1379
+msgid "External interrupts"
+msgstr ""
+
+#. MpSimulator.pnBottom.gbInt.btExtInt0.Hint
+#: MpSim.dfm:1386
+msgid "Trigger external interrupt 0"
+msgstr ""
+
+#. MpSimulator.pnBottom.gbInt.btExtInt1.Hint
+#: MpSim.dfm:1405
+msgid "Trigger external interrupt 1"
+msgstr ""
+
+#. MpSimulator.pnTop.pcDebug.tsAssembler.lvCode.Caption
+#: MpSim.dfm:1461
+#. frmBreakPoints.lvBreakpoints.Caption
+#: ShowBreakpoints.dfm:391
+msgid "Label"
+msgstr ""
+
+#. MpSimulator.pnTop.pcDebug.tsAssembler.lvCode.Caption
+#: MpSim.dfm:1469
+msgid "Arguments"
+msgstr ""
+
+#. MpSimulator.pnTop.pnControls.pnPort.tcPorts.Tabs.Strings
+#: MpSim.dfm:2403
+msgid "Port 0"
+msgstr ""
+
+#. MpSimulator.pnTop.pnControls.pnPort.tcPorts.Tabs.Strings
+#: MpSim.dfm:2404
+msgid "Port 1"
+msgstr ""
+
+#. MpSimulator.pnTop.pnControls.pnPort.tcPorts.Tabs.Strings
+#: MpSim.dfm:2405
+msgid "Port 2"
+msgstr ""
+
+#. MpSimulator.pnTop.pnControls.pnPort.tcPorts.Tabs.Strings
+#: MpSim.dfm:2406
+msgid "Port 3"
+msgstr ""
+
+#. MpSimulator.pnTop.pnControls.gbRegisters.Caption
+#: MpSim.dfm:2417
+msgid "Register"
+msgstr ""
+
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel3.Label6.Caption
+#: MpSim.dfm:2434
+msgid "DPTR:"
+msgstr ""
+
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel3.Label8.Caption
+#: MpSim.dfm:2443
+msgid "PC:"
+msgstr ""
+
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel3.Label5.Caption
+#: MpSim.dfm:2452
+msgid "SP:"
+msgstr ""
+
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel4.Label2.Caption
+#: MpSim.dfm:2529
+msgid "B:"
+msgstr ""
+
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel4.Label3.Caption
+#: MpSim.dfm:2538
+msgid "A:"
+msgstr ""
+
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel4.Label4.Caption
+#: MpSim.dfm:2547
+msgid "PSW:"
+msgstr ""
+
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel4.Label9.Caption
+#: MpSim.dfm:2554
+msgid "CY   AC   F0  OV   P"
+msgstr ""
+
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel4.Panel2.rbHAcc.Caption
+#: MpSim.dfm:2682
+msgid "H"
+msgstr ""
+
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel4.Panel2.rbDAcc.Caption
+#: MpSim.dfm:2693
+msgid "D"
+msgstr ""
+
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel4.Panel2.rbBAcc.Caption
+#: MpSim.dfm:2702
+msgid "B"
+msgstr ""
+
+#. MpSimulator.pnTop.pnControls.pnCycles.Label12.Caption
+#: MpSim.dfm:3029
+msgid "Cycles:"
+msgstr ""
+
+#. MpSimulator.pnTop.pnControls.pnCycles.Label15.Caption
+#: MpSim.dfm:3037
+msgid "Time:"
+msgstr ""
+
+#. MpSimulator.pnTop.pnControls.pnCycles.btResetCycleCount.Hint
+#: MpSim.dfm:3044
+msgid "Reset cycle counter"
+msgstr ""
+
+#. MpSimulator.pnTop.pnBaseAdr.Caption
+#: MpSim.dfm:3113
+#: MpSim.pas:621
+#. itInterrupts.Caption:=_('&Interrupt Table at ')+IntToHex(IntRoot,4)+'H ..';
+#: MpSim.pas:1259
+msgid "Basic code address:"
+msgstr ""
+
+#. MpSimulator.MainMenu.Load1.Caption
+#: MpSim.dfm:3668
+msgid "&Load"
+msgstr ""
+
+#. MpSimulator.MainMenu.Load1.itLoadOMF51.Caption
+#: MpSim.dfm:3670
+msgid "&OMF-51 file .."
+msgstr ""
+
+#. MpSimulator.MainMenu.Load1.itLoadHex.Caption
+#: MpSim.dfm:3675
+msgid "Intel &Hex file .."
+msgstr ""
+
+#. MpSimulator.MainMenu.Load1.itSymbols.Caption
+#: MpSim.dfm:3683
+msgid "&Symbols"
+msgstr ""
+
+#. MpSimulator.MainMenu.Load1.itSymbols.itUsersym.Caption
+#: MpSim.dfm:3685
+msgid "&User defined .."
+msgstr ""
+
+#. MpSimulator.MainMenu.Load1.itSymbols.itDefSym.Caption
+#: MpSim.dfm:3690
+msgid "&Basic .."
+msgstr ""
+
+#. MpSimulator.MainMenu.Load1.itOpCode.Caption
+#: MpSim.dfm:3696
+msgid "&Opcodes .."
+msgstr ""
+
+#. MpSimulator.MainMenu.itExport.Caption
+#: MpSim.dfm:3702
+msgid "&Export"
+msgstr ""
+
+#. MpSimulator.MainMenu.itExport.itDisass.Caption
+#: MpSim.dfm:3704
+msgid "&Disassembled source"
+msgstr ""
+
+#. MpSimulator.MainMenu.itAction.Caption
+#: MpSim.dfm:3709
+msgid "&Actions"
+msgstr ""
+
+#. MpSimulator.MainMenu.itAction.itRun.Caption
+#: MpSim.dfm:3711
+msgid "R&un"
+msgstr ""
+
+#. MpSimulator.MainMenu.itAction.itStep.Caption
+#: MpSim.dfm:3716
+msgid "&Step"
+msgstr ""
+
+#. MpSimulator.MainMenu.itAction.itStepover.Caption
+#: MpSim.dfm:3721
+msgid "Step &over"
+msgstr ""
+
+#. MpSimulator.MainMenu.itAction.itRunToCursor.Caption
+#: MpSim.dfm:3726
+msgid "Run to &cursor"
+msgstr ""
+
+#. MpSimulator.MainMenu.itAction.itStop.Caption
+#: MpSim.dfm:3734
+msgid "Sto&p"
+msgstr ""
+
+#. MpSimulator.MainMenu.itAction.itreset.Caption
+#: MpSim.dfm:3739
+msgid "&Reset"
+msgstr ""
+
+#. MpSimulator.MainMenu.itView.Caption
+#: MpSim.dfm:3753
+msgid "&View"
+msgstr ""
+
+#. MpSimulator.MainMenu.itView.itSfr.Caption
+#: MpSim.dfm:3755
+msgid "Special &function registers"
+msgstr ""
+
+#. MpSimulator.MainMenu.itView.itBits.Caption
+#: MpSim.dfm:3760
+msgid "&Bit segment"
+msgstr ""
+
+#. MpSimulator.MainMenu.itView.itData.Caption
+#: MpSim.dfm:3765
+msgid "&Data segment"
+msgstr ""
+
+#. MpSimulator.MainMenu.itView.itXData.Caption
+#: MpSim.dfm:3770
+msgid "&XData segment"
+msgstr ""
+
+#. MpSimulator.MainMenu.itView.itBreakpoints.Caption
+#: MpSim.dfm:3778
+msgid "Break&points"
+msgstr ""
+
+#. MpSimulator.MainMenu.itView.itShowSteps.Caption
+#: MpSim.dfm:3783
+msgid "Show &steps"
+msgstr ""
+
+#. MpSimulator.MainMenu.itSettings.Caption
+#: MpSim.dfm:3789
+msgid "&Preferences"
+msgstr ""
+
+#. MpSimulator.MainMenu.itSettings.itCpuClock.Caption
+#: MpSim.dfm:3791
+msgid "&Oscillator clock frequency .."
+msgstr ""
+
+#. MpSimulator.MainMenu.itSettings.itBasicCodeAdr.Caption
+#: MpSim.dfm:3795
+msgid "&Basic code address"
+msgstr ""
+
+#. MpSimulator.MainMenu.itSettings.itPorts.Caption
+#: MpSim.dfm:3799
+msgid "Inverted &ports"
+msgstr ""
+
+#. MpSimulator.MainMenu.itSettings.itInterrupt0.Caption
+#: MpSim.dfm:3804
+msgid "&External interrupt 0"
+msgstr ""
+
+#. MpSimulator.MainMenu.itSettings.itInterrupt0.itLevel0.Caption
+#: MpSim.dfm:3806
+#. MpSimulator.MainMenu.itSettings.itInterrupt1.itLevel1.Caption
+#: MpSim.dfm:3822
+msgid "&Level triggered"
+msgstr ""
+
+#. MpSimulator.MainMenu.itSettings.itInterrupt0.itEdge0.Caption
+#: MpSim.dfm:3813
+#. MpSimulator.MainMenu.itSettings.itInterrupt1.itEdge1.Caption
+#: MpSim.dfm:3829
+msgid "&Edge triggered"
+msgstr ""
+
+#. MpSimulator.MainMenu.itSettings.itInterrupt1.Caption
+#: MpSim.dfm:3820
+msgid "&External interrupt 1"
+msgstr ""
+
+#. MpSimulator.MainMenu.itSettings.itTimerClock.Caption
+#: MpSim.dfm:3839
+msgid "Timer &delay .."
+msgstr ""
+
+#. MpSimulator.MainMenu.itSettings.itTraceDelay.Caption
+#: MpSim.dfm:3843
+msgid "Delay on &trace .."
+msgstr ""
+
+#. MpSimulator.MainMenu.itSettings.itSerialDelay.Caption
+#: MpSim.dfm:3847
+msgid "Delay on &serial output .."
+msgstr ""
+
+#. MpSimulator.MainMenu.itSettings.itSerialFile.Caption
+#: MpSim.dfm:3854
+msgid "&Filename for  serial output .."
+msgstr ""
+
+#. MpSimulator.SaveDialog.Filter
+#: MpSim.dfm:3866
+msgid "Text file|*.txt|All|*.*"
+msgstr ""
+
+#. HauptForm.Caption
+#: Omf51Main.dfm:4
+msgid "Read OMF-51 file"
+msgstr ""
+
+#. HauptForm.btnFile.Hint
+#: Omf51Main.dfm:24
+msgid "Select OMF-51 file"
+msgstr ""
+
+#. HauptForm.edOmfFile.EditLabel.Caption
+#: Omf51Main.dfm:52
+msgid "OMF-51 file:"
+msgstr ""
+
+#. HauptForm.OpenDialog.DefaultExt
+#: Omf51Main.dfm:66
+msgid "omf"
+msgstr ""
+
+#. HauptForm.OpenDialog.Filter
+#: Omf51Main.dfm:67
+#: MpSim.pas:2626
+#: MpSim.pas:2850
+msgid "OMF-51 files|*.omf"
+msgstr ""
+
+#. PageFormatDialog.Caption
+#: PageFormatDlg.dfm:5
+msgid "Dialog"
+msgstr ""
+
+#. PageFormatDialog.GroupBox1.Label1.Caption
+#: PageFormatDlg.dfm:156
+msgid "Left:"
+msgstr ""
+
+#. PageFormatDialog.GroupBox1.Label2.Caption
+#: PageFormatDlg.dfm:163
+msgid "Top:"
+msgstr ""
+
+#. PageFormatDialog.GroupBox1.Label3.Caption
+#: PageFormatDlg.dfm:170
+msgid "Right:"
+msgstr ""
+
+#. PageFormatDialog.GroupBox1.Label4.Caption
+#: PageFormatDlg.dfm:177
+msgid "Bottom:"
+msgstr ""
+
+#. PageFormatDialog.GroupBox1.Label11.Caption
+#: PageFormatDlg.dfm:212
+msgid "Gutter:"
+msgstr ""
+
+#. PageFormatDialog.GroupBox1.cbxDuplex.Caption
+#: PageFormatDlg.dfm:226
+msgid "Duplex printing"
+msgstr ""
+
+#. PageFormatDialog.GroupBox2.Caption
+#: PageFormatDlg.dfm:315
+msgid "Options"
+msgstr ""
+
+#. PageFormatDialog.GroupBox2.PageControl.TabSheet1.cbxLineNumbers.Caption
+#: PageFormatDlg.dfm:338
+msgid "Print line numbers"
+msgstr ""
+
+#. PageFormatDialog.GroupBox2.PageControl.TabSheet1.cbxWrapLines.Caption
+#: PageFormatDlg.dfm:346
+msgid "Wrap long lines"
+msgstr ""
+
+#. PageFormatDialog.GroupBox2.PageControl.TabSheet1.cbxColorPrint.Caption
+#: PageFormatDlg.dfm:362
+msgid "Color print"
+msgstr ""
+
+#. PageFormatDialog.GroupBox2.PageControl.TabSheet1.pnlHeader.Label9.Caption
+#: PageFormatDlg.dfm:377
+msgid "Distance to text:"
+msgstr ""
+
+#. PageFormatDialog.GroupBox2.PageControl.TabSheet1.cbxHeader.Caption
+#: PageFormatDlg.dfm:408
+msgid "Print head line"
+msgstr ""
+
+#. PageFormatDialog.GroupBox2.PageControl.TabSheet2.Label13.Caption
+#: PageFormatDlg.dfm:422
+msgid "Font:"
+msgstr ""
+
+#. PageFormatDialog.GroupBox2.PageControl.TabSheet2.btnFont.Caption
+#: PageFormatDlg.dfm:429
+msgid "Select listing print font"
+msgstr ""
+
+#. PageFormatDialog.GroupBox2.PageControl.TabSheet2.Label14.Caption
+#: PageFormatDlg.dfm:489
+msgid "Font size:"
+msgstr ""
+
+#. PageFormatDialog.GroupBox2.PageControl.TabSheet2.Label15.Caption
+#: PageFormatDlg.dfm:496
+msgid "Font type:"
+msgstr ""
+
+#. PageFormatDialog.GroupBox2.PageControl.TabSheet2.Label16.Caption
+#: PageFormatDlg.dfm:503
+msgid "pt"
+msgstr ""
+
+#. PageFormatDialog.rgpOrientation.Caption
+#: PageFormatDlg.dfm:537
+msgid "Page orientation"
+msgstr ""
+
+#. PageFormatDialog.rgpOrientation.Items.Strings
+#: PageFormatDlg.dfm:540
+msgid "Portrait"
+msgstr ""
+
+#. PageFormatDialog.rgpOrientation.Items.Strings
+#: PageFormatDlg.dfm:541
+msgid "Landscape"
+msgstr ""
+
+#. SelectISPDialog.Caption
+#: SelectISPDlg.dfm:4
+msgid "Select module for ISP"
+msgstr ""
+
+#. frmBits.Caption
+#: ShowBitSeg.dfm:4
+msgid "Bit Segment"
+msgstr ""
+
+#. frmBits.pnUser.Label1.Caption
+#: ShowBitSeg.dfm:38
+msgid "User defined symbols:"
+msgstr ""
+
+#. frmBits.pnSfr.Label2.Caption
+#: ShowBitSeg.dfm:88
+msgid "Bit addressable SFRs:"
+msgstr ""
+
+#. frmBreakPoints.Caption
+#: ShowBreakpoints.dfm:4
+msgid "List of breakpoints"
+msgstr ""
+
+#. frmBreakPoints.pnTop.btBpAdd.Hint
+#: ShowBreakpoints.dfm:32
+msgid "Add breakpoint"
+msgstr ""
+
+#. frmBreakPoints.pnTop.btBpRem.Hint
+#: ShowBreakpoints.dfm:78
+msgid "Remove breakpoint"
+msgstr ""
+
+#. frmBreakPoints.pnTop.btRemAll.Hint
+#: ShowBreakpoints.dfm:154
+msgid "Remove all breakpoints"
+msgstr ""
+
+#. frmBreakPoints.pnTop.btAllOn.Hint
+#: ShowBreakpoints.dfm:230
+msgid "Enable all breakpoints"
+msgstr ""
+
+#. frmBreakPoints.pnTop.btAllOff.Hint
+#: ShowBreakpoints.dfm:306
+msgid "Disable all breakpoints"
+msgstr ""
+
+#. frmData.Caption
+#: ShowData.dfm:4
+msgid "Data Segment"
+msgstr ""
+
+#. frmSfr.Caption
+#: ShowSfr.dfm:4
+msgid "Special function registers (SFR)"
+msgstr ""
+
+#. frmSfr.lvData.Caption
+#: ShowSfr.dfm:37
+msgid "Value"
+msgstr ""
+
+#. frmXData.Caption
+#: ShowXData.dfm:4
+msgid "XData Segment"
+msgstr ""
+
+#. TableDialog.Caption
+#: TableDlg.dfm:5
+msgid "Select table"
+msgstr ""
+
+#. TableDialog.gbTable.Caption
+#: TableDlg.dfm:149
+#: MpSim.pas:2645
+#: TableDlg.pas:88
+#: TableDlg.pas:91
+msgid "Symbols"
+msgstr ""
+
+#. TableDialog.gbTable.sbFile.Hint
+#: TableDlg.dfm:159
+msgid "Select file"
+msgstr ""
+
+#. TableDialog.gbTable.rbDefault.Caption
+#: TableDlg.dfm:191
+msgid "Use default"
+msgstr ""
+
+#. TableDialog.gbTable.rbFile.Caption
+#: TableDlg.dfm:201
+msgid "Load from file"
+msgstr ""
+
+#. TableDialog.gbTable.edFile.EditLabel.Caption
+#: TableDlg.dfm:213
+msgid "Filename:"
+msgstr ""
+
+#: ATISPDlg.pas:507
+msgid "Cannot write to microcontroller"
+msgstr ""
+
+#: ATISPDlg.pas:519
+msgid "Invalid signature:\n"
+"  read:     %s\n"
+"  expected: %s"
+msgstr ""
+
+#: ATISPDlg.pas:652
+msgid "Select a HEX file for ISP!"
+msgstr ""
+
+#: ATISPDlg.pas:1005
+msgid "In System Verifying"
+msgstr ""
+
+#. Treiber für ser. Schnittstelle initialisieren
+#: ChkIspMain.pas:171
+#. Treiber für ser. Schnittstelle initialisieren
+#: DiffIspMain.pas:168
+msgid "COM port %u not available!\n"
+"Please select another port!"
+msgstr ""
+
+#: ChkIspMain.pas:203
+#: ChkIspMain.pas:237
+msgid "not ready"
+msgstr ""
+
+#: ChkIspMain.pas:204
+#: ChkIspMain.pas:238
+msgid "not available"
+msgstr ""
+
+#: ChkIspMain.pas:210
+#: ChkIspMain.pas:240
+msgid "not supported"
+msgstr ""
+
+#: ChkIspMain.pas:221
+msgid "Erase all memories?"
+msgstr ""
+
+#: ChkIspMain.pas:344
+msgid "No data available!"
+msgstr ""
+
+#: CompilerOptionsDlg.pas:98
+msgid "Pascal compiler options (Turbo 51)"
+msgstr ""
+
+#: CompilerOptionsDlg.pas:136
+msgid "C compiler options (SDCC)"
+msgstr ""
+
+#: ComReadMain.pas:489
+msgid "Please specify an output file!"
+msgstr ""
+
+#. Append
+#: ComReadMain.pas:500
+msgid "Stop saving data to file"
+msgstr ""
+
+#: ComReadMain.pas:504
+msgid "Could not create output file!"
+msgstr ""
+
+#. Steuerzeichen für die Anzeige entfernen
+#: ComReadMain.pas:619
+msgid "Saved: %u lines"
+msgstr ""
+
+#. end
+#: DiffIspMain.pas:317
+#. end
+#: MpSim.pas:2149
+msgid "Error reading hex file (Line: %u): "
+msgstr ""
+
+#: DiffIspMain.pas:347
+msgid "No differences found!"
+msgstr ""
+
+#: DiffIspMain.pas:352
+msgid "1 difference found!"
+msgstr ""
+
+#: DiffIspMain.pas:353
+msgid "%u differences found!"
+msgstr ""
+
+#: DiffIspMain.pas:360
+#. 'Hex-Datei laden';
+#. Programmer's name for it: rsLoadHex
+#: McStrings.pas:130
+#: MpSim.pas:2606
+msgid "Load Hex file"
+msgstr ""
+
+#. 'Ein Zeichen links';
+#. Programmer's name for it: rsCharLeft
+#: KeyboardDlg.pas:25
+msgid "One character left"
+msgstr ""
+
+#. 'Ein Zeichen rechts';
+#. Programmer's name for it: rsCharRight
+#: KeyboardDlg.pas:26
+msgid "One character right"
+msgstr ""
+
+#. 'Eine Zeile nach oben';
+#. Programmer's name for it: rsLineUp
+#: KeyboardDlg.pas:27
+msgid "One line up"
+msgstr ""
+
+#. 'Eine Zeile nach unten';
+#. Programmer's name for it: rsLineDown
+#: KeyboardDlg.pas:28
+msgid "One line down"
+msgstr ""
+
+#. 'Ein Wort links';
+#. Programmer's name for it: rsWordLeft
+#: KeyboardDlg.pas:29
+msgid "Word left"
+msgstr ""
+
+#. 'Ein Wort rechts';
+#. Programmer's name for it: rsWordRight
+#: KeyboardDlg.pas:30
+msgid "Word right"
+msgstr ""
+
+#. 'An Zeilenanfang';
+#. Programmer's name for it: rsLineStart
+#: KeyboardDlg.pas:31
+msgid "To line start"
+msgstr ""
+
+#. 'An Zeilenende';
+#. Programmer's name for it: rsLineEnd
+#: KeyboardDlg.pas:32
+msgid "To line end"
+msgstr ""
+
+#. 'Seite zurück';
+#. Programmer's name for it: rsPageUp
+#: KeyboardDlg.pas:33
+msgid "One page up"
+msgstr ""
+
+#. 'Seite vor';
+#. Programmer's name for it: rsPageDown
+#: KeyboardDlg.pas:34
+msgid "One page down"
+msgstr ""
+
+#. 'An Seitenanfang';
+#. Programmer's name for it: rsPageTop
+#: KeyboardDlg.pas:35
+msgid "Top of page"
+msgstr ""
+
+#. 'An Seitenende';
+#. Programmer's name for it: rsPageBottom
+#: KeyboardDlg.pas:36
+msgid "End of page"
+msgstr ""
+
+#. 'An Textanfang';
+#. Programmer's name for it: rsEdTop
+#: KeyboardDlg.pas:37
+msgid "Begin of text"
+msgstr ""
+
+#. 'An Textende';
+#. Programmer's name for it: rsEdBottom
+#: KeyboardDlg.pas:38
+msgid "End of text"
+msgstr ""
+
+#. 'Zeichen links markieren';
+#. Programmer's name for it: rsSelLeft
+#: KeyboardDlg.pas:39
+msgid "Select character left"
+msgstr ""
+
+#. 'Zeichen rechts markieren';
+#. Programmer's name for it: rsSelRight
+#: KeyboardDlg.pas:40
+msgid "Select character right"
+msgstr ""
+
+#. 'Zeile nach oben markieren';
+#. Programmer's name for it: rsSelUp
+#: KeyboardDlg.pas:41
+msgid "Select line up"
+msgstr ""
+
+#. 'Zeile nach unten markieren';
+#. Programmer's name for it: rsSelDown
+#: KeyboardDlg.pas:42
+msgid "Select line down"
+msgstr ""
+
+#. 'Seite nach oben markieren';
+#. Programmer's name for it: rsSelPageUp
+#: KeyboardDlg.pas:43
+msgid "Select page up"
+msgstr ""
+
+#. 'Seite nach unten markieren';
+#. Programmer's name for it: rsSelPageDown
+#: KeyboardDlg.pas:44
+msgid "Select page down"
+msgstr ""
+
+#. 'Bis Seitenanfang markieren';
+#. Programmer's name for it: rsSelPageTop
+#: KeyboardDlg.pas:45
+msgid "Select to top of page"
+msgstr ""
+
+#. 'Bis Seitenende markieren';
+#. Programmer's name for it: rsSelPageBottom
+#: KeyboardDlg.pas:46
+msgid "Select to end of page"
+msgstr ""
+
+#. 'Ein Wort links markieren';
+#. Programmer's name for it: rsSelWordLeft
+#: KeyboardDlg.pas:47
+msgid "Select word left"
+msgstr ""
+
+#. 'Ein Wort rechts markieren';
+#. Programmer's name for it: rsSelWordRight
+#: KeyboardDlg.pas:48
+msgid "Select word right"
+msgstr ""
+
+#. 'Bis Zeilenanfang markieren';
+#. Programmer's name for it: rsSelLineStart
+#: KeyboardDlg.pas:49
+msgid "Select to line start"
+msgstr ""
+
+#. 'Bis Zeilenende markieren';
+#. Programmer's name for it: rsSelLineEnd
+#: KeyboardDlg.pas:50
+msgid "Select to line end"
+msgstr ""
+
+#. 'Bis Anfang markieren';
+#. Programmer's name for it: rsSelEditorTop
+#: KeyboardDlg.pas:51
+msgid "Select to begin of text"
+msgstr ""
+
+#. 'Bis Ende markieren';
+#. Programmer's name for it: rsSelEditorBottom
+#: KeyboardDlg.pas:52
+msgid "Select to end of text"
+msgstr ""
+
+#. 'Alles markieren';
+#. Programmer's name for it: rsSelectAll
+#: KeyboardDlg.pas:53
+msgid "Select all"
+msgstr ""
+
+#. 'Zeichen links löschen';
+#. Programmer's name for it: rsDelLastChar
+#: KeyboardDlg.pas:54
+msgid "Delete character left"
+msgstr ""
+
+#. 'Zeichen löschen';
+#. Programmer's name for it: rsDelChar
+#: KeyboardDlg.pas:55
+msgid "Delete character"
+msgstr ""
+
+#. 'Wort löschen';
+#. Programmer's name for it: rsDelWord
+#: KeyboardDlg.pas:56
+msgid "Delete word"
+msgstr ""
+
+#. 'Wort links löschen';
+#. Programmer's name for it: rsDelLastWord
+#: KeyboardDlg.pas:57
+msgid "Delete word left"
+msgstr ""
+
+#. 'Zeile löschen';
+#. Programmer's name for it: rsDelLine
+#: KeyboardDlg.pas:58
+msgid "Delete line"
+msgstr ""
+
+#. 'Bis Zeilenanfang löschen';
+#. Programmer's name for it: rsDelBOL
+#: KeyboardDlg.pas:59
+msgid "Delete to line start"
+msgstr ""
+
+#. 'Bis Zeilende löschen';
+#. Programmer's name for it: rsDelEOL
+#: KeyboardDlg.pas:60
+msgid "Delete to line end"
+msgstr ""
+
+#. 'Alles löschen';
+#. Programmer's name for it: rsDelAll
+#: KeyboardDlg.pas:61
+msgid "Delete all"
+msgstr ""
+
+#. 'Zeilenumbruch';
+#. Programmer's name for it: rsLineBreak
+#: KeyboardDlg.pas:62
+msgid "Line break"
+msgstr ""
+
+#. 'Zeile einfügen';
+#. Programmer's name for it: rsInsertLine
+#: KeyboardDlg.pas:63
+msgid "Insert line"
+msgstr ""
+
+#. 'Nach oben rollen';
+#. Programmer's name for it: rsScrollUp
+#: KeyboardDlg.pas:64
+msgid "Scroll up"
+msgstr ""
+
+#. 'Nach unten rollen';
+#. Programmer's name for it: rsScrollDown
+#: KeyboardDlg.pas:65
+msgid "Scroll down"
+msgstr ""
+
+#. 'Einfügen/Überschreiben';
+#. Programmer's name for it: rsToggleMode
+#: KeyboardDlg.pas:71
+msgid "Insert/Overwrite"
+msgstr ""
+
+#. 'Block einrücken';
+#. Programmer's name for it: rsBlockIndent
+#: KeyboardDlg.pas:72
+msgid "Block indent"
+msgstr ""
+
+#. 'Block ausrücken';
+#. Programmer's name for it: rsBlockUnindent
+#: KeyboardDlg.pas:73
+msgid "Block unindent"
+msgstr ""
+
+#. 'Tabulator';
+#. Programmer's name for it: rsTab
+#: KeyboardDlg.pas:74
+msgid "Tab"
+msgstr ""
+
+#. 'Tabulator zurück';
+#. Programmer's name for it: rsShiftTab
+#: KeyboardDlg.pas:75
+msgid "Back tab"
+msgstr ""
+
+#. 'Passende Klammer';
+#. Programmer's name for it: rsMatchBracket
+#: KeyboardDlg.pas:76
+msgid "Matching bracket"
+msgstr ""
+
+#. 'Normalmodus';
+#. Programmer's name for it: rsNormalSelect
+#: KeyboardDlg.pas:77
+msgid "Normal mode"
+msgstr ""
+
+#. 'Spaltenmodus';
+#. Programmer's name for it: rsColumnSelect
+#: KeyboardDlg.pas:78
+msgid "Column mode"
+msgstr ""
+
+#. 'Zeilenmodus';
+#. Programmer's name for it: rsLineSelect
+#: KeyboardDlg.pas:79
+msgid "Row mode"
+msgstr ""
+
+#. 'Hilfe';
+#. Programmer's name for it: rsContextHelp
+#: KeyboardDlg.pas:80
+msgid "Help"
+msgstr ""
+
+#. 'An Markierung 0';
+#. Programmer's name for it: rsGotoMarker0
+#: KeyboardDlg.pas:81
+msgid "To marker 0"
+msgstr ""
+
+#. 'An Markierung 1';
+#. Programmer's name for it: rsGotoMarker1
+#: KeyboardDlg.pas:82
+msgid "To marker 1"
+msgstr ""
+
+#. 'An Markierung 2';
+#. Programmer's name for it: rsGotoMarker2
+#: KeyboardDlg.pas:83
+msgid "To marker 2"
+msgstr ""
+
+#. 'An Markierung 3';
+#. Programmer's name for it: rsGotoMarker3
+#: KeyboardDlg.pas:84
+msgid "To marker 3"
+msgstr ""
+
+#. 'An Markierung 4';
+#. Programmer's name for it: rsGotoMarker4
+#: KeyboardDlg.pas:85
+msgid "To marker 4"
+msgstr ""
+
+#. 'An Markierung 5';
+#. Programmer's name for it: rsGotoMarker5
+#: KeyboardDlg.pas:86
+msgid "To marker 5"
+msgstr ""
+
+#. 'An Markierung 6';
+#. Programmer's name for it: rsGotoMarker6
+#: KeyboardDlg.pas:87
+msgid "To marker 6"
+msgstr ""
+
+#. 'An Markierung 7';
+#. Programmer's name for it: rsGotoMarker7
+#: KeyboardDlg.pas:88
+msgid "To marker 7"
+msgstr ""
+
+#. 'An Markierung 8';
+#. Programmer's name for it: rsGotoMarker8
+#: KeyboardDlg.pas:89
+msgid "To marker 8"
+msgstr ""
+
+#. 'An Markierung 9';
+#. Programmer's name for it: rsGotoMarker9
+#: KeyboardDlg.pas:90
+msgid "To marker 9"
+msgstr ""
+
+#. 'Setze Markierung 0';
+#. Programmer's name for it: rsSetMarker0
+#: KeyboardDlg.pas:91
+msgid "Set marker 0"
+msgstr ""
+
+#. 'Setze Markierung 1';
+#. Programmer's name for it: rsSetMarker1
+#: KeyboardDlg.pas:92
+msgid "Set marker 1"
+msgstr ""
+
+#. 'Setze Markierung 2';
+#. Programmer's name for it: rsSetMarker2
+#: KeyboardDlg.pas:93
+msgid "Set marker 2"
+msgstr ""
+
+#. 'Setze Markierung 3';
+#. Programmer's name for it: rsSetMarker3
+#: KeyboardDlg.pas:94
+msgid "Set marker 3"
+msgstr ""
+
+#. 'Setze Markierung 4';
+#. Programmer's name for it: rsSetMarker4
+#: KeyboardDlg.pas:95
+msgid "Set marker 4"
+msgstr ""
+
+#. 'Setze Markierung 5';
+#. Programmer's name for it: rsSetMarker5
+#: KeyboardDlg.pas:96
+msgid "Set marker 5"
+msgstr ""
+
+#. 'Setze Markierung 6';
+#. Programmer's name for it: rsSetMarker6
+#: KeyboardDlg.pas:97
+msgid "Set marker 6"
+msgstr ""
+
+#. 'Setze Markierung 7';
+#. Programmer's name for it: rsSetMarker7
+#: KeyboardDlg.pas:98
+msgid "Set marker 7"
+msgstr ""
+
+#. 'Setze Markierung 8';
+#. Programmer's name for it: rsSetMarker8
+#: KeyboardDlg.pas:99
+msgid "Set marker 8"
+msgstr ""
+
+#. 'Setze Markierung 9';
+#. Programmer's name for it: rsSetMarker9
+#: KeyboardDlg.pas:100
+msgid "Set marker 9"
+msgstr ""
+
+#. 'Auf Großbuchstaben';
+#. Programmer's name for it: rsUpperCaseBlock
+#: KeyboardDlg.pas:101
+msgid "To upper case"
+msgstr ""
+
+#. 'Auf Kleinbuchstaben';
+#. Programmer's name for it: rsLowerCaseBlock
+#: KeyboardDlg.pas:102
+msgid "To lower case"
+msgstr ""
+
+#. '(ohne)';
+#. Programmer's name for it: rsNone
+#: KeyboardDlg.pas:234
+msgid "(none)"
+msgstr ""
+
+#. Programmer's name for it: rsConfirm
+#: KeyboardDlg.pas:235
+msgid "Key code \"%s\" is used for command\n"
+"%s\n"
+"Overwrite?"
+msgstr ""
+
+#. 'Vordergrundfarbe wählen';
+#. Programmer's name for it: rsHFColor
+#: McOptionsDlg.pas:133
+msgid "Syntax highlighting: foreground color"
+msgstr ""
+
+#. 'Hintergrundfarbe wählen';
+#. Programmer's name for it: rsHBColor
+#: McOptionsDlg.pas:134
+msgid "Syntax highlighting: background color"
+msgstr ""
+
+#. 'Hintergrundfarbe wählen';
+#. Programmer's name for it: rsBColor
+#: McOptionsDlg.pas:135
+#. 'Hintergrundfarbe wählen';
+#. Programmer's name for it: rsBColor
+#: McStrings.pas:147
+msgid "Select background color"
+msgstr ""
+
+#. Programmer's name for it: rsHlAsm
+#: McOptionsDlg.pas:140
+msgid "\"Commands (ADD, MOV)\",\"Directives (ORG, EQU)\",\"Operators "
+"(LOW)\",\"Special function registers (DPL, P1)\",\"Flags (IE0, "
+"SCON)\",\"Addresses (EXTI0)\",\"Other symbols (DPTR)\",\"Controls "
+"($INCLUDE)\",\"Assembler switches (IFDEF)\",\"Constants (#0FFH)\",\"Strings "
+"(abcdef)\",\"Comment (; hello)\",Space"
+msgstr ""
+
+#. Programmer's name for it: rsHlPas
+#: McOptionsDlg.pas:144
+msgid "\"Key words (FOR, IF, THEN)\",\"Directives ({$DefaultFile "
+"on})\",\"Comments ({ Comment })\",\"Assembler (MOV A,#123)\",\"Identifiers "
+"(i, x, GetVal)\",\"Symbols (:=, <>)\",\"Numbers (123, 12000)\",\"Float "
+"number (1.23, 0.2E-5)\",\"Hex numbers ($123, $FF)\",\"Strings "
+"('Textstring')\",\"Characters ('a', 'b')\",\"Spaces "
+"(Whitespaces)\""
+msgstr ""
+
+#. Programmer's name for it: rsHlCpp
+#: McOptionsDlg.pas:148
+msgid "\"Key words (FOR, IF, CONST)\",\"Directives (#define, "
+"#ifndef)\",\"Comments (/* Comment */)\",\"Assembler (MOV "
+"A,#123)\",\"Identifiers (i, x, main)\",\"Symbols (=, &)\",\"Numbers (123, "
+"12000)\",\"Float number (1.23, 0.2E-5)\",\"Hex numbers (0x123, "
+"0xFF)\",\"Octal numbers (0177, 0350)\",\"Strings "
+"(\"\"Textstring\"\")\",\"Characters (\"\"a\"\", \"\"b\"\")\",\"Spaces "
+"(Whitespaces)\""
+msgstr ""
+
+#. Programmer's name for it: rsAsmOptions
+#: McOptionsDlg.pas:149
+msgid "Settings for Assembler sources"
+msgstr ""
+
+#. Programmer's name for it: rsPasOptions
+#: McOptionsDlg.pas:150
+msgid "Settings for Pascal sources"
+msgstr ""
+
+#. Programmer's name for it: rsCppOptions
+#: McOptionsDlg.pas:151
+msgid "Settings for C sources"
+msgstr ""
+
+#. 'Einstellungen für Text-Dokumente';
+#. Programmer's name for it: rsTextOptions
+#: McOptionsDlg.pas:152
+msgid "Settings for text documents"
+msgstr ""
+
+#: McProjectMain.pas:209
+msgid "MC-51 Project Manager"
+msgstr ""
+
+#: McProjectMain.pas:224
+#. read first project name
+#: McProjectMain.pas:245
+#: McProjectMain.pas:519
+#: McProjectMain.pas:637
+msgid "<no name>"
+msgstr ""
+
+#: McProjectMain.pas:329
+msgid "Select MC-51 main file"
+msgstr ""
+
+#: McProjectMain.pas:332
+msgid "Programs|*.a51;*.pas;*.c|"
+msgstr ""
+
+#: McProjectMain.pas:354
+msgid "Add source files to project"
+msgstr ""
+
+#: McProjectMain.pas:357
+msgid "Programs|*.a51;*.pas;*.inc;*.c;*.h|"
+msgstr ""
+
+#: McProjectMain.pas:373
+msgid "Remove selected source files from project?"
+msgstr ""
+
+#: McProjectMain.pas:417
+msgid "Please specify a name for the project!"
+msgstr ""
+
+#: McProjectMain.pas:433
+#: MpMain.pas:2684
+msgid "Save MC-51 project file"
+msgstr ""
+
+#: McProjectMain.pas:437
+#: McProjectMain.pas:633
+#: MpMain.pas:2688
+msgid "MC-51 projects|*.mcp|all|*.*"
+msgstr ""
+
+#: McProjectMain.pas:579
+msgid "Remove all project entries?"
+msgstr ""
+
+#: McProjectMain.pas:592
+msgid "Remove selected project from list?"
+msgstr ""
+
+#: McProjectMain.pas:629
+msgid "Select MC-51 project file"
+msgstr ""
+
+#: McProjectMain.pas:651
+msgid "MC-51 projects directory"
+msgstr ""
+
+#: McProjectMain.pas:674
+msgid "Search for MC-51 application"
+msgstr ""
+
+#: McProjectMain.pas:678
+msgid "Executable programs|*.exe|all|*.*"
+msgstr ""
+
+#. an Anfang der Liste
+#: McProjectMain.pas:815
+msgid "Could not start\n"
+"%s!"
+msgstr ""
+
+#: McProjectMain.pas:819
+msgid "Project file not found: "
+msgstr ""
+
+#: McProjectMain.pas:820
+msgid "Remove from list?"
+msgstr ""
+
+#. Programmer's name for it: rsWebpage
+#: McStrings.pas:25
+msgid "http://www.rathlev-home.de/index-e.html?mc/mctools-e.html"
+msgstr ""
+
+#. Programmer's name for it: rsInstSetManual
+#: McStrings.pas:26
+msgid "InstSet.pdf"
+msgstr ""
+
+#. Programmer's name for it: rsTurboManual
+#: McStrings.pas:27
+msgid "Turbo-51.pdf"
+msgstr ""
+
+#. Programmer's name for it: rsCompileError
+#: McStrings.pas:28
+msgid "There were errors on compiling the program!"
+msgstr ""
+
+#. Programmer's name for it: rsCompilerExit
+#: McStrings.pas:29
+msgid "The compiler returned exit code %u!"
+msgstr ""
+
+#. 'Text-Datei öffnen';
+#. Programmer's name for it: rsOpen
+#: McStrings.pas:30
+msgid "Open file"
+msgstr ""
+
+#. 'Quelltexte';
+#. Programmer's name for it: rsSources
+#: McStrings.pas:31
+msgid "Sources"
+msgstr ""
+
+#. Programmer's name for it: rsListings
+#: McStrings.pas:32
+msgid "Assembler Listings"
+msgstr ""
+
+#. 'alle';
+#. Programmer's name for it: rsAll
+#: McStrings.pas:33
+msgid "all"
+msgstr ""
+
+#. 'Datei: "%s" nicht gefunden!';
+#. Programmer's name for it: rsFileNotFound
+#: McStrings.pas:34
+msgid "File not found:\n"
+"\"%s\""
+msgstr ""
+
+#. ' sichern als';
+#. Programmer's name for it: rsSaveAs
+#: McStrings.pas:35
+msgid " save as"
+msgstr ""
+
+#. 'Datei überschreiben?';
+#. Programmer's name for it: rsFileOvr
+#: McStrings.pas:36
+msgid "Replace file?"
+msgstr ""
+
+#. 'Standardverzeichnis für Quelltexte';
+#. Programmer's name for it: rsDefDir
+#: McStrings.pas:37
+msgid "Root folder for sources"
+msgstr ""
+
+#. Programmer's name for it: rsSrcDir
+#: McStrings.pas:38
+msgid "Folder for %s"
+msgstr ""
+
+#. 'Zielverzeichnis für ';
+#. Programmer's name for it: rsBDir
+#: McStrings.pas:39
+msgid "Destination folder for "
+msgstr ""
+
+#. '-Dateien';
+#. Programmer's name for it: rsBFiles
+#: McStrings.pas:40
+msgid " files"
+msgstr ""
+
+#. Programmer's name for it: rsAsmOut
+#: McStrings.pas:41
+msgid "Assembler output path for HEX and OMF"
+msgstr ""
+
+#. Programmer's name for it: rsPasOut
+#: McStrings.pas:42
+msgid "Pascal output path for HEX, OMF, ASM and "
+"U51"
+msgstr ""
+
+#. Programmer's name for it: rsCppOut
+#: McStrings.pas:43
+msgid "C output path for IHX, OMF, ASM etc."
+msgstr ""
+
+#. 'Pfade für Include-Dateien';
+#. Programmer's name for it: rsIncludeDir
+#: McStrings.pas:44
+msgid "Paths for include files"
+msgstr ""
+
+#. Programmer's name for it: rsIncDir
+#: McStrings.pas:45
+msgid "Additional path for include files"
+msgstr ""
+
+#. Programmer's name for it: rsPasUnits
+#: McStrings.pas:46
+msgid "Paths for Pascal units"
+msgstr ""
+
+#. Programmer's name for it: rsCppLibDir
+#: McStrings.pas:47
+msgid "Path for C libraries"
+msgstr ""
+
+#. 'Zielverzeichnis für Listing-Dateien';
+#. Programmer's name for it: rsListDir
+#: McStrings.pas:48
+msgid "Destination folder for Assembler listings"
+msgstr ""
+
+#. 'Verzeichnis mit Moduldefinitionen';
+#. Programmer's name for it: rsModDir
+#: McStrings.pas:49
+msgid "Folder with module definitions"
+msgstr ""
+
+#. 'Assembler suchen';
+#. Programmer's name for it: rsAsmSearch
+#: McStrings.pas:50
+msgid "Search for assembler"
+msgstr ""
+
+#. Programmer's name for it: rsPasSearch
+#: McStrings.pas:51
+msgid "Search for Pascal compiler (Turbo 51)"
+msgstr ""
+
+#. Programmer's name for it: rsCppSearch
+#: McStrings.pas:52
+msgid "Installation directory of C compiler "
+"(SDCC)"
+msgstr ""
+
+#. 'Ausführbare Dateien';
+#. Programmer's name for it: rsExeFiles
+#: McStrings.pas:53
+msgid "Executable files"
+msgstr ""
+
+#. 'Simulator suchen';
+#. Programmer's name for it: rsSimuSearch
+#: McStrings.pas:54
+msgid "Search for simulator"
+msgstr ""
+
+#. ' Zielpfad: ';
+#. Programmer's name for it: rsDestPath
+#: McStrings.pas:55
+msgid " Output path: "
+msgstr ""
+
+#. ' - Hauptdatei: ';
+#. Programmer's name for it: rsMainFile
+#: McStrings.pas:56
+msgid " - Main file: "
+msgstr ""
+
+#. ' Einfügen';
+#. Programmer's name for it: rsInsert
+#: McStrings.pas:59
+msgid " Insert"
+msgstr ""
+
+#. ' Überschr.';
+#. Programmer's name for it: rsOverwrite
+#: McStrings.pas:60
+msgid " Overwrite"
+msgstr ""
+
+#. ' erzeugt von ';
+#. Programmer's name for it: rsCreated
+#: McStrings.pas:61
+msgid " created by "
+msgstr ""
+
+#. 'Texteditor: SynEdit (siehe SourceForge.net)';
+#. Programmer's name for it: rsEditRef
+#: McStrings.pas:62
+msgid "Texteditor: SynEdit (see SourceForge.net)"
+msgstr ""
+
+#. 'Assembler ASEM-51 von W.W.Heinz';
+#. Programmer's name for it: rsAsmref
+#: McStrings.pas:63
+msgid "Assembler ASEM-51 by W.W.Heinz"
+msgstr ""
+
+#. Programmer's name for it: rsPasRef
+#: McStrings.pas:64
+msgid "Turbo-51 compiler by Igor Funa"
+msgstr ""
+
+#. Programmer's name for it: rsCRef
+#: McStrings.pas:65
+msgid "Small device C compiler (SDCC) - sdcc.sourceforge.net/"
+msgstr ""
+
+#. 'Seiteneinrichtung für Quelltextdruck';
+#. Programmer's name for it: rsSourcePage
+#: McStrings.pas:66
+msgid "Page settings for source printouts"
+msgstr ""
+
+#. 'Seiteneinrichtung für Listingdruck';
+#. Programmer's name for it: rsListPage
+#: McStrings.pas:67
+msgid "Page settings for listing printouts"
+msgstr ""
+
+#. 'Listing auf %s drucken?';
+#. Programmer's name for it: rsPrintListing
+#: McStrings.pas:68
+msgid "Print listing to %s?"
+msgstr ""
+
+#. ' Listing auswählen';
+#. Programmer's name for it: rsListSelect
+#: McStrings.pas:69
+msgid " Select listing"
+msgstr ""
+
+#. 'Leere Datei: ';
+#. Programmer's name for it: rsFileEmpty
+#: McStrings.pas:70
+msgid "Empty file: \"%s\""
+msgstr ""
+
+#. Programmer's name for it: rsTimeOut
+#: McStrings.pas:71
+msgid "Timeout error during compilation!"
+msgstr ""
+
+#. 'Fehler beim Ausführen des Compilers';
+#. Programmer's name for it: rsAsmError
+#: McStrings.pas:72
+msgid "Error on executing compiler"
+msgstr ""
+
+#. Programmer's name for it: rsPasNoStart
+#: McStrings.pas:73
+msgid "Starting Pascal compiler: %s failed!\n"
+"%s"
+msgstr ""
+
+#. Programmer's name for it: rsCppNoStart
+#: McStrings.pas:74
+msgid "Starting C compiler: %s failed!\n"
+"%s"
+msgstr ""
+
+#. Programmer's name for it: rsAsmNoStart
+#: McStrings.pas:75
+msgid "Starting Assembler: %s failed!\n"
+"%s"
+msgstr ""
+
+#. 'Fehler: $%s';
+#. Programmer's name for it: rsPasNotFound
+#: McStrings.pas:78
+msgid "No Pascal compiler selected!\n"
+"(see \"Settings/Pascal/Program ..\")"
+msgstr ""
+
+#. Programmer's name for it: rsCppNotFound
+#: McStrings.pas:79
+msgid "No C compiler selected!\n"
+"(see \"Settings/C/Root path ..\")"
+msgstr ""
+
+#. Programmer's name for it: rsAsmNotFound
+#: McStrings.pas:80
+msgid "No Assembler selected!\n"
+"(see \"Settings/Assembler/Program ..\")"
+msgstr ""
+
+#. '(siehe "Assembler/Programme suchen ..")';
+#. Programmer's name for it: rsHexDownload
+#: McStrings.pas:83
+msgid "Hex-Download"
+msgstr ""
+
+#. 'Pause zwischen Zeichen:';
+#. Programmer's name for it: rsHexCPause
+#: McStrings.pas:84
+msgid "Delay between characters:"
+msgstr ""
+
+#. 'Pause am Zeilenende:';
+#. Programmer's name for it: rsHexLPause
+#: McStrings.pas:85
+msgid "Delay at line end:"
+msgstr ""
+
+#. Programmer's name for it: rsLineLength
+#: McStrings.pas:86
+msgid "Max. receive line length"
+msgstr ""
+
+#. Programmer's name for it: rsCharCount
+#: McStrings.pas:87
+msgid "Number of characters:"
+msgstr ""
+
+#. 'Hex-Datei laden';
+#. Programmer's name for it: rsHexLoad
+#: McStrings.pas:89
+msgid "Load hex file"
+msgstr ""
+
+#. Programmer's name for it: rsOpCodeLoad
+#: McStrings.pas:90
+msgid "Load OpCode file"
+msgstr ""
+
+#. Programmer's name for it: rsSymbolLoad
+#: McStrings.pas:91
+msgid "Load symbol file"
+msgstr ""
+
+#. Programmer's name for it: rsHexFiles
+#: McStrings.pas:92
+msgid "Intel-Hex"
+msgstr ""
+
+#. Programmer's name for it: rsDownloadHint
+#: McStrings.pas:93
+msgid "Hex format required for download!\n"
+"Please recompile the program!"
+msgstr ""
+
+#. 'Stopp Down&load (Esc)';
+#. Programmer's name for it: rsStopDownload
+#: McStrings.pas:96
+msgid "Stop Down&load (Esc)"
+msgstr ""
+
+#. 'Starte Down&load (F5)';
+#. Programmer's name for it: rsStartDownload
+#: McStrings.pas:97
+msgid "Start Down&load (F5)"
+msgstr ""
+
+#. '### Fertig ###';
+#. Programmer's name for it: rsReady
+#: McStrings.pas:98
+msgid "### Ready ###"
+msgstr ""
+
+#. '!!! Abbruch !!!';
+#. Programmer's name for it: rsStopped
+#: McStrings.pas:99
+msgid "!!! Cancelled !!!"
+msgstr ""
+
+#. Programmer's name for it: rsAskVerify
+#: McStrings.pas:101
+msgid "Verify program memory (Yes) or data memory "
+"(No)?"
+msgstr ""
+
+#. MpMdiSynEdit
+#. Programmer's name for it: rsIOError
+#: McStrings.pas:104
+msgid "Input/Output error %s\n"
+"Loading of \"%s\" stopped!"
+msgstr ""
+
+#. '%s sichern?';
+#. Programmer's name for it: rsSave
+#: McStrings.pas:106
+msgid "Save changes in \"%s\"?"
+msgstr ""
+
+#. Programmer's name for it: rsNewSave
+#: McStrings.pas:107
+msgid "Save \"%s\" as file?"
+msgstr ""
+
+#. '"%s" nicht gefunden!';
+#. Programmer's name for it: rsNotFound
+#: McStrings.pas:108
+msgid "\"%s\" not found!"
+msgstr ""
+
+#. Programmer's name for it: rsReplace
+#: McStrings.pas:109
+msgid "Replace \"%s\"\n"
+" by \"%s\"?"
+msgstr ""
+
+#. 'Gehe zu Zeile:';
+#. Programmer's name for it: rsGotoLine
+#: McStrings.pas:111
+msgid "Goto line:"
+msgstr ""
+
+#. '*Neuer Quelltext ';
+#. Programmer's name for it: rsNewDok
+#: McStrings.pas:112
+msgid "New"
+msgstr ""
+
+#. 'Nicht gesicherte eigene Änderungen gehen dabei verloren!';
+#. Programmer's name for it: rsReloadFile
+#: McStrings.pas:115
+msgid "The text file:\n"
+"%s\n"
+"was changed by another application!\n"
+"Reload this file?\n"
+"Own changes not saved yet will be lossed!"
+msgstr ""
+
+#. Programmer's name for it: rsViewLst
+#: McStrings.pas:117
+msgid "View listing"
+msgstr ""
+
+#. McOptioonsDlg
+#. Programmer's name for it: rsName
+#: McStrings.pas:120
+msgid "Name:"
+msgstr ""
+
+#. Programmer's name for it: rsAsmFiles
+#: McStrings.pas:121
+msgid "Assembler sources"
+msgstr ""
+
+#. Programmer's name for it: rsPasFiles
+#: McStrings.pas:122
+msgid "Pascal sources"
+msgstr ""
+
+#. Programmer's name for it: rsCppFiles
+#: McStrings.pas:123
+msgid "C sources"
+msgstr ""
+
+#. Programmer's name for it: rsTextFiles
+#: McStrings.pas:124
+msgid "Text documents"
+msgstr ""
+
+#. 'Fehler beim Lesen der Hex-Datei in Zeile: %u';
+#. Programmer's name for it: rsHexError
+#: McStrings.pas:127
+msgid "Error reading Hex file in line: %u"
+msgstr ""
+
+#. 'Falscher Adressbereich in Hex-Datei!';
+#. Programmer's name for it: rsAdrError
+#: McStrings.pas:128
+msgid "Illegal address range in Hex file!"
+msgstr ""
+
+#. Programmer's name for it: rsDataMemErr
+#: McStrings.pas:129
+msgid "Addresses out of data memory"
+msgstr ""
+
+#. 'Der Mikrocontroller ist nicht bereit!';
+#. Programmer's name for it: rsNotReady
+#: McStrings.pas:131
+msgid "No response from microcontroller!"
+msgstr ""
+
+#. 'Fehler bei Adresse %4xH!';
+#. Programmer's name for it: rsProgErr
+#: McStrings.pas:132
+msgid "Error at address %s !"
+msgstr ""
+
+#. Programmer's name for it: rsProgErrVal
+#: McStrings.pas:133
+msgid "Given value: %2xH - actual value: %2xH"
+msgstr ""
+
+#. 'Programmierung fehlerfrei!';
+#. Programmer's name for it: rsProgOk
+#: McStrings.pas:134
+msgid "No errors on programming!"
+msgstr ""
+
+#. 'Datenspeicher';
+#. Programmer's name for it: rsDataMem
+#: McStrings.pas:135
+msgid "Data memory"
+msgstr ""
+
+#. 'Programmspeicher';
+#. Programmer's name for it: rsProgMem
+#: McStrings.pas:136
+msgid "Program memory"
+msgstr ""
+
+#. 'Überprüfe ';
+#. Programmer's name for it: rsVerify
+#: McStrings.pas:137
+msgid "Verify: "
+msgstr ""
+
+#. Programmer's name for it: rsStarted
+#: McStrings.pas:138
+msgid "started"
+msgstr ""
+
+#. Programmer's name for it: rsAddr
+#: McStrings.pas:139
+msgid "Adr. %4xH"
+msgstr ""
+
+#. '<keine>';
+#. Programmer's name for it: rsNone
+#: McStrings.pas:143
+msgid "<none>"
+msgstr ""
+
+#. 'Vordergrundfarbe wählen';
+#. Programmer's name for it: rsFColor
+#: McStrings.pas:146
+msgid "Select foreground color"
+msgstr ""
+
+#: MpMain.pas:1523
+msgid "SDCC not available"
+msgstr ""
+
+#: MpMain.pas:1979
+msgid " Default"
+msgstr ""
+
+#: MpMain.pas:2069
+msgid "Edit list of user aplication"
+msgstr ""
+
+#: MpMain.pas:2087
+msgid "Adjust search paths for %s?"
+msgstr ""
+
+#: MpMain.pas:2290
+msgid "Programs"
+msgstr ""
+
+#: MpMain.pas:2676
+msgid "Update current project (%s)?"
+msgstr ""
+
+#: MpMain.pas:2681
+msgid "Save as new project"
+msgstr ""
+
+#: MpMain.pas:2705
+msgid "Adjust all paths to the new default "
+"folder?"
+msgstr ""
+
+#: MpMain.pas:2813
+msgid "\"%s\" not found in this directory!"
+msgstr ""
+
+#: MpMain.pas:2995
+msgid "COM port not available!"
+msgstr ""
+
+#. [pfConsole,pfShowOutput],10000);
+#: MpMain.pas:3332
+msgid "Error executing application:"
+msgstr ""
+
+#: MpMain.pas:3777
+msgid "Please close the simulator window before entering the terminal "
+"mode!"
+msgstr ""
+
+#: MpMain.pas:3971
+msgid "Connected to"
+msgstr ""
+
+#: MpSim.pas:600
+msgid "No output file specified!"
+msgstr ""
+
+#: MpSim.pas:601
+#: MpSim.pas:1171
+msgid "Output to %s disabled!"
+msgstr ""
+
+#: MpSim.pas:602
+#: MpSim.pas:1076
+msgid "Delete output file %s!"
+msgstr ""
+
+#. InfoDialog('MpSim Activate');
+#: MpSim.pas:647
+#: MpSim.pas:2636
+#: MpSim.pas:2862
+msgid "Error loading OMF-51 file:"
+msgstr ""
+
+#: MpSim.pas:753
+#: ShowData.pas:180
+#: ShowXData.pas:182
+msgid "Hex.: "
+msgstr ""
+
+#: MpSim.pas:754
+#: ShowData.pas:180
+#: ShowSfr.pas:187
+#: ShowXData.pas:182
+msgid "Dec.: "
+msgstr ""
+
+#: MpSim.pas:785
+msgid "Bank "
+msgstr ""
+
+#: MpSim.pas:1075
+#: MpSim.pas:1183
+msgid "Output to %s enabled!"
+msgstr ""
+
+#: MpSim.pas:1082
+msgid "Specify file for output from serial "
+"port"
+msgstr ""
+
+#: MpSim.pas:1230
+msgid "Serial output"
+msgstr ""
+
+#: MpSim.pas:1230
+#: MpSim.pas:1252
+msgid "Delay"
+msgstr ""
+
+#: MpSim.pas:1230
+msgid "steps"
+msgstr ""
+
+#: MpSim.pas:1246
+msgid "Timer delay"
+msgstr ""
+
+#: MpSim.pas:1246
+msgid "Skip"
+msgstr ""
+
+#: MpSim.pas:1246
+msgid "instructions"
+msgstr ""
+
+#: MpSim.pas:1252
+msgid "Program trace"
+msgstr ""
+
+#: MpSim.pas:1257
+msgid "Basic code address and start of interrupt "
+"table:"
+msgstr ""
+
+#: MpSim.pas:1265
+msgid "System clock"
+msgstr ""
+
+#: MpSim.pas:1265
+msgid "Frequency"
+msgstr ""
+
+#: MpSim.pas:1275
+msgid "Accumulator:"
+msgstr ""
+
+#: MpSim.pas:1293
+#: MpSim.pas:1351
+msgid "Stack pointer:"
+msgstr ""
+
+#: MpSim.pas:1305
+msgid "Data pointer:"
+msgstr ""
+
+#: MpSim.pas:1316
+msgid "Program counter:"
+msgstr ""
+
+#: MpSim.pas:1325
+msgid "Status register:"
+msgstr ""
+
+#: MpSim.pas:1338
+msgid "Register %u:"
+msgstr ""
+
+#: MpSim.pas:2402
+#: MpSim.pas:2442
+msgid "Data[%s]:"
+msgstr ""
+
+#: MpSim.pas:2411
+#: MpSim.pas:2451
+#: MpSim.pas:2491
+msgid "Goto address:"
+msgstr ""
+
+#: MpSim.pas:2482
+msgid "XData[%s]:"
+msgstr ""
+
+#: MpSim.pas:2570
+msgid "No user symbols loaded"
+msgstr ""
+
+#: MpSim.pas:2571
+msgid "1 user symbol loaded"
+msgstr ""
+
+#: MpSim.pas:2571
+msgid "%u user symbols loaded"
+msgstr ""
+
+#: MpSim.pas:2572
+msgid "No basic symbols loaded"
+msgstr ""
+
+#: MpSim.pas:2573
+msgid "1 basic symbol loaded"
+msgstr ""
+
+#: MpSim.pas:2573
+msgid "%u basic symbols loaded"
+msgstr ""
+
+#: MpSim.pas:2575
+msgid "1 label automatically created"
+msgstr ""
+
+#: MpSim.pas:2575
+msgid "%u labels automatically created"
+msgstr ""
+
+#: MpSim.pas:2625
+msgid "Load OMF-51 file"
+msgstr ""
+
+#: MpSim.pas:2686
+msgid "Export from address:"
+msgstr ""
+
+#: MpSim.pas:2686
+msgid "Export to address:"
+msgstr ""
+
+#. DB statement
+#: MpSim.pas:2732
+msgid "Write disassembled source to"
+msgstr ""
+
+#: MpSim.pas:2801
+#: MpSim.pas:2802
+#: MpSim.pas:2821
+#: MpSim.pas:2822
+msgid "running"
+msgstr ""
+
+#: MpSim.pas:2848
+msgid "Select Hex or OMF-51 file"
+msgstr ""
+
+#: MpSim.pas:2869
+msgid "Error loading Hex file:"
+msgstr ""
+
+#: PageFormatDlg.pas:131
+msgid "Bold italic"
+msgstr ""
+
+#: ShowBreakpoints.pas:169
+msgid "New breakpoint:"
+msgstr ""
+
+#: ShowData.pas:152
+#: ShowXData.pas:154
+msgid "Addr.: "
+msgstr ""
+
+#: ShowData.pas:178
+#. bit addressable register
+#: ShowSfr.pas:185
+#: ShowXData.pas:180
+msgid "Bin.: "
+msgstr ""
+
+#: TableDlg.pas:81
+#: TableDlg.pas:84
+msgid "Opcodes"
+msgstr ""
+

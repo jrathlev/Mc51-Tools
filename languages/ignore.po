@@ -1,0 +1,850 @@
+#  Doesn't have any letters
+#. HauptForm.MainMenu.itmSettings.itmComSettings.N13.Caption
+#: ComReadMain.dfm:225
+#. HauptForm.MainMenu.itmFile.N1.Caption
+#: MpMain.dfm:2070
+#. HauptForm.MainMenu.itmFile.N17.Caption
+#: MpMain.dfm:2078
+#. HauptForm.MainMenu.itmFile.N4.Caption
+#: MpMain.dfm:2094
+#. HauptForm.MainMenu.itmFile.N2.Caption
+#: MpMain.dfm:2121
+#. HauptForm.MainMenu.itmCompiler.N6.Caption
+#: MpMain.dfm:2148
+#. HauptForm.MainMenu.itmCompiler.N8.Caption
+#: MpMain.dfm:2176
+#. HauptForm.MainMenu.itmOptions.DruckEinst.N10.Caption
+#: MpMain.dfm:2237
+#. HauptForm.MainMenu.itmOptions.TermItem.N13.Caption
+#: MpMain.dfm:2311
+#. HauptForm.MainMenu.itmOptions.TermItem.N9.Caption
+#: MpMain.dfm:2416
+#. HauptForm.MainMenu.itmOptions.TermItem.N11.Caption
+#: MpMain.dfm:2456
+#. HauptForm.MainMenu.itmOptions.N5.Caption
+#: MpMain.dfm:2464
+#. HauptForm.MainMenu.itmOptions.N12.Caption
+#: MpMain.dfm:2532
+#. HauptForm.MainMenu.itmOptions.N3.Caption
+#: MpMain.dfm:2542
+#. HauptForm.MainMenu.itmWindows.N15.Caption
+#: MpMain.dfm:2567
+#. HauptForm.MainMenu.itmWindows.N7.Caption
+#: MpMain.dfm:2580
+#. MDIForm.MDIMenu.itmEdit.N3.Caption
+#: MpMDISynEdit.dfm:687
+#. MDIForm.MDIMenu.itmEdit.N2.Caption
+#: MpMDISynEdit.dfm:714
+#. MDIForm.MDIMenu.itmEdit.N1.Caption
+#: MpMDISynEdit.dfm:735
+#. MDIForm.MDIMenu.itmEdit.N5.Caption
+#: MpMDISynEdit.dfm:752
+#. MDIForm.MDIMenu.Einfg.AssemblerControlsItem.N7.Caption
+#: MpMDISynEdit.dfm:787
+#. MDIForm.MDIMenu.Einfg.AssemblerControlsItem.N6.Caption
+#: MpMDISynEdit.dfm:798
+#. MDIForm.MDIMenu.Einfg.N4.Caption
+#: MpMDISynEdit.dfm:806
+#. MDIForm.MDIMenu.Navigieren1.N9.Caption
+#: MpMDISynEdit.dfm:841
+#. MDIForm.MDIMenu.Navigieren1.N8.Caption
+#: MpMDISynEdit.dfm:856
+#. MDIForm.PopupMenu.N12.Caption
+#: MpMDISynEdit.dfm:985
+#. MDIForm.PopupMenu.N10.Caption
+#: MpMDISynEdit.dfm:999
+#. MDIForm.PopupMenu.N11.Caption
+#: MpMDISynEdit.dfm:1014
+#. MpSimulator.MainMenu.Load1.N6.Caption
+#: MpSim.dfm:3680
+#. MpSimulator.MainMenu.itAction.N4.Caption
+#: MpSim.dfm:3731
+#. MpSimulator.MainMenu.itAction.N7.Caption
+#: MpSim.dfm:3744
+#. MpSimulator.MainMenu.itView.N2.Caption
+#: MpSim.dfm:3775
+#. MpSimulator.MainMenu.itSettings.N3.Caption
+#: MpSim.dfm:3836
+#. MpSimulator.MainMenu.itSettings.N5.Caption
+#: MpSim.dfm:3851
+msgid "-"
+msgstr ""
+
+#  Doesn't have any letters
+#. HauptForm..PageControl..TermPage..SendPanel..HexLabel..Caption
+#: MpMain.dfm:1853
+msgid "   "
+msgstr ""
+
+#  Doesn't have any letters
+#. HauptForm..MainMenu..InfoItem..Caption
+#: CanIspMain.dfm:616
+msgid "&?"
+msgstr ""
+
+#  Doesn't have any letters
+#. HauptForm.MainMenu.itmSettings.itmComSettings.StopbitsItem.N1StopBit.Caption
+#: ComReadMain.dfm:316
+#. HauptForm.MainMenu.itmOptions.TermItem.StopbitsItem.N1StopBit.Caption
+#: MpMain.dfm:2403
+msgid "&1"
+msgstr ""
+
+#  Doesn't have any letters
+#. HauptForm.MainMenu.itmSettings.itmComSettings.BaudrateItem.N1200.Caption
+#: ComReadMain.dfm:230
+#. HauptForm.MainMenu.itmOptions.TermItem.BaudrateItem.N1200.Caption
+#: MpMain.dfm:2316
+msgid "&1200"
+msgstr ""
+
+#  Doesn't have any letters
+#. MDITermForm..TermMDiMenu..Schnittstelle1..Baudrate2..N192001..Caption
+#: MpMDITerm.dfm:66
+msgid "&19200"
+msgstr ""
+
+#  Doesn't have any letters
+#. HauptForm.MainMenu.itmSettings.itmComSettings.StopbitsItem.N2StopBit.Caption
+#: ComReadMain.dfm:322
+#. HauptForm.MainMenu.itmOptions.TermItem.StopbitsItem.N2StopBit.Caption
+#: MpMain.dfm:2409
+msgid "&2"
+msgstr ""
+
+#  Doesn't have any letters
+#. HauptForm.MainMenu.itmSettings.itmComSettings.BaudrateItem.N2400.Caption
+#: ComReadMain.dfm:236
+#. HauptForm.MainMenu.itmOptions.TermItem.BaudrateItem.N2400.Caption
+#: MpMain.dfm:2322
+msgid "&2400"
+msgstr ""
+
+#  Doesn't have any letters
+#. HauptForm.MainMenu.itmSettings.itmComSettings.BaudrateItem.N4800.Caption
+#: ComReadMain.dfm:242
+#. HauptForm.MainMenu.itmOptions.TermItem.BaudrateItem.N4800.Caption
+#: MpMain.dfm:2328
+msgid "&4800"
+msgstr ""
+
+#  Doesn't have any letters
+#. HauptForm.MainMenu.itmSettings.itmComSettings.DataBitsItem.N7DataBits.Caption
+#: ComReadMain.dfm:301
+#. HauptForm.MainMenu.itmOptions.TermItem.DataBitsItem.N7DataBits.Caption
+#: MpMain.dfm:2388
+msgid "&7"
+msgstr ""
+
+#  Doesn't have any letters
+#. HauptForm.MainMenu.itmSettings.itmComSettings.DataBitsItem.N8DataBits.Caption
+#: ComReadMain.dfm:307
+#. HauptForm.MainMenu.itmOptions.TermItem.DataBitsItem.N8DataBits.Caption
+#: MpMain.dfm:2394
+msgid "&8"
+msgstr ""
+
+#  Doesn't have any letters
+#. HauptForm.MainMenu.itmSettings.itmComSettings.BaudrateItem.N9600.Caption
+#: ComReadMain.dfm:248
+#. HauptForm.MainMenu.itmOptions.TermItem.BaudrateItem.N9600.Caption
+#: MpMain.dfm:2334
+msgid "&9600"
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.TermItem.LineendItem.CRItem.Caption
+#: MpMain.dfm:2432
+msgid "&CR"
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.TermItem.LineendItem.LFItem.Caption
+#: MpMain.dfm:2439
+msgid "&LF"
+msgstr ""
+
+#  Doesn't look like text
+#. HauptForm.MainMenu.itmCompiler.ObjectformatItem.OMFFormatItem.Caption
+#: MpMain.dfm:2169
+msgid "&OMF-51"
+msgstr ""
+
+#  Doesn't look like text
+#. HauptForm.ComPort.PortName
+#: ComReadMain.dfm:185
+msgid "\\\\.\\COM2"
+msgstr ""
+
+#  Doesn't have any letters
+#. MpSimulator.pnBottom.pcMem.tsCode.lvCodeMem.Caption
+#: MpSim.dfm:214
+#. MpSimulator.pnBottom.pcMem.tsData.lvDataMem.Caption
+#: MpSim.dfm:282
+#. MpSimulator.pnBottom.pcMem.tsXData.lvXDataMem.Caption
+#: MpSim.dfm:350
+msgid "00"
+msgstr ""
+
+#  Doesn't have any letters
+#. MpSimulator.pnBottom.pcMem.tsCode.lvCodeMem.Caption
+#: MpSim.dfm:218
+#. MpSimulator.pnBottom.pcMem.tsData.lvDataMem.Caption
+#: MpSim.dfm:286
+#. MpSimulator.pnBottom.pcMem.tsXData.lvXDataMem.Caption
+#: MpSim.dfm:354
+msgid "01"
+msgstr ""
+
+#  Doesn't have any letters
+#. MpSimulator.pnBottom.pcMem.tsCode.lvCodeMem.Caption
+#: MpSim.dfm:222
+#. MpSimulator.pnBottom.pcMem.tsData.lvDataMem.Caption
+#: MpSim.dfm:290
+#. MpSimulator.pnBottom.pcMem.tsXData.lvXDataMem.Caption
+#: MpSim.dfm:358
+msgid "02"
+msgstr ""
+
+#  Doesn't have any letters
+#. MpSimulator.pnBottom.pcMem.tsCode.lvCodeMem.Caption
+#: MpSim.dfm:226
+#. MpSimulator.pnBottom.pcMem.tsData.lvDataMem.Caption
+#: MpSim.dfm:294
+#. MpSimulator.pnBottom.pcMem.tsXData.lvXDataMem.Caption
+#: MpSim.dfm:362
+msgid "03"
+msgstr ""
+
+#  Doesn't have any letters
+#. MpSimulator.pnBottom.pcMem.tsCode.lvCodeMem.Caption
+#: MpSim.dfm:230
+#. MpSimulator.pnBottom.pcMem.tsData.lvDataMem.Caption
+#: MpSim.dfm:298
+#. MpSimulator.pnBottom.pcMem.tsXData.lvXDataMem.Caption
+#: MpSim.dfm:366
+msgid "04"
+msgstr ""
+
+#  Doesn't have any letters
+#. MpSimulator.pnBottom.pcMem.tsCode.lvCodeMem.Caption
+#: MpSim.dfm:234
+#. MpSimulator.pnBottom.pcMem.tsData.lvDataMem.Caption
+#: MpSim.dfm:302
+#. MpSimulator.pnBottom.pcMem.tsXData.lvXDataMem.Caption
+#: MpSim.dfm:370
+msgid "05"
+msgstr ""
+
+#  Doesn't have any letters
+#. MpSimulator.pnBottom.pcMem.tsCode.lvCodeMem.Caption
+#: MpSim.dfm:238
+#. MpSimulator.pnBottom.pcMem.tsData.lvDataMem.Caption
+#: MpSim.dfm:306
+#. MpSimulator.pnBottom.pcMem.tsXData.lvXDataMem.Caption
+#: MpSim.dfm:374
+msgid "06"
+msgstr ""
+
+#  Doesn't have any letters
+#. MpSimulator.pnBottom.pcMem.tsCode.lvCodeMem.Caption
+#: MpSim.dfm:242
+#. MpSimulator.pnBottom.pcMem.tsData.lvDataMem.Caption
+#: MpSim.dfm:310
+#. MpSimulator.pnBottom.pcMem.tsXData.lvXDataMem.Caption
+#: MpSim.dfm:378
+msgid "07"
+msgstr ""
+
+#  Doesn't have any letters
+#. HauptForm.MainMenu.itmSettings.itmComSettings.BaudrateItem.N115200.Caption
+#: ComReadMain.dfm:271
+#. HauptForm.MainMenu.itmOptions.TermItem.BaudrateItem.N115200.Caption
+#: MpMain.dfm:2358
+msgid "11&5200"
+msgstr ""
+
+#  Doesn't have any letters
+#. HauptForm.MainMenu.itmSettings.itmComSettings.BaudrateItem.N19200.Caption
+#: ComReadMain.dfm:254
+#. HauptForm.MainMenu.itmOptions.TermItem.BaudrateItem.N19200.Caption
+#: MpMain.dfm:2340
+msgid "192&00"
+msgstr ""
+
+#  Doesn't have any letters
+#. HauptForm.MainMenu.itmSettings.itmComSettings.BaudrateItem.N38400.Caption
+#: ComReadMain.dfm:260
+#. HauptForm.MainMenu.itmOptions.TermItem.BaudrateItem.N38400.Caption
+#: MpMain.dfm:2346
+msgid "3&8400"
+msgstr ""
+
+#  Doesn't have any letters
+#. HauptForm.MainMenu.itmSettings.itmComSettings.BaudrateItem.N57600.Caption
+#: ComReadMain.dfm:266
+#. HauptForm.MainMenu.itmOptions.TermItem.BaudrateItem.N57600.Caption
+#: MpMain.dfm:2352
+msgid "5&7600"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. HauptForm.SynEditPrintText.Header.DefaultFont.Name
+#: MpMain.dfm:2691
+#. HauptForm.SynEditPrintText.Footer.DefaultFont.Name
+#: MpMain.dfm:2696
+#. HauptForm.SynEditPrintListing.Header.DefaultFont.Name
+#: MpMain.dfm:2723
+#. HauptForm.SynEditPrintListing.Footer.DefaultFont.Name
+#: MpMain.dfm:2728
+msgid "Arial"
+msgstr ""
+
+#  Doesn't look like text
+#. HauptForm.MainMenu.itmSettings.itmComSettings.ComPortItem.COM11.Caption
+#: ComReadMain.dfm:200
+#. HauptForm.MainMenu.itmOptions.TermItem.ComPortItem.COM11.Caption
+#: MpMain.dfm:2262
+msgid "COM&1"
+msgstr ""
+
+#  Doesn't look like text
+#. HauptForm.MainMenu.itmSettings.itmComSettings.ComPortItem.COM21.Caption
+#: ComReadMain.dfm:206
+#. HauptForm.MainMenu.itmOptions.TermItem.ComPortItem.COM21.Caption
+#: MpMain.dfm:2268
+msgid "COM&2"
+msgstr ""
+
+#  Doesn't look like text
+#. HauptForm.MainMenu.itmSettings.itmComSettings.ComPortItem.COM31.Caption
+#: ComReadMain.dfm:212
+#. HauptForm.MainMenu.itmOptions.TermItem.ComPortItem.COM31.Caption
+#: MpMain.dfm:2274
+msgid "COM&3"
+msgstr ""
+
+#  Doesn't look like text
+#. HauptForm.MainMenu.itmSettings.itmComSettings.ComPortItem.COM41.Caption
+#: ComReadMain.dfm:218
+#. HauptForm.MainMenu.itmOptions.TermItem.ComPortItem.COM41.Caption
+#: MpMain.dfm:2280
+msgid "COM&4"
+msgstr ""
+
+#  Doesn't look like text
+#. HauptForm.MainMenu.itmOptions.TermItem.ComPortItem.COM51.Caption
+#: MpMain.dfm:2286
+msgid "COM&5"
+msgstr ""
+
+#  Doesn't look like text
+#. HauptForm.MainMenu.itmOptions.TermItem.ComPortItem.COM61.Caption
+#: MpMain.dfm:2292
+msgid "COM&6"
+msgstr ""
+
+#  Doesn't look like text
+#. HauptForm.MainMenu.itmOptions.TermItem.ComPortItem.COM71.Caption
+#: MpMain.dfm:2298
+msgid "COM&7"
+msgstr ""
+
+#  Doesn't look like text
+#. HauptForm.MainMenu.itmOptions.TermItem.ComPortItem.COM81.Caption
+#: MpMain.dfm:2304
+msgid "COM&8"
+msgstr ""
+
+#  Doesn't look like text
+#. MDITermForm..TermPanel..ComboBox1..Text
+#: MpMDITerm.dfm:34
+msgid "ComboBox1"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. MainForm.Panel2.gbData.lbData.Font.Name
+#: ChkIspMain.dfm:449
+#. MainForm.Panel2.gbData.edFrom.Font.Name
+#: ChkIspMain.dfm:463
+#. MainForm.Panel2.gbData.edTo.Font.Name
+#: ChkIspMain.dfm:482
+#. HauptForm.DataReceive.Font.Name
+#: ComReadMain.dfm:50
+#. MainForm.paRight.gbData.edFrom.Font.Name
+#: DiffIspMain.dfm:334
+#. MainForm.paRight.gbData.edTo.Font.Name
+#: DiffIspMain.dfm:353
+#. MainForm.paRight.gbData.edProgress.Font.Name
+#: DiffIspMain.dfm:384
+#. ValueDialog.paVal1.edValue.Font.Name
+#: InpValue.dfm:41
+#. ValueDialog.paVal2.edValue2.Font.Name
+#: InpValue.dfm:280
+#. HauptForm.PageControl.TermPage.DataSend.Font.Name
+#: MpMain.dfm:1805
+#. HauptForm.PageControl.TermPage.DataReceive.Font.Name
+#: MpMain.dfm:1954
+#. MDIForm.TextBuffer.Font.Name
+#: MpMDISynEdit.dfm:634
+#. MDIForm.TextBuffer.Gutter.Font.Name
+#: MpMDISynEdit.dfm:642
+#. MpSimulator.pnBottom.pcMem.tsCode.lvCodeMem.Font.Name
+#: MpSim.dfm:248
+#. MpSimulator.pnBottom.pcMem.tsData.lvDataMem.Font.Name
+#: MpSim.dfm:316
+#. MpSimulator.pnBottom.pcMem.tsXData.lvXDataMem.Font.Name
+#: MpSim.dfm:384
+#. MpSimulator.pnBottom.meSerOut.Font.Name
+#: MpSim.dfm:1268
+#. MpSimulator.pnBottom.meSerIn.Font.Name
+#: MpSim.dfm:1284
+#. MpSimulator.pnTop.pcDebug.tsAssembler.lvCode.Font.Name
+#: MpSim.dfm:1475
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel3.edDptr.Font.Name
+#: MpSim.dfm:2462
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel3.edPC.Font.Name
+#: MpSim.dfm:2483
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel3.edSp.Font.Name
+#: MpSim.dfm:2502
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel4.edAcc.Font.Name
+#: MpSim.dfm:2614
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel4.edB.Font.Name
+#: MpSim.dfm:2636
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel4.edPsw.Font.Name
+#: MpSim.dfm:2658
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel6.gbBank.edR0.Font.Name
+#: MpSim.dfm:2839
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel6.gbBank.edR1.Font.Name
+#: MpSim.dfm:2862
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel6.gbBank.edR2.Font.Name
+#: MpSim.dfm:2885
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel6.gbBank.edR3.Font.Name
+#: MpSim.dfm:2908
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel6.gbBank.edR4.Font.Name
+#: MpSim.dfm:2931
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel6.gbBank.edR5.Font.Name
+#: MpSim.dfm:2954
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel6.gbBank.edR6.Font.Name
+#: MpSim.dfm:2977
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel6.gbBank.edR7.Font.Name
+#: MpSim.dfm:3000
+#. frmBits.pnUser.lvData.Font.Name
+#: ShowBitSeg.dfm:58
+#. frmBits.pnSfr.lvSfr.Font.Name
+#: ShowBitSeg.dfm:108
+#. frmBreakPoints.lvBreakpoints.Font.Name
+#: ShowBreakpoints.dfm:397
+#. frmData.Font.Name
+#: ShowData.dfm:12
+#. frmSfr.lvData.Font.Name
+#: ShowSfr.dfm:42
+msgid "Courier New"
+msgstr ""
+
+#. HauptForm.MainMenu.itmOptions.TermItem.LineendItem.CRLFITem.Caption
+#: MpMain.dfm:2445
+msgid "CR&+LF"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet1.edtHexName.Text
+#: ATISPDlg.dfm:209
+msgid "edtHexName"
+msgstr ""
+
+#  Doesn't look like text
+#. MpSimulator.pnBottom.gbInt.btExtInt0.Caption
+#: MpSim.dfm:1389
+msgid "EXT0"
+msgstr ""
+
+#  Doesn't look like text
+#. MpSimulator.pnBottom.gbInt.btExtInt1.Caption
+#: MpSim.dfm:1408
+msgid "EXT1"
+msgstr ""
+
+#. HauptForm.PageControl.DosPage.DosWindow.Font.Name
+#: MpMain.dfm:1706
+msgid "Fixedsys"
+msgstr ""
+
+#  Doesn't look like text
+#. Form1..Caption
+#: FloatMain.dfm:4
+msgid "Form1"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet2.lblCom.Caption
+#: ATISPDlg.dfm:252
+msgid "lblCom"
+msgstr ""
+
+#. StartScreen.lblCop.Caption
+#: McStart.dfm:5322
+msgid "lblCop"
+msgstr ""
+
+#  Doesn't look like text
+#. ISPDialog.PageControl.TabSheet2.lblHexfile2.Caption
+#: ATISPDlg.dfm:232
+msgid "lblHexfile2"
+msgstr ""
+
+#  Doesn't look like text
+#. ISPDialog.PageControl.TabSheet4.lblHexfile4.Caption
+#: ATISPDlg.dfm:711
+msgid "lblHexfile4"
+msgstr ""
+
+#. PageFormatDialog.GroupBox1.Label5.Caption
+#: PageFormatDlg.dfm:184
+#. PageFormatDialog.GroupBox1.Label6.Caption
+#: PageFormatDlg.dfm:191
+#. PageFormatDialog.GroupBox1.Label7.Caption
+#: PageFormatDlg.dfm:198
+#. PageFormatDialog.GroupBox1.Label8.Caption
+#: PageFormatDlg.dfm:205
+#. PageFormatDialog.GroupBox1.Label12.Caption
+#: PageFormatDlg.dfm:219
+#. PageFormatDialog.GroupBox2.PageControl.TabSheet1.pnlHeader.Label10.Caption
+#: PageFormatDlg.dfm:384
+msgid "mm"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. ISPDialog..Font.Name
+#: ATISPDlg.dfm:12
+#. ISPDialog..PageControl..TabSheet2..lblHexfile2..Font.Name
+#: ATISPDlg.dfm:229
+#. ISPDialog..PageControl..TabSheet2..lblCom..Font.Name
+#: ATISPDlg.dfm:249
+#. ISPDialog..PageControl..TabSheet3..lblAdr3..Font.Name
+#: ATISPDlg.dfm:446
+#. ISPDialog..PageControl..TabSheet3..btnProg..Font.Name
+#: ATISPDlg.dfm:518
+#. ISPDialog..PageControl..TabSheet4..lblHexfile4..Font.Name
+#: ATISPDlg.dfm:685
+#. ISPDialog..PageControl..TabSheet4..lblStatus..Font.Name
+#: ATISPDlg.dfm:698
+#. ISPDialog..PageControl..TabSheet4..btnVerify..Font.Name
+#: ATISPDlg.dfm:720
+#. HauptForm..Font.Name
+#: CanIspMain.dfm:11
+#. HauptForm..GroupBox1..Panel1..ManID..Font.Name
+#: CanIspMain.dfm:74
+#. HauptForm..GroupBox1..Panel1..DevID1..Font.Name
+#: CanIspMain.dfm:90
+#. HauptForm..GroupBox1..Panel1..DevID2..Font.Name
+#: CanIspMain.dfm:106
+#. HauptForm..GroupBox1..Panel1..DevID3..Font.Name
+#: CanIspMain.dfm:122
+#. HauptForm..GroupBox1..Panel1..BootID1..Font.Name
+#: CanIspMain.dfm:138
+#. HauptForm..GroupBox1..Panel1..BootID2..Font.Name
+#: CanIspMain.dfm:154
+#. HauptForm..GroupBox1..Panel1..BLDVers..Font.Name
+#: CanIspMain.dfm:170
+#. HauptForm..GroupBox1..Panel2..HwByte..Font.Name
+#: CanIspMain.dfm:220
+#. HauptForm..GroupBox1..Panel3..DevSBV..Font.Name
+#: CanIspMain.dfm:259
+#. HauptForm..GroupBox1..Panel3..DevEB..Font.Name
+#: CanIspMain.dfm:274
+#. HauptForm..GroupBox1..Panel3..DevBSB..Font.Name
+#: CanIspMain.dfm:289
+#. HauptForm..GroupBox1..Panel4..DevSSB..Font.Name
+#: CanIspMain.dfm:320
+#. HauptForm..GroupBox1..Panel5..CrisVal..Font.Name
+#: CanIspMain.dfm:400
+#. HauptForm..GroupBox1..Panel5..NodeVal..Font.Name
+#: CanIspMain.dfm:415
+#. KeyboardDialog..Font.Name
+#: KeyboardDlg.dfm:13
+#. KeyboardDialog..Label1..Font.Name
+#: KeyboardDlg.dfm:33
+#. KeyboardDialog..Label2..Font.Name
+#: KeyboardDlg.dfm:46
+#. KeyboardDialog..OKBtn..Font.Name
+#: KeyboardDlg.dfm:61
+#. KeyboardDialog..CancelBtn..Font.Name
+#: KeyboardDlg.dfm:135
+#. KeyboardDialog..KeyCmdList..Font.Name
+#: KeyboardDlg.dfm:217
+#. KeyboardDialog..stxCommand..Font.Name
+#: KeyboardDlg.dfm:238
+#. KeyboardDialog..BitBtn1..Font.Name
+#: KeyboardDlg.dfm:252
+#. KeyboardDialog..BitBtn2..Font.Name
+#: KeyboardDlg.dfm:281
+#. HauptForm..Font.Name
+#: MpMain.dfm:11
+#. HauptForm..PanelSpace..ModulPanel..Label1..Font.Name
+#: MpMain.dfm:447
+#. HauptForm..PageControl..DosPage..DosWindow..Font.Name
+#: MpMain.dfm:588
+#. HauptForm..PageControl..TermPage..SendPanel..DownloadHexBtn..Font.Name
+#: MpMain.dfm:733
+#. HauptForm..SynEditPrintText..Font.Name
+#: MpMain.dfm:1339
+#. HauptForm..SynEditPrintListing..Font.Name
+#: MpMain.dfm:1371
+#. MDIForm..Font.Name
+#: MpMDISynEdit.dfm:11
+#. MDITermForm..Font.Name
+#: MpMDITerm.dfm:11
+#. TextOptionsDialog..Font.Name
+#: OptionsDlg.dfm:12
+#. TextOptionsDialog..GroupBox2..cbxKeyTypes..Font.Name
+#: OptionsDlg.dfm:262
+#. PageFormatDialog..Font.Name
+#: PageFormatDlg.dfm:12
+#. PageFormatDialog..FontDialog..Font.Name
+#: PageFormatDlg.dfm:514
+msgid "MS Sans Serif"
+msgstr ""
+
+#  Doesn't look like text
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel6.gbBank.Label7.Caption
+#: MpSim.dfm:2829
+msgid "R0:"
+msgstr ""
+
+#  Doesn't look like text
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel6.gbBank.Label10.Caption
+#: MpSim.dfm:2766
+msgid "R1:"
+msgstr ""
+
+#  Doesn't look like text
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel6.gbBank.Label13.Caption
+#: MpSim.dfm:2775
+msgid "R2:"
+msgstr ""
+
+#  Doesn't look like text
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel6.gbBank.Label14.Caption
+#: MpSim.dfm:2784
+msgid "R3:"
+msgstr ""
+
+#  Doesn't look like text
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel6.gbBank.Label19.Caption
+#: MpSim.dfm:2793
+msgid "R4:"
+msgstr ""
+
+#  Doesn't look like text
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel6.gbBank.Label20.Caption
+#: MpSim.dfm:2802
+msgid "R5:"
+msgstr ""
+
+#  Doesn't look like text
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel6.gbBank.Label21.Caption
+#: MpSim.dfm:2811
+msgid "R6:"
+msgstr ""
+
+#  Doesn't look like text
+#. MpSimulator.pnTop.pnControls.gbRegisters.Panel6.gbBank.Label22.Caption
+#: MpSim.dfm:2820
+msgid "R7:"
+msgstr ""
+
+#. KeyboardDialog..stxCommand..Caption
+#: KeyboardDlg.dfm:234
+msgid "stxCommand"
+msgstr ""
+
+#  Seems like a Font.Name extract
+#. HauptForm.FontDialog.Font.Name
+#: MpMain.dfm:2671
+msgid "System"
+msgstr ""
+
+#  Doesn't look like text
+#. HauptForm..GroupBox1..Caption
+#: CanIspMain.dfm:27
+msgid "T89C51CC01"
+msgstr ""
+
+#  Doesn't look like text
+#. PageFormatDialog.GroupBox2.PageControl.TabSheet1.Caption
+#: PageFormatDlg.dfm:327
+msgid "TabSheet1"
+msgstr ""
+
+#  Doesn't look like text
+#. PageFormatDialog.GroupBox2.PageControl.TabSheet2.Caption
+#: PageFormatDlg.dfm:414
+msgid "TabSheet2"
+msgstr ""
+
+#. AppListDialog.Font.Name
+#: AppListDlg.dfm:11
+#. ISPDialog.Font.Name
+#: ATISPDlg.dfm:12
+#. ISPDialog.PageControl.TabSheet2.lblHexfile2.Font.Name
+#: ATISPDlg.dfm:236
+#. ISPDialog.PageControl.TabSheet2.lblCom.Font.Name
+#: ATISPDlg.dfm:256
+#. ISPDialog.PageControl.TabSheet3.lblAdr3.Font.Name
+#: ATISPDlg.dfm:457
+#. ISPDialog.PageControl.TabSheet3.btnProg.Font.Name
+#: ATISPDlg.dfm:529
+#. ISPDialog.PageControl.TabSheet4.lblHexfile4.Font.Name
+#: ATISPDlg.dfm:715
+#. ISPDialog.PageControl.TabSheet4.lblStatus.Font.Name
+#: ATISPDlg.dfm:728
+#. ISPDialog.PageControl.TabSheet4.lblError.Font.Name
+#: ATISPDlg.dfm:741
+#. ISPDialog.PageControl.TabSheet4.btnVerify.Font.Name
+#: ATISPDlg.dfm:764
+#. MainForm.Font.Name
+#: ChkIspMain.dfm:11
+#. CompilerPathDialog.pnBottom.CancelBtn.Font.Name
+#: CompilerPathDlg.dfm:643
+#. CompilerPathDialog.pnBottom.OKBtn.Font.Name
+#: CompilerPathDlg.dfm:712
+#. HauptForm.Font.Name
+#: ComReadMain.dfm:11
+#. MainForm.Font.Name
+#: DiffIspMain.dfm:11
+#. MainForm.paRight.laDiff.Font.Name
+#: DiffIspMain.dfm:258
+#. ValueDialog.Font.Name
+#: InpValue.dfm:12
+#. KeyboardDialog.Font.Name
+#: KeyboardDlg.dfm:13
+#. KeyboardDialog.Label1.Font.Name
+#: KeyboardDlg.dfm:34
+#. KeyboardDialog.Label2.Font.Name
+#: KeyboardDlg.dfm:47
+#. KeyboardDialog.OKBtn.Font.Name
+#: KeyboardDlg.dfm:62
+#. KeyboardDialog.CancelBtn.Font.Name
+#: KeyboardDlg.dfm:131
+#. KeyboardDialog.KeyCmdList.Font.Name
+#: KeyboardDlg.dfm:207
+#. KeyboardDialog.btnClear.Font.Name
+#: KeyboardDlg.dfm:227
+#. KeyboardDialog.btnChange.Font.Name
+#: KeyboardDlg.dfm:293
+#. McOptionsDialog.Font.Name
+#: McOptionsDlg.dfm:12
+#. McOptionsDialog.gbHighlight.cbxKeyTypes.Font.Name
+#: McOptionsDlg.dfm:252
+#. MainForm.Font.Name
+#: McProjectMain.dfm:10
+#. MainForm.pcMain.tsProject.bbEdit.Font.Name
+#: McProjectMain.dfm:256
+#. MainForm.pcMain.tsProject.bbNew.Font.Name
+#: McProjectMain.dfm:471
+#. MainForm.pcMain.tsEdit.laCompType.Font.Name
+#: McProjectMain.dfm:1134
+#. MemoryDialog.Font.Name
+#: MemoryDlg.dfm:12
+#. HauptForm.Font.Name
+#: MpMain.dfm:11
+#. HauptForm.PanelSpace.ModulPanel.Label1.Font.Name
+#: MpMain.dfm:1318
+#. HauptForm.PanelSpace.ModulPanel.ModulList.Font.Name
+#: MpMain.dfm:1537
+#. HauptForm.PageControl.DosPage.DosPanel.Font.Name
+#: MpMain.dfm:1574
+#. HauptForm.PageControl.DosPage.DosPanel.CloseDosWindowBtn.Font.Name
+#: MpMain.dfm:1591
+#. HauptForm.PageControl.DosPage.DosPanel.CopyDosWindowBtn.Font.Name
+#: MpMain.dfm:1660
+#. HauptForm.PageControl.TermPage.ReceivePanel.Font.Name
+#: MpMain.dfm:1736
+#. HauptForm.PageControl.TermPage.ReceivePanel.ClearReceive.Font.Name
+#: MpMain.dfm:1749
+#. HauptForm.PageControl.TermPage.SendPanel.Font.Name
+#: MpMain.dfm:1827
+#. HauptForm.PageControl.TermPage.SendPanel.DownloadHexBtn.Font.Name
+#: MpMain.dfm:1921
+#. HauptForm.TCFiles.Font.Name
+#: MpMain.dfm:1975
+#. HauptForm.SynEditPrintText.Font.Name
+#: MpMain.dfm:2711
+#. HauptForm.SynEditPrintListing.Font.Name
+#: MpMain.dfm:2743
+#. MDIForm.Font.Name
+#: MpMDISynEdit.dfm:11
+#. MpSimulator.Font.Name
+#: MpSim.dfm:12
+#. MpSimulator.pnBottom.gbSymbols.btSfr.Font.Name
+#: MpSim.dfm:1310
+#. MpSimulator.pnBottom.gbSymbols.btBits.Font.Name
+#: MpSim.dfm:1328
+#. MpSimulator.pnBottom.gbSymbols.btData.Font.Name
+#: MpSim.dfm:1346
+#. MpSimulator.pnBottom.gbSymbols.btXData.Font.Name
+#: MpSim.dfm:1364
+#. MpSimulator.pnBottom.gbInt.btExtInt0.Font.Name
+#: MpSim.dfm:1393
+#. MpSimulator.pnBottom.gbInt.btExtInt1.Font.Name
+#: MpSim.dfm:1412
+#. MpSimulator.pnTop.pnControls.pnCycles.edCycles.Font.Name
+#: MpSim.dfm:3082
+#. MpSimulator.pnTop.pnBaseAdr.Font.Name
+#: MpSim.dfm:3117
+#. HauptForm.Font.Name
+#: Omf51Main.dfm:11
+#. PageFormatDialog.Font.Name
+#: PageFormatDlg.dfm:12
+#. PathDialog.pnBottom.CancelBtn.Font.Name
+#: PathDlg.dfm:631
+#. PathDialog.pnBottom.OKBtn.Font.Name
+#: PathDlg.dfm:700
+#. SelectISPDialog.Font.Name
+#: SelectISPDlg.dfm:11
+#. frmBits.Font.Name
+#: ShowBitSeg.dfm:12
+#. frmBreakPoints.Font.Name
+#: ShowBreakpoints.dfm:12
+#. frmSfr.Font.Name
+#: ShowSfr.dfm:12
+#. frmXData.Font.Name
+#: ShowXData.dfm:12
+msgid "Tahoma"
+msgstr ""
+
+#. CompilerOptionsDialog.pcCompiler.tsCpp.Caption
+#: CompilerOptionsDlg.dfm:388
+msgid "tsCpp"
+msgstr ""
+
+#. CompilerOptionsDialog.pcCompiler.tsPascal.Caption
+#: CompilerOptionsDlg.dfm:164
+msgid "tsPascal"
+msgstr ""
+
+#. StartScreen.Font.Name
+#: McStart.dfm:14
+#. StartScreen.lblStat.Font.Name
+#: McStart.dfm:5293
+#. StartScreen.lblVers.Font.Name
+#: McStart.dfm:5310
+#. StartScreen.lblCop.Font.Name
+#: McStart.dfm:5327
+#. StartScreen.lblFiles.Font.Name
+#: McStart.dfm:5343
+msgid "Verdana"
+msgstr ""
+
+#. ISPDialog.PageControl.TabSheet5.Caption
+#: ATISPDlg.dfm:934
+msgid "VerifySelection"
+msgstr ""
+
+#. StartScreen.lblVers.Caption
+#: McStart.dfm:5305
+msgid "Vers 1.1"
+msgstr ""
+
+#. KeyboardDialog.Panel1.lbCommand.Caption
+#: KeyboardDlg.dfm:362
+msgid "xxx"
+msgstr ""
+

@@ -1,0 +1,208 @@
+MC-Tools Version 6
+==================
+
+MC-Tools is a package of several programs to develop software for the 8051 family of
+microcontrollers (Siemens, Philips, Atmel, etc.). It consists of:
+
+1. MC51: an Integrated Development Environment (IDE) 
+  - Text editor with syntax highlighting to create Assembler and Pascal sources
+  - Interface to the assembler ASEMW by W.W. Heinz
+    (see: http://plit.de/asem-51/home.htm)
+  - Interface to the Pascal compiler Turbo-51 by Igor Funa
+    (see: http://turbo51.com)
+  - Interface to the C compiler SDCC (see: sdcc.sourceforge.net/)
+  - Integrated simulator and debugger for all basic 8051 functions including
+    timer and serial interface
+  - Terminal window to communicate with a monitor program inside the
+    microcontroller and to download programs into the memory of the
+    microcontroller using the Hex Intel format
+  - Module for flash programming Atmel AT89S8252/53 microcintrollers using the
+    serial interface
+  
+2. McProjects: Project manager 
+
+3. CheckIsp: Check the In-System-Programming of Atmel microcontrollers
+
+4. DiffIsp: Display differences between then IS-Programming and the source
+
+ASEMW and Turbo51 are command line controlled programs. To compile sources
+MC-51 calls these programs with the adequate parameters. The output (especially
+the error messages) is displayed in a desktop window. Clicking on an error
+message lets the editor directly jump to the line containing the error.
+
+As there are many controllers in the 8051 family that differ in the structure
+of special function registers (SFR), you have to include the appropriate
+Assembler module (MCU file), resp. Pascal unit into your source code. The
+MC-51 package contains modules and units for many common microcontrollers of
+the 8051 family. When creating a new source file, the program will automatically
+insert the required module code which is needrd for the selected microcontroller
+type (see at upper right in the toolbar) into the text. On the other hand,
+when loading a source file from disk the used module is recognized automatically.
+
+To communicate with a microcontroller test board via the serial interface, MC-51
+provides a terminal mode. The required parameters for the connection can be
+adjusted using the main menu. The microcontroller needs to be programmed with
+an appropriate monitor program (e.g. PAULMON).
+
+The simulator lets you test small programs without any external hardware. It
+contains all common debugging features. You can execute the program step-by-step
+or set breakpoints anywhere in the program. The simulator displays the source code
+with program labels as well as the compiled hex code and the program addresses.
+All registers and memory locations can be inspected and be changed if desired.
+Numbers may be displayed as hex, decimal or binary values.
+The port connections are displayed as SFRs and as buttons with LED-like status
+display. Changing a bit is made just by clicking one of these buttons (only
+possible when the program to be tested set them as input).
+Further, two timers and the serial port (output as displayed text, optionally
+to a file and input from keyboard) are simulated. Interrupt controlling of these 
+devices is possible. The two external interrupts can be triggered by dedicated 
+buttons per mouse clicks. Controlling the priority of interrupts is not implemented.
+The simulated clock frequency is adjustable. So, using a loadable table (Default:
+OpCodes.mco) containing the number of cycles needed for each command, will allow
+measuring of run time.  
+On start of the simulator the OMF-51 binary file (including all contained symbols) 
+compiled from the IDE will automatically be loaded. Additionally user defined
+symbols and names of SFRs (e.g. from variants of the 8051 family) can be loaded
+from mc files. During this, already loaded symbols will not be overwritten.
+Instead of an OMF-51 file ist is also possible to load Intel-Hex files. As these
+files do not contain symbols, an mcu file of the same name will be loaded if found.  
+ 
+In terminal mode the screen is splitted into two windows: Data received from
+serial interface (upper part) and data to be sent to the microcontroller (lower
+part). If there is a monitor program like PAULMON
+(http://www.pjrc.com/tech/8051/pm2_docs/index.html) installed in the microcontroller,
+hex files created by the assembler or the Pascal compiler may be downloaded
+into the microcontroller memory.
+
+Furthermore MC-51 contains a module for flash programming of some Atmel
+microcontrollers (AT89S51/52 and AT89S8252/8253) using the serial interface.
+How to connect the serial port to the microcontroller can be taken from the
+description of the experimentation board:
+http://www.ieap.uni-kiel.de/surface/ag-berndt/lehre/fpmc/index.html
+
+The integrated text editor uses components from the open source project SynEdit.
+In addition to many extended editor functions SynEdit supports syntax
+specific highlighting of source code. Most of these features can be individually
+adjusted by the user.
+
+Project management
+------------------
+  To make the software developement more efficient, it is recommended to move
+  frequently used program parts into separate modules (include files for Assembler, 
+  units for Pascal). Mc-Tools can save all files belonging to a software project 
+  (main file and modules) and the optionally required compiler options into a file 
+  (see below). Loading a project from such a file will restore all files and 
+  settings automatically to the IDE.
+  
+  1. Creating a project 
+    from Mc51: Main menu "File -> Save as project .."
+      After specifying an project name (mandatory) a project file will be created
+      where the settings for main file and compiler options as well as the names
+      of all opened files are saved.
+    using McProjects: "New project"
+      First specify the project name (mandatory) and optionally a comment and the
+      compiler options. Then select main file and modules and save the project.
+        
+  2. Selecting a project using McProjects:
+     After starting the program, a list of all recently used projects is displayed.
+     Select one and click on "Start MC51" (or double click) to load the project
+     int Mc51.
+    
+Installing the program
+----------------------
+MC-51 s distributed as an executable Windows setup file (mc-setup-6.x.yy.exe,
+where x.yy represents the applicable version). You can install the program into
+any folder on your system (default: C:\Program Files\Mc-Tools). To do this,
+Administrator rights are required.
+Optionally shortcuts are created in the Windows start menu and on the desktop.
+
+The following directory and file structure is created beneath the installation
+folder:
+
+     <Install directory>
+       mc51.exe                Program
+       mc51.ini                Default settings for the program
+       mc51.key                Keyboard settings for the integrated editor
+       mc51-asm.hlt            Preferences for syntax highlighting (Assembler))
+       mc51-pas.hlt            Preferences for syntax highlighting (Pascal))
+                               The following two files can be modified for
+                               other processors an be loaded into the simulator:
+       opcodes.mco             Example für a file with Opcodes
+       8051.mcu                Example für a file with with symbols for DFRs, etc.
+       mc51-e.txt	 This text
+       checkisp.exe            Program to check a flash programmable
+                               Atmel microcontroller (e.g. AT89S8253)
+       <locale>                Language specific files for Mc-51 (current: German)
+       <Asem-51>               Directory for Assembler
+         AsemW.exe             Assembler to use under Windows
+         ...                   Some other programs and documentation
+         <Mcu>                 Directory for modules (s.o.)
+           *.mcu               Modules for the different microcontrollers
+       <Turbo-51\bin>          Directory for Pascal compiler
+         Turbo51.exe           Pascal compiler
+         <units>               Directory for the units
+           *.pas               Units for the different microcontrollers
+
+When starting MC51.EXE for the first time, all necessary settings (locations of 
+Assembler, Pascal compiler, etc.) are made automatically by the program.
+
+If an experimentation board is connected to the computer, prior to operation
+the used serial port has to be selected:
+  Main menu > Settings > Terminal > Com-Port -> COM1, COM2, ..
+  
+Depending on which monitor program is used there are some more settings
+required:
+  Main menu > Settings > Terminal > Baudrate  -> 1200, .. ,115200
+  Main menu > Settings > Terminal > Delay
+            - Delay between two characters in ms
+            - Delay after end of line in ms
+If you are using PAULMON as monitor program you can leave all settings at the
+default values (9600 baud, 0 ms and 50 ms). After power on or a reset on the
+experimentation board having this monitor implemented you have to strike once
+the enter key inside the terminal window to cause the microcontroller to adjust
+itself to the selected baud rate.
+
+Command line options
+--------------------
+  none
+  Reload all files opened in the previous session.
+  
+  MC51 <file1> <file2> ...
+  Load the source files <file1,file2,..> into the editor.
+
+  MC51 /term [<Name>.hex]
+  Start the program in terminal mode and prepares the download of the
+  denoted Hex file.
+  
+  MC51 /sim[:<Name>.omf|hex]
+  1. Without filename: will start the simulator immediately after opening all
+     active sources loading the last program that was edited
+  2. With filename: will start the simulator and load the specified binary file 
+     immediately after opening all active sources. 
+  
+  MC51 /ini:<ini file> ..
+  Use an alternative configuration file (default location: C:\%appdata%)
+
+  Project management
+  ------------------
+  MC51 @<project file> 
+  Load all sources specified in a project file  
+    ; comment
+    /project:<project name>
+    /options:-A -J -T
+    /main:<mainfile>
+    <source1>
+    <source2>
+    ..
+  
+  MC51 /project:<project name>
+  Specify the name of the project
+  
+  MC51 /options:<options>
+  Specify the Options for the Turbo51 compiler
+  
+  MC51 /main:<main file>
+  Specify the main file of the project
+
+J. Rathlev, September 2019
+

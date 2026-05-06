@@ -1,0 +1,239 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>MC-Tools - Introduction</title>
+<meta name="description" content="(c) 2004 - 2021, J. Rathlev, 24222 Schwentinental, Germany">
+<meta name="author" content="J. Rathlev">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html;CHARSET=iso-8859-1">
+<link rel=stylesheet type="text/css" href="styles.css">
+</head>
+
+<body>
+<table>
+<tr>
+  <td rowspan="2" valign="center"><img src="images/mc-51.png" width="48" height="48"" border="0" align="left"></td>
+  <td align="Left"><h2 style="margin-top:2pt;margin-bottom:2pt;">MC-Tools Version 6.3</h2></td>
+</tr>
+<tr valign="top"">
+    <td><b>&copy; 2004 - 2021, J. Rathlev</a>, 24222 Schwentinental, Germany</b></td>
+</tr>
+</table>
+<hr>
+
+<h2>Introduction</h2>
+<p><b>MC-Tools</b> is a program package running on all current Windows platforms to
+  create applications for the 8051 family of microcontrollers (Siemens, Philips, Atmel, etc.).
+  It contains an Integrated Development Environment (IDE) to edit and compile the source code,
+  a simulator to debug the programs on the PC, a project management and utility programs
+  for flash programming.  
+  </p>
+  
+<h3>Overview</h3>  
+<ul>
+  <li><strong>Integrated Development Environment (IDE):</strong></li>
+  <ul>
+    <li><strong>Text editor</strong> with syntax highlighting for the creation 
+      of Assembler, Pascal and C sources</li>
+    <li>Interface to the assembler <strong>ASEMW</strong> by W.W. Heinz</li>
+    <li>Interface to the Pascal compiler <strong>Turbo51</strong> by Igor Funa</li>
+    <li>Interface to the C compiler <strong>SDCC</strong> (sdcc.sourceforge.net/)</li>
+    <li>Integrated <strong>simulator and debugger</strong> for all basic 8051 functions 
+      including timer and serial interface</li>
+    <li><strong>Terminal window</strong> for communicating with a monitor program inside 
+      the microcontroller and for downloading programs into the memory of the microcontroller 
+      using Hex Intel format</li>
+    <li>Module for flash programming the Atmel AT89S51, AT89S52, AT89S8252 and AT89S8253 microcontrollers 
+      using the serial interface</li>
+  </ul>
+  <li><b>Project manager:</b></li>
+  <li>Utility program to check the ISP feature of Atmel microcontrollers and read the program memory</li>
+  <li>Utility program to verify the flash programmings of Atmel microcontrollers using ISP<br>
+  &nbsp;</li>
+</ul>  
+
+<img src="images/mc-51-e.png" width="999" height="707" align="left" border="0" hspace="5" vspace="5">
+<br clear="all">
+
+<h3>Development system <i>MC-51</i></h3>
+<p>The compilers <a href="http://plit.de/asem-51/home.htm" target="_blank">ASEMW</a>,
+  <a href="http://turbo51.com/" target="_blank">Turbo51</a> and
+  <a href="http://sdcc.sourceforge.net/" target="_blank">SDCC</a> are 
+  command line-controlled programs. To compile sources, these programs must be called with 
+  adequate parameters. <em>MC-51</em> will do this for you automatically just by one click. 
+  The output (especially possible error messages) is displayed in the bottom part of 
+  the desktop window. Clicking on an error message will move the editor cursor directly 
+  to the line containing the error.</p>
+
+<p>As there are many controllers in the 8051 family that differ in the structure
+  of special function registers (SFR), you have to embed the appropriate modul
+  by using an include (Assembler and C) or a uses statement (Pascal) in 
+  your source code. The <b>MC-Tools</b> package contains modules and units for all 
+  common microcontrollers of the 8051 family. When creating a new source file, the 
+  program will automatically insert the code into the text that is needed for the 
+  selected microcontroller type (see top right in the toolbar). On the other hand,
+  when loading a source file from disk, the module used is recognized 
+  automatically.</p>
+
+<p>To communicate with a microcontroller experimentation board via the serial interface, <em>MC-51</em>
+  provides a <strong>terminal mode</strong>. The required parameters for the connection can be
+  adjusted using the main menu.<br>
+  In terminal mode the screen is split into two windows: data received from
+  serial interface (upper part) and data to be sent to the microcontroller (lower
+  part). If there is a monitor program such as 
+  <a href="http://www.pjrc.com/tech/8051/pm2_docs/index.html" target="_blank">PAULMON</a>
+  installed on the microcontroller,
+  hex files created by the assembler, the Pascal or C compiler can be downloaded
+  into the microcontroller memory.</p>
+
+<p>The <strong>simulator and debugger</strong> of <em>MC-51</em> allows  
+  small programs to be tested without any external hardware. It
+  contains all common debugging features (Run, Stop, Single step, Step over subroutine,
+  Run to selected line). You can execute the program step-by-step
+  or set breakpoints anywhere in the program.<br>
+  The simulator displays the source code with program labels as well as the compiled 
+  hex code and the program addresses.
+  All registers and memory locations can be inspected and changed if desired.
+  Numbers may be displayed as hex, decimal or binary values.<br>
+  The port connections are displayed as SFRs and as buttons with an LED-like status
+  display. Changing a bit is made simply by clicking one of these buttons (only
+  possible when set as an input in the program to be tested).<br>
+  Furthermore, two timers and the serial port (output as displayed text and input from 
+  keyboard) are simulated. Interrupt controlling of these devices is
+  possible. The two external interrupts can be triggered by dedicated buttons
+  using mouse clicks. Controlling the priority of interrupts is not implemented.
+  Additionally the symbol and opcode tables of derivated family members can be loaded
+  directly.</p>
+
+<p>Furthermore <em>MC-51</em> contains a module for flash programming some Atmel
+  microcontrollers (AT89S51/52 and AT89S8252/8253) using the serial interface.
+  How to connect the serial port to the microcontroller can be taken from the
+  description of the <a href="exp-board.html">experimentation board (German)</a>.</p>
+
+<p>The integrated text editor uses components from the open source project 
+<a href="https://github.com/SynEdit/SynEdit" target="_blank"><i>SynEdit</i></a>.
+  In addition to many extended editor functions, SynEdit supports syntax
+  specific highlighting of source code. Most of these features can be individually
+  adjusted by the user.</p>
+
+<a name="vers63"><h4>Notes on version 6.3</h4></a>
+<img src="images/subdirs.png" width="153" height="230" align="left" border="0" hspace="5">
+<p>With version 6.3 it is possible to use a new <strong>structure of source directories</strong>.
+  Sources associated to the different supported compilers and their includes, units resp. libraries
+  and outputs will be stored in separate directories (see figure at the left).
+  After a new installation, this new structure will automatically be created on starting
+  the program  for the first time, in case of an update, the existing structure from the 
+  previous version will be retained. Changing to the new structure can be performed by 
+  calling the menu item <i>Settings &rArr; Root folder for sources ..</i>. 
+  After selection of a new root directory, the new subdirectory structure shown at the left 
+  will be created.<br>
+  Already existing sources created under the previous version must be manually copied
+  to the new folders. From inside the program, this can also be performed by using the
+  function <i>Save as ..</i>.   
+  </p>
+<br clear="all">
+<p>&nbsp;</p>
+
+<img src="images/mc-p-e.png" width="591" height="327" align="right" border="0" hspace="5">
+<h3><a name="prjman">Project management</a></h3>
+<p>To make the software development more efficient, moving frequently-used 
+  program parts into separate modules (include files for Assembler and C, 
+  units for Pascal) is recommended. <em>MC-51</em> can save all
+  files belonging to a software project (main file and modules) and the optionally
+  required compiler options into a project file (<a href="mc-cmd.html">see more</a>). 
+  Starting <em>MC-51</em> with such a project file specified in the cammand line,
+  Opening a project, will load all files and settings automatically to the IDE.</p>
+<ul>
+  <li><b>Creating a project</b><br>
+  <b>from <i>MC-51</i>:</b> Main menu: <i>File -> Save as project ..</i><br>
+    After specifying a project name (mandatory), a project file will be created
+    where the settings for main file (<i>menu - compiler</i>) and compiler options 
+    as well as the names of all opened files are saved.<br>
+  <b>using the project manager:</b> Button: <i>New project</i><br>
+    First specify the project name (mandatory) and optionally a comment and the
+    compiler options. Then select main file and modules and save the project.
+  </li>
+  <li><b>Selecting a project using the project manager</b><br>
+    After starting the program, a list of all recently-used projects is displayed.
+    Select one and click on <i>Start MC-51</i> (alternatively: double click on the
+    selected project) to open the project with <b>MC-51</b>.<br>
+    &nbsp;
+  </li>
+</ul>
+
+<h2><a name="Install">Installation</a></h2>
+<p>The provided package contains all programs described above, the 
+  <b><a href="http://turbo51.com/download-free-pascal-compiler-8051" target="_blank">Pascal-Compiler Turbo-51</a> (Vers. 0.1.3.17)</b>,
+  the <b><a href="software/asem5113.zip">Assembler ASEM-51</a> by 
+  <a href="http://plit.de/asem-51/home.htm" target="_blank">W.W. Heinz</a></b>,
+  as well as the include modules and units for many of the 8051 family microcontrollers.<br>
+  
+  The C compiler <a href="http://sdcc.sourceforge.net/" target="_blank">SDCC</a> must be
+  <a href="https://sourceforge.net/projects/sdcc/files/sdcc-win32/">downloaded</a> 
+  and installed separately. On start ing, <em>MC51</em> will check if <i>SDCC</i> is
+  installed on your system and will integrate it automatically into the IDE.
+  </p>
+<p>To install the program, run the provided Windows setup file (mc-setup-6.x.yy.exe,
+  where x.yy represents the applicable version). To do this, administrator rights are 
+  required under Windows 7, 8 nd 10. You can install the program into
+  any folder on your system (default: <i>C:\Program Files\Mc-Tools</i> on 32-bit systems,
+  resp. <i>C:\Program Files(x86)\Mc-Tools</i> on 64-bit systems). 
+  Optionally, shortcuts can be created in the Windows start menu and on the desktop.</p>
+
+<p>The following directory and file structure is created beneath the installation
+  folder:</p>
+<pre style="margin-top:-7px;">
+   &lt;Install directory&gt;
+     mc51.exe                Program
+     mc51.ini                Default settings for the program
+     mc51.key                Keyboard settings for the integrated editor
+     mc51-asm.hlt            Preferences for syntax highlighting (Assembler)
+     mc51-pas.hlt            Preferences for syntax highlighting (Pascal)  
+     mc51-cco.hlt            Preferences for syntax highlighting (C compiler))
+     opcodes.mco             List of 8051 opcodes for simulator
+     8051.mcu                List of basic symbols for simulator
+     mcprojects.exe          Project manager
+     checkisp.exe            Program for checking a flash programmable Atmel microcontroller (e.g. AT89S8253)
+     diffisp.exe             Program for checking for differences of flashed programs
+     &lt;locale&gt;                Language specific files for <b>MC-Tools</b> (current: German)
+     &lt;Asem-51&gt;               Directory for Assembler
+       AsemW.exe             Assembler for use under Windows
+       ...                   A few other programs and documentation
+       &lt;Mcu&gt;                 Directory for include modules (see above)
+         *.mcu               Include modules for the different microcontrollers
+     &lt;Turbo-51&gt;              Directory for Pascal
+       &lt;bin&gt;                 Pascal compiler
+       &lt;rtl&gt;                 Runtime libraries 
+       &lt;manual&gt;              Documentation
+     &lt;Units&gt;                 Directory of system units
+         Sys_*.pas           Units for the different microcontrollers</pre>
+         
+<p>On starting <em>MC-51</em> (MC51.EXE) the first time, all necessary settings (location of 
+  Assembler, Pascal and C compiler, etc.) will be carried out automatically by the program.</p>
+
+<p>If an experimentation board is connected to the computer,
+  the serial port used must be selected prior to the first operation:<br>
+  <div style="text-indent:2.0em;margin-top:-7px;">
+  <i>Main menu &rArr; Settings &rArr; Terminal &rArr; Com-Port &rArr; COM1, COM2, ..</i>
+  </div></p>
+  
+<p>Depending on which monitor program you are using, a few more settings are
+  required:</p>
+<dl style="text-indent:2.0em;margin-top:-7px;">
+  <dt><i>Main menu &rArr; Settings &rArr; Terminal &rArr; Baudrate  &rArr; 1200, .. ,115200</i></dt>
+  <dt><i>Main menu &rArr; Settings &rArr; Terminal &rArr; Delay &rArr;</i></dt>
+  <dd><i>Delay between two characters in ms</i></dd>
+  <dd><i>Delay after end of line in ms</i></dd>
+</dl>
+<p>If you are using <i>PAULMON</i> as monitor program, you can leave all settings at their
+  default values (9600 baud, 0 ms and 50 ms). After powering up the experimentation 
+  board with this monitor implemented, the enter key within the terminal window must 
+  be pressed to cause the microcontroller to set itself to the chosen baud rate.<br>
+  &nbsp;</p>
+
+<hr>
+<i>J. Rathlev, 24222 Schwentinental, Germany, November 2021</i>
+</body>
+</html>
+
+
+

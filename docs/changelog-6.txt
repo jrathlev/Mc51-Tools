@@ -1,0 +1,435 @@
+Mikrocontrollersoftware-Entwicklungsystem MC-51
+===============================================
+(c) 2001-2022, J. Rathlev, D-24222 Schwentinental
+
+Revision History:
+
+6.3.3 - 21.10.2022
+      - Fehlerkorrekturen:
+        - C-Compilierung von Nur-Header-Bibliothken
+
+6.3.2 - 5.2.2022
+      - Fehlerkorrekturen:
+        - Compilieren eines neu angelegten, ungeänderten Quelltextes
+
+6.3.0 - 8.11.2021
+      - Änderungen:
+        - Pfade der Quelltexte nach Compiler getrennt
+        - Erscheinungsbild
+
+6.2.0 - 11.6.2021
+      - Neu:
+        - Aufruf von externen Programmen oder Batch-Dateien
+      - Änderungen:
+        - Erscheinungsbild
+
+6.1.3 - 23.5.2021
+      - Fehlerkorrekturen:
+        - Mc51: Setzen der C-Compiler-Optionen
+
+6.1.2 - 15.5.2021
+      - Fehlerkorrekturen:
+        - Mc51: Timer 1 im Simulator
+
+6.1.1 - 10.5.2021
+      - Änderungen:
+        - Mc51: Die vom Programm generierte Compiler-Befehlszeile wird im
+          Ausgabefenster angezeigt
+      - Fehlerkorrekturen:
+        - Mc51: Anzeige der ausgewählten Baudrate
+        - Mc51: Anzeige der Auswahl-Option für Zeilenende
+
+6.1.0 - 6.5.2021
+      - Änderungen:
+        - Neues Design
+        - Mc51: Auswahl-Option für Zeilenende (CR, LF oder CRLF)
+
+6.0.9 - 4.5.2021
+      - Fehlerkorrekturen:
+        - Mc51: Laden eines Quelltextes
+        - Mc51: Ausgabe der Fehleranzeige von SDCC
+
+6.0.7 - 29.3.2021
+      - Änderungen:
+        - MpSim: Export eines disassemblierten Quelltextes
+      - Fehlerkorrekturen:
+        - Auswahl eines Moduls
+        - Exception beim Start von ISP
+        - MpSim: Laden von Symbolen aus OMF-Datei
+
+6.0.6 - 2.1.2020
+      - Änderungen:
+        - TabControl-Leiste mit Mausrad-Scroll
+        - Hauptdatei-Liste nur für Quellen mit End-Statement
+      - Fehlerkorrekturen:
+        - Compilieren bei geöffnetem Simulator
+        - Modulauswahl bei Seitenwechsel per Buttonklick
+
+6.0.5 - 14.12.2019
+      - Änderungen:
+        - Mc51: Button zum Laden einer Datei aus der Historyliste
+        - Mc51: Vorschläge für Dateinamen bei neuen Quelltexten
+      - Fehlerkorrekturen:
+        - Mc51: Klick auf "Seite schließen", wenn Terminal angezeigt wird
+        - Mc51: Modulerkennung nach Ändern des Modulpfads
+        - Mc51: Dateiname bei Rückfrage, ob ein geänderter Quelltext gespeichert
+          werden soll
+
+6.0.4 - 11.12.2019
+      - Fehlerkorrekturen:
+        - Strg+F-Tastenkombination zum Suchen von Text
+
+6.0.3 - 23.11.2019
+      - Änderungen:
+        - Mc51: Verbesserungen im Design
+        - ChkIsp, DiffIsp: Auswahl des Com-Ports
+
+6.0.2 - 2019-09-15
+      - Changes:
+        - Aktualisierung der SynEdit-Komponenten
+      - Fehlerkorrekturen:
+        - Auswahl der Hauptdatei
+
+6.0.1 - 27.05.2019
+      - Fehlerkorrekturen:
+        - Kompilieren von C-Include-Dateien
+
+6.0.0 - 06.05.2019
+      - Neu:
+        - Integration des C-Compilers SDCC (http://sdcc.sourceforge.net/)
+          zusätzlich zu ASEM-51 (Assembler) und Turbo-51 (Pascal)
+      - Änderungen:
+        - Beim Laden von Hex-Intel werden auch "ihx"-Dateien angezeigt
+        - Beim Starten des Simulators ohne geöffneten Quelltext kann eine
+          Hex- oder Omf-Datei ausgewählt werden
+
+5.9.2 - 10.01.2018
+      - Fehlerkorrekturen:
+        - Verzeichnisauswahl in "SearchPathDialog"
+
+5.9.1 - 29.11.2017
+      - Änderungen:
+        - Anzeige der Manuals für Befehlssatz, Assembler und Turbo51
+
+5.9.0 - 21.11.2017
+      - Fehlerkorrekturen:
+        - Simulator: Indexfehler, wenn Asm-Quelle nicht vorhanden
+        - Simulator: Indexfehler bei Mausbewegung über die Anzeigen für
+          die Speicherzellen
+
+5.8.4 - 2.2.2017
+      - Fehlerkorrekturen:
+        - Fehler bei der Zahleneingabe (dez., hex., bin.) behoben
+
+5.8.3 - 27.11.2016
+      - Fehlerkorrekturen:
+        - Beim Laden der Quelltexte aus einer Projektdatei trat ein Fehler auf,
+          wenn eine Datei nicht mehr vorhanden war - behoben.
+
+5.8.2 - 12.09.2016
+      - Fehlerkorrekturen:
+        - Fehler beim Auruf von StatusBarDrawPanel behoben (Hex/Omf51)
+
+5.8.1 - 26.07.2016
+      - Fehlerkorrekturen:
+        - Korrektur in der Menüanzeige der Hauptdatei
+        - Anzeige der Cursorposition funktionierte nicht
+        - Im Simulator funktionierten die Port-Schalter nicht richtig
+
+5.8.0 - 03.07.2016
+      - Änderungen:
+        - Neue Entwicklungsumgebung: Delphi 10 Seattle
+        - Umorganisation der verwendeten eigenen Delphi-Units
+
+5.7.8 - 11.03.2015
+      - Änderungen:
+        - Export in Hex-Intel-Datei in CheckIsp (2.6) hinzugefügt
+
+5.7.7 - 19.12.2014
+      - Änderungen:
+        - Verbesserte Fehlerekennung für COM-Verbindung
+        - Update von CheckIsp und DiffIsp
+      - Fehlerkorrekturen:
+        - Tippen von F7 oder F8, wenn kein Quelltext geladen ist
+
+5.7.6 - 15.1.2014
+      - Änderungen:
+        - Neue Unitstruktur
+
+5.7.5 - 26.3.2013
+      - Fehlerkorrekturen:
+        - Nach Ändern eines Fonts gab es beim Schließen des Programms einen
+          Ausnahmefehler
+      - Änderungen:
+        - Neue Dialoge für das Einstellen der Schriftart und der Hintergrundfarbe
+
+5.7.4 - 12.2.2013
+      - Änderungen:
+        - Aktualisierung von DATA und XDATA bei Klick auf Ext[0,1] (MpSim)
+        - Schaltflächen für Interrupts können zwischen Pegel- oder Flankensignal
+          umgeschaltet werden (MpSim)
+      - Fehlerkorrekturen:
+        - Korrektur beim Bearbeiten des Codespeichers im Simulator
+        - Hauptdateieintrag im Menü wurde beim Laden einer Datei nicht
+          richtig gesetzt
+
+5.7.3 - Fehlerkorrekturen: 16.12.2012
+        - Exception, wenn eine Projektdatrei nicht gefunden wurde, behoben
+        - Befehlszeilenoption /sim.. korrigiert
+      - Änderungen: 19.12.2012
+        - Vorgabe für neue Projekte: Name und Dateiname wir Hauptdatei
+
+5.7.2 - Änderungen: 14.12.2012
+        - Verbesserte Eingabe der Turbo51-Compileroptionen
+        - Möglichkeit aus Mc51, Projekte zu erstellen
+      - Fehlerkorrekturen: 14.12.2012
+        - Fehler beim Abspeichern der Fenstergröße behoben
+
+5.7.1 - Fehlerkorrekturen: 12.12.2012
+        - Aktualisierte Version 0.1.3.16 von Turbo51 in das Paket integriert
+        - Korrektur bei der Fenstergröße nach erstmaligem Start
+      - Änderungen: 12.12.2012
+        - zusätzliche Befehlszeilenoption "/options:<options>" für
+          Turbo51-Compileroptionen in einem Projekt
+
+5.7.0 - Neu: 11.12.2012
+        - Zusatzprogramm: Projekt-Manager (McProjects)
+        - Neue Befehlszeilenoptionen in Mc51 zum Laden eines Projektes:
+          "/project:<project name>" : Name des Projektes
+          "/main:<mainfile>" : Hauptdatei festlegen
+          "@<project file>" : Laden einer Projektdatei
+          Struktur einer Projektdatei:
+            ; Kommentar
+            /project:<project name>
+            /main:<main file>
+            <source1>
+            <source2>
+            ..
+
+5.6.1 - Fehlerkorrekturen: 30.11.2012
+        - Fehler beim Einstellen der Tastaturbelegung behoben
+        - Übersetzung von Menü-ShortCuts mit GnuGetText korrigiert, siehe Vcl.Menus
+      - Änderungen: 30.11.2012
+        - Neue Tastenkürzel für "Gehe zu Zeile" (Strg+G) und
+
+5.6.0 - Neu: 6.11.2012
+        - Umstellung auf Delphi-XE2
+      - Fehlerkorrekturen: 16.11.2012
+        - Tabumschaltung in Terminalmode nicht erlaubt bei sichtbarem Simulator
+
+5.5.4 - Änderungen: 18.7.2012
+        - Beim Starten der IDE wird geprüft, ob die serielle Schnittstelle durch
+          eine andere Anwendung belegt ist. In der Statusleiste des Terminals
+          erscheint ein entsprechender Hinweis. Nach Schließen der anderen Anwendung,
+          kann die Verbindung durch Klick auf die Statusanzeige hergestellt werden.
+      - Fehlerkorrekturen: 16.7.2012
+        - Timing für 89S8252 korrigiert (siehe Errata-Sheet von Atmel)
+
+5.5.3 - Fehlerkorrekturen: 11.7.2012
+        - Verbessertes Timing für ISP (Verwendung von QueryPerformanceCounter)
+
+5.5.2 - Änderungen: 10.7.2012
+        - Programmierung im "Page mode" bei 89S8253,51 und 52
+        - Schnelleres Lesen aus 89S8252
+        - Zusätzliche Inhaltsinfo bei einem Fehler beim Überprüfen
+      - Fehlerkorrekturen: 10.7.2012
+        - Um beim Compilieren einen Timeout-Fehler zu vermeiden, wenn sehr viele
+          Fehler gemeldet werden, wird der Puffer der Pipe vom Standardwert auf
+          16384 erhöht.
+
+5.5.1 - Änderungen: 3.7.2012
+        - Der Simulator kann auch ohne geladenen Quelltext aufgerufen werden
+        - Neue Befehlszeilenoption:
+          - "/sim" startet nach dem Öffnen der Quelltexte sofort den Simulator mit
+            dem zuletzt bearbeiteten Programm
+          - "/sim:<name>.<omf|hex>" startet nach dem Laden der Quelltexte sofort
+            den Simulator und lädt dort die angegebene Binärdatei
+      - Fehlerkorrekturen: 5.7.2012
+        - ISP-Programmierung bei 89S5x korrigiert (Taktsignal)
+        - Korrektur beim Laden von OMF-51 (SegInfo wurde nicht richtig ausgewertet)
+        - Beim Wechsel zwischen IDE und Simulator verlor das Simulatorfenster
+          den Fokus (SetWindowsPos statt BringToFront)
+
+5.5.0 - Neu: 28.6.2012
+        - Im Simulator können auch Hex-Dateien geladen werden. Zugehörige Symbole
+          werden über eine gleichnamige oder beliebig auswählbare mcu-Datei
+          geladen.
+      - Änderungen: 28.6.2012
+        - mcu-Dateien mit Spaces (statt Tabs) erlaubt
+        - Zwei ladbare Symboltabellen (mcu-Dateien): benutzerdefiniert und Basis
+          Reihenfolge beim Laden: OMF51, Benutzer, Basis
+          bereits geladene Symbole werden nicht überschrieben, bereits einem
+          Symbol zugewiesene Werte werden nicht beu definiert.
+      - Fehlerkorrekturen: 27.6.2012
+        - Signatur für Atmel AT89S51 korrigiert
+        - Laden von Bitadressen aus mcu-Datei korrigiert
+
+5.4.4 - Änderungen: 7.5.2012
+        - Symbol-Dateien für Simulator im mcu-Format
+        - Für Jmp-Befehle kann opt. bei den  OpCodes eine zweite Zyklusanzahl
+          für die Fälle angegeben werden, in denen die Sprungbedingung
+          erfüllt wird.
+      - Fehlerkorrekturen: 7.5.2012
+        - Fehler beim Laden von Opcodes und Symbolen behoben
+
+5.4.3 - Änderungen: 20.4.2012
+        - Opcodes und Symbole für Simulator können aus ext. Datei geladen werden.
+
+5.4.2 - Änderungen: 23.3.2012
+        - div. kleine Verbesserungen am Simulator:
+          - Ausgabe der ser. Schnittstelle in ein Datei
+          - Klick auf die PSW-Bitanzeigen ändert den Status
+      - Fehlerkorrekturen: 22.3.2012
+        - Korrektur bei der Berechnung des OV-Bits beim Addieren
+
+5.4.1 - Fehlerkorrekturen: 9.3.2012
+        - Fehler bei Klick auf einen leeren Bereich im Bit-Fenster im Simulator
+          behoben.
+        - Im Disassembler Befehl $A2 korrigiert
+
+5.4.0 - Änderungen: 5.3.2012
+        - Simulator wird nicht mehr modal angezeigt.
+        - Quelltextänderungen werden im Simulator (falls sichtbar) automatisch
+          aktualisiert.
+        - Simulatoranzeige auch auf 2. Monitor möglich
+      - Fehlerkorrekturen: 5.3.2012
+        - Fehler beim Aufruf der ISP-Programmierung ohne MDIChild behoben
+        - Breakpoints wurden bei jedem Start des Simulators gelöscht
+
+5.3.4 - Fehlerkorrekturen: 15.2.2012
+        - Fehler im Simulator bei Befehl "MOV direct,@Rx" behoben
+      - Neu: 15.2.2012
+        - Zusätzliche Debug-Funktion "Bis Cursorposition"
+
+5.3.3 - Fehlerkorrekturen: 13.2.2012
+        - Aufruf von ValueDialog in ShowXXX-Units von MpSim korrigiert
+        - Paritybit wurde beim Editieren de Akkumulators nicht angepasst.
+      - Änderungen: 13.2.2012
+        - Korrektur bei Timer-Simulation
+      - Neu: 13.2.2012
+        - Anzeige für abgelaufene CPU-Zyklen und Zeit
+
+5.3.2 - Fehlerkorrekturen: 24.1.2012
+        - Anzeige der Moduldaten funktionierte nicht
+      - Änderungen: 3.2.2012
+        - Einige geänderte Desktopsymbole
+
+5.3.1 - Fehlerkorrekturen: 18.1.2012
+        - "Out of memory"-Fehler beim Auslesen der Pipe von Turbo51 behoben.
+      - Änderungen: 18.1.2012
+        - Fehlermeldungen beim Compilieren korrigiert
+        - Beim Neuladen eines anderweitig geänderten Textes wird die Curorposition
+          wieder hergestellt.
+        - Beim Schließen des Programms wird nicht mehr geprüft, ob Dateien extern
+          verändert wurden
+
+5.3.0 - Änderungen: 20.12.2011
+        - Viele Formulare (auch MpSim) werden nur bei Bedarf erstellt, um
+          Speicherressourcen zu sparen.
+
+5.2.6 - Fehlerkorrekturen: 8.12.2011
+        - Korrektur im Simulator: Die Codeabschnitte aus OMF-51 werden nach dem
+          Laden in eine nach Adressen aufsteigende Reihenfolge gebracht, da sonst
+          die Anzeige des Codes nicht richtig dargestelt wird.
+
+5.2.5 - Fehlerkorrekturen: 2.12.2011
+        - Simulator: CJNE korrigiert (Carry wurde nicht gesetzt)
+      - Änderungen: 2.12.2011
+        - LF wird im Serial-Out-Fenster des Simulators ignoriert
+
+5.2.4 - Fehlerkorrekturen: 25.11.2011
+        - Suchpfade wurden unter WindowsXP in der Liste nicht angezeigt (clCaptionText)
+      - Änderungen: 25.11.2011
+        - Automatische Festlegung der Pfade bei Wechsel des Standardordners
+
+5.2.3 - Fehlerkorrekturen: 18.11.2011
+        - Timing beim Flash-Programmieren geändert:
+          t(SLSH) und t(SLSL) jeweils > 0,3 µs
+      - Änderungen: 18.11.2011
+        - Automatische Kompilierung bei Wechsel in den Terminal- oder
+          Programmiermode
+
+5.2.2 - Fehlerkorrekturen: 4.10.2011
+        - Simulator: CLR C korrigiert (F0 wurde irrtümlich zurückgesetzt)
+                     DAA korrigiert
+
+5.2.1 - Fehlerkorrekturen: 9.8.2011
+        - div. kleine Korrekturen in den Menüs und Texten
+        - Fehler im Simulator bei Klick auf leere Fläche in den Anzeigefenstern
+          behoben
+
+5.2.0 - Neu: 18.2.2011
+        - Mit integriertem Simulator für Assembler-Programme
+
+5.1.1 - Neu: 31.1.2011
+        - Anzeige des von Pascal erzeugten Assemblercodes
+
+5.1.0 - Neu: 20.1.2011
+        - Integration von Turbo 51 (Pascal-Compiler für 8051)
+        - Statusfenster ist in der Größe veränderbar
+        - Einstellungsdialog für Tastenkombinationen überarbeitet
+        - Pfad-Dialog ähnlich wie in Delphi-Projektoptionen
+        - automatische Erkennung von Programm- und Unitnamen beim
+          erstmaligen Speichern.
+
+5.0.0 - Neu: 27.5.2009  (Delphi 2009)
+        - Unicode-Unterstützung
+        - Unterstützung für 64-Bit-Windows-Systeme (TabControl)
+        - verbesserte Fehlermeldungen bei ISP
+
+4.1.3 - Änderungen: 27.12.08
+        - Werkzeugleiste erweitert
+        - Include-Dateien werden bei Änderungen automatisch gesichert
+
+4.1.2 - Änderungen: 16.4.08
+        - Zusatzprogramm "CheckIsp" im Paket zum Prüfen und Auslesen von
+          Atmel-ISP-Prozessoren
+        - Fehlerkorrekturen: 1&.4.08
+          - Korrekturen bei der Identifikation von Atmel 89S51/52
+
+4.1.1 - Fehlerkorrekturen: 15.4.08
+        - MP-Typen mit Flash-Datenspeicher (wie 89S8253) wurden beim Programmieren
+          nicht richtig erkannt.  
+
+4.1.0 - Änderungen: 13.2.08
+        - Terminalanzeige überarbeitet (Zeilenlänge einstellbar), verbesserte
+          Anzeige bei hex und dezimal
+
+4.0.4 - Änderungen: 24.1.08
+        - ISP im Terminalmodus möglich
+      - Fehlerkorrekturen: 24.1.08
+        - falschen Speicherbereich beim ISP-Verifizieren korrigiert
+
+4.0.3 - Änderungen 20.11.07
+        - ISP auch für 89S51/52
+        - verbesserte Verifizierung bei ISP
+      - Fehlerkorrekturen:: 27.11.07
+        - Übersetzungsfehler in Isp-Dialog
+        - Fehler bei "Speichern als .." behoben
+
+4.0.2 - Fehlerkorrekturen: 31.10.07
+        - Fehler bei Programmende ohne geöffnete Dateien behoben
+
+4.0.1 - Änderungen 7.10.07
+        - Installation mit Inno Setup
+        - Mehrsprachen-Unterstützung durch GnuGetText for Delphi
+        - Datei-Tabs können verschoben werden
+        - Letztes aktives Dokument erhält beim Neustart den Focus
+        - Automat. Einbindung von Assembler und Simulator bei Standardinst.
+
+3.3.1.2 - Fehlerkorrekturen: 5.12.06
+          - Inlcude-Pfad mit Leerzeichen wurde nicht richtig verarbeitet
+
+3.3.1.1 - Fehlerkorrekturen:: 15.11.06
+          - Bei Neuanlage eines Quelltextes wurde nicht die richtige Modulnr.
+            eingefügt.
+
+3.3.1.0 - Neu: 4.10.06
+          - Mikrocontroller: Atmel 89S8253
+          - Programmierroutine für Atmel 89S8253
+        - Änderungen: 4.10.06
+          - Highlight bei MCU-Dateien
+          - Automatische Suche in Include-Verzeichnissen           
+
+3.2.1.4 - Version v. 19.6.2006
+

@@ -1,0 +1,223 @@
+MC-Tools Version 6
+==================
+
+Das Paket MC-Tools enthält mehrere Programme zur Einwicklung von Software für
+die 8051-Mikrocontroller-Familie (Siemens, Philips, Atmel, etc.). Dazu gehören:
+
+1. Mc51: integrierte Entwicklungsaumgebung (IDE) mit
+  - einem Texteditor mit Syntaxhervorhebung für das Erstellen von
+    Quellprogrammen in Assembler und Pascal
+  - einem Interface zu dem Assembler ASEMW von W.W. Heinz
+    (siehe dazu auch http://plit.de/asem-51/home.htm),
+  - einem Interface zu dem Pascal-Compiler Turbo-51 von Igor Funa
+    (siehe dazu auch http://turbo51.com)
+  - einem Interface zum C-Compiler SDCC (siehe sdcc.sourceforge.net/)
+  - einem integrierten Simulator mit Debugger für die Grundfunktionen des 8051
+    einschließlich Timer und ser. Schnittstelle
+  - einem Terminalfenster, um über die serielle Schnittstelle mit einem
+    Monitorprogramm im Mikrocontroller zu kommunizieren und um Programme im
+    Hex-Intel-Format in den Mikrocontroller-Speicher herunterzuladen
+  - einem Modul, um den Atmel AT89S8252/53 über die serielle Schnittstelle
+    zu programmieren.
+    
+2. McProjects: Projektmanager 
+
+3. CheckIsp: In-System-Programmierung von Atmel-Mikrocontroller prüfen
+
+4. DiffIsp: Unterschiede zwischen IS-Programmierung und Quelle anzeigen 
+
+ASEM51W und Turbo-51 sind Befehlszeilen-Programme, die von MC51 mit den erforderlichen
+Parametern gestartet werden. Die Ausgabe (insbesondere die Fehlermeldungen)
+werden in ein Windows-Fenster umgeleitet. Durch Anklicken einer Zeile mit
+einer Fehlermeldung in diesem Fenster gelangt man direkt an die entsprechende
+Stelle des Quelltextes.
+
+Da es in der 8051-Familie viele Controller gibt, die sich in der Struktur der
+Spezialregister (SFR) unterscheiden, sind passende Assembler-Module (MCU-Dateien),
+bzw. Pascal-Units in das Quellprogramm aufzunehemen. Das MC-51-Paket enthält
+Module und Units für alle gängigen Mikrocontroller der 8051-Familie.
+Beim Neuanlegen einer Quelldatei fügt das Programm automatisch den zum
+ausgewählten Mikrocontroller-Typ (rechts oben in der Werkzeugleiste) gehörenden
+Modul-Code in den Text ein. Beim Laden eines Quellprogramms wird das verwendete
+Modul automatisch erkannt und angezeigt.
+
+Um mit einem Mikrocontroller-Testboard Daten über die serielle Schnittstelle
+auszutauschen, kann MC-51 in einen Terminalbetrieb umgeschaltet werden.
+Die Schnittstellenparameter sind über das Menü einstellbar. Der Mikrocontroller
+muss mit einem geeigneten Monitorprogramm (z.B. RMON592, RMONATM oder PAULMON)
+programmiert sein.
+
+Der Simulator ermöglicht es, kleine Programme ohne externe Hardware zu testen.
+Er enthält alle üblichen Möglichkeiten zur Fehlersuche (Debugging). So kann das
+Programm schrittweise abgearbeitet werden, oder es können an geeigneten Stellen
+Haltepunkte gesetzt werden. Im Simulator-Fenster wird sowhl der Quellcode
+einschließlich der Sprunglabels, als auch der dazu gehörende Hex-Code des Compilers
+und die Programmadressen angezeigt. Alle Register und Speicherzellen sind
+einsehbar und können bei Bedarf geändert werden. Die Anzeige der Zahlen
+erfolgt im Hex-, Dezimal- oder Binärformat. Zusätzlich können auch alle
+im Quellprogram benannten Speicherzellen mit ihren Inhalten als Liste dargestellt
+werden.
+Die Portanschlüsse werden sowohl bei den SFRs angezeigt als auch im Register-Fenster
+als Schaltflächen mit LED-artiger Statusanzeige visualisiert. Sie können bitweise
+durch Mausklick verändert werden (sofern sie im zu testenden Programm für die
+Eingabe eingestellt wurden).
+Außerdem werden zwei Timer und die serielle Schnittstelle (Ausgabe als Textanzeige,
+optional auch in eine Datei und Eingabe von der Tastatur) simuliert. Die 
+Interruptsteuerung dieser Geräte ist möglich. Die beiden externen Interrupts 
+können über zwei zugeordnete Schaltflächen per Mausklick ausgelöst werden. 
+Die im Original vorhandene Prioritätssteuerung für die Interrupts ist nicht 
+implementiert.
+Die zu simulierende Taktfrequenz ist einstellbar. So können unter Verwendung einer
+ladbaren Tabelle (Standard: OpCodes.mco), die die Anzahl der für jeden
+Befehl benötigten Taktzyklen enthält, auch Laufzeitmessungen bei simulierten 
+Programmen gemacht werden.
+Beim Starten des Simulators wird automatisch die von der Entwicklungsumgebung
+erstellte Binär-Datei im OMF-51-Format (einschließlich der darin enthaltenen
+Symbole) geladen. Zusätzliche benutzerdefinierte Symbole und Namen von SFRs 
+(z.B. bei Varianten der 8051-Familie) können zusätzlich geladen werden (mcu-Dateien). 
+Dabei werden bereits geladene Symbole nicht überschrieben.
+Anstelle der OMF-51-Datei kann auch eine Hex-Intel-Datei geladen werden. Da diese
+keine Information über Symbole enthält, wird automatisch eine gleichnamige mcu-Datei 
+mit den verwendeten Benutzersymbolen (sofern vorhanden) geladen.  
+
+Im Terminalbetrieb wird der Bildschirm in zwei Fenster geteilt: Über die serielle
+Schnittstelle empfangene Daten (ober Teil) und an den Mikrocontroller zu sendende
+Daten (unterer teil). Wenn im Mikrocontroller ein Monitorprogramm, wie z.B.
+PAULMON (http://www.pjrc.com/tech/8051/pm2_docs/index.html) installiert ist,
+kann eine mit dem Assembler oder Pascal-Compiler erzeugte Hex-Datei in den
+Speicher des Mikrocontrollers heruntergeladen werden.
+
+Außerdem enthält das Programm ein Modul, mit dem die Flash-Programmierung einiger
+Atmel-Mikrocontroller (AT89S51/52 und AT89S8252/8253) über die serielle Schnittstelle
+möglich ist. Wie die serielle Schnittstelle in diesem Fall an den Mikrocontroller
+anzuschließen ist, kann der Beschreibung der Experimentierplatine entnommen werden:
+http://www.ieap.uni-kiel.de/surface/ag-berndt/lehre/fpmc/index.html
+
+Der integrierte Texteditor verwendet Komponenten des Open-Source-Projekts SynEdit.
+Neben vielen erweiterten Textbearbeitungsfunktionen bietet SynEdit auch eine
+Quellcode-spezifische Syntaxhervorhebung. Viele dieser Möglichkeiten können
+vom Benutzer individuell angepasst werden.
+
+Projektverwaltung
+-----------------
+Um die Softwareeintwicklung zu effektivieren, ist es zu empfehlen, Programmteile, 
+die häufig verwendet werden, in Module auszulagern (Include-Dateien beim Assembler, 
+Units bei Pascal). Mc-Tools kann alle zu einem Softwareprojekt gehörigen Dateien 
+(Hautpdatei und Module) und ev. Compileroptionen in einer Datei abspeichern (s.u.). 
+Beim Laden eines Projektes aus dieser Datei werden dann automatisch alle Module 
+geladen, sowie die Einstellung der Hautpdatei und der Compileroptionen vorgenommen.
+
+1. Erstellung eines Projektes
+  aus Mc51: Hauptmenü: "Datei -> Als Projekt speichern .."
+    Nach Eingabe eines Projektnamens (zwingend erforderlich) wird eine Projektdatei
+    angelegt, in die die aktuellen Einstellungen für Hauptdatei und Compileroptionen,
+    sowie die Namen aller geöffneten Dateien gespeichert werden.
+  über den McProjects: "Neues Projekt"
+    Zuerst wird ein Projektname (zwingend erforderlich) und optional Kommentar und 
+    Compileroptionen eingeben. Dann wählt man die Hautpdatei und die anderen Module
+    aus und speichert das Projekt in einer Datei.
+    
+2. Auswahl eines Projektes mit McProjects:             
+   Es wird immer eine Liste der zuletzt benutzten Projekte angezeigt. Nach 
+   Auswahl eines davon und Klick auf "Start MC51" (oder Doppelklick) wird das
+   Projekt in Mc51 geladen.    
+
+Installation
+------------
+MC-51 wird als ausführbares Windows-Setup bereitgestellt (mc-setup-6.x.yy.exe,
+wobei x.yy für die jeweilige Version steht). Die Installation kann in ein
+beliebiges Verzeichnis erfolgen (Standard: C:\Programme\MC-Tools). Dazu sind unter
+Windows 7 die Rechte eines Administrators erforderlich, unter Windows XP
+genügt ein Hauptbenutzer. Auf Wunsch werden bei der Installation Verknüpfungen
+im Startmenü und auf dem Desktop angelegt.
+
+Im Installationsordner wird die folgende Verzeichnis- und Dateistruktur angelegt:
+
+     <Installationsverzeichnis>
+       mc51.exe                Programm
+       mc51.ini                Standardeinstellungen für das Programm
+       mc51.key                Tastaturanpassung für den integrierten Editor
+       mc51-asm.hlt            Voreinstellungen für die Syntaxhervorhebeung (Assembler))
+       mc51-pas.hlt            Voreinstellungen für die Syntaxhervorhebeung (Pascal))
+                               Die beiden nachfolgenden Dateien können für andere
+                               Prozessoren angepasst und im Simulator geladen werden:
+       opcodes.mco             Beispiel für ein Datei mit den Opcodes
+       8051.mcu                Beispiel für eine Datei mit den Symbolen für SFRs, etc.
+       mc51.txt	 Dieser Text
+       checkisp.exe            Programm zum Überprüfen eines flash-programmierbaren
+                               Atmel-Mikrocontrollers (z.B. AT89S8253)
+       <locale>                Sprachdateien für Mc-51 (z.Zt. deutsch)
+       <Asem-51>               Verzeichnis für Assembler
+         AsemW.exe             Assembler für Verwendung unter Windows
+         ...                   sonst. Programme und Dokumentationen
+         <Mcu>                 Verzeichnis mit Modulen (s.o.)
+           *.mcu               Module für die versch. Mikrocontroller
+       <Turbo-51\bin>          Verzeichnis für Pascal-Compiler
+         Turbo51.exe           Pascal-Compiler
+         <units>               Verzeichnis der Units
+           *.pas               Units für die versch. Mikrocontroller
+
+Beim ersten Start von MC51.EXE werden alle erforderlichen Einstellungen (Ort von
+Assembler, Pascal-Compiler, etc.) automatisch eingerichtet.
+
+Wird ein Experimentierboard angeschlossen, ist vor der Inbetriebnahme die
+im Pogramm verwendete serielle Schnittstelle einzustellen:
+  Haupt-Menü > Einstellungen > Terminal > Com-Port -> COM1, COM2, ..
+
+Abhängig davon, welches Monitorprogramm auf dem Experimentierboard verwendet wird,
+sind ev. weitere Einstellungen erforderlich:
+  Haupt-Menü > Einstellungen > Terminal > Baudrate  -> 1200, .. ,115200
+  Haupt-Menü > Einstellungen > Terminal > Verzögerung
+            - Pause zwischen Zeichen in ms
+            - Pause am Zeilenende in ms
+Wird als Monitor das Programm PAULMON verwendet, können die Standardeinstellungen
+(9600 baud, 0 ms und 50 ms) verwendet werden. Nach dem Einschalten oder einem
+Reset des Experimentierboards muss bei diesem Monitor im Terminalfenster immer
+einmal die Enter-Taste getippt werden, damit der Mikrocontroller sich auf die
+am PC gewählte Baudrate einstellt.
+
+
+Befehlszeilenoptionen
+---------------------
+  ohne
+  Alle Dateien der vorherigen Sitzung werden erneut geladen.
+  
+  MC51 <Datei1> <Datei2> ...
+  lädt die Textdateien <Datei1,Datei2,..> in den Texteditor.
+
+  MC51 /term [<Name>.hex]
+  startet das Programm im Terminalmodus und bereitet den Download
+  der angegebenen Hex-Datei vor.
+
+  MC51 /sim[:<Name>.omf|hex]
+  1. Ohne Dateiname: startet nach dem Öffnen der Quelltexte sofort den Simulator 
+     mit dem zuletzt bearbeiteten Programm.
+  2. Mit Dateiname: startet nach dem Laden der Quelltexte sofort den Simulator 
+     und lädt dort die angegebene Binärdatei.
+  
+  MC51 /ini:<ini file> ..
+  verwendet eine alternative Konfigurations-Datei (Standardort: C:\%appdata%)
+
+  Projektverwaltung:
+  ------------------
+  MC51 @<project file> 
+  lädt alle Quelltexte aus einer Projektdatei der Form
+    ; Kommentar
+    /project:<project name>
+    /options:-A -J -T
+    /main:<mainfile>
+    <source1>
+    <source2>
+    ..
+  
+  MC51 /project:<project name>
+  legt den Namen des Projektes fest
+  
+  MC51 /options:<options>
+  benennt die Optionen für den Turbo51-Compiler
+
+  MC51 /main:<main file>
+  benennt die Hauptdatei des Projektes
+
+J. Rathlev, September 2019
+
