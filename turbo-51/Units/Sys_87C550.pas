@@ -1,0 +1,176 @@
+// 87C550 processor definition file
+// ================================
+
+
+unit Sys_87C550;
+
+interface
+
+var
+  DPL1      : byte absolute $84;
+  DPH1      : byte absolute $85;
+  DPS       : byte absolute $86;
+  CKCON     : byte absolute $8E;
+  RCON      : byte absolute $91;
+  SCON0     : byte absolute $98;
+  SBUF0     : byte absolute $99;
+  PMR       : byte absolute $9F;
+  SADDR0    : byte absolute $A1;
+  SADDR1    : byte absolute $A2;
+  CMPL0     : byte absolute $A9;
+  CMPL1     : byte absolute $AA;
+  CMPL2     : byte absolute $AB;
+  CPTL0     : byte absolute $AC;
+  CPTL1     : byte absolute $AD;
+  CPTL2     : byte absolute $AE;
+  CPTL3     : byte absolute $AF;
+  ADCON1    : byte absolute $B2;
+  ADCON2    : byte absolute $B3;
+  ADMSB     : byte absolute $B4;
+  ADLSB     : byte absolute $B5;
+  WINHI     : byte absolute $B6;
+  WINLO     : byte absolute $B7;
+  SADEN0    : byte absolute $B9;
+  SADEN1    : byte absolute $BA;
+  T2CON     : byte absolute $BE;
+  T2MOD     : byte absolute $BF;
+  P4        : byte absolute $C0;
+  ROMSIZE   : byte absolute $C2;
+  P5        : byte absolute $C4;
+  STATUS    : byte absolute $C5;
+  TA        : byte absolute $C7;
+  T2IR      : byte absolute $C8;
+  CMPH0     : byte absolute $C9;
+  CMPH1     : byte absolute $CA;
+  CMPH2     : byte absolute $CB;
+  CPTH0     : byte absolute $CC;
+  CPTH1     : byte absolute $CD;
+  CPTH2     : byte absolute $CE;
+  CPTH3     : byte absolute $CF;
+  PW0FG     : byte absolute $D2;
+  PW1FG     : byte absolute $D3;
+  PW2FG     : byte absolute $D4;
+  PW3FG     : byte absolute $D5;
+  PWMADR    : byte absolute $D6;
+  SCON1     : byte absolute $D8;
+  SBUF1     : byte absolute $D9;
+  PWM0      : byte absolute $DC;
+  PWM1      : byte absolute $DD;
+  PWM2      : byte absolute $DE;
+  PWM3      : byte absolute $DF;
+  PW01CS    : byte absolute $E1;
+  PW23CS    : byte absolute $E2;
+  PW01CON   : byte absolute $E3;
+  PW23CON   : byte absolute $E4;
+  RLOADL    : byte absolute $E6;
+  RLOADH    : byte absolute $E7;
+  EIE       : byte absolute $E8;
+  T2SEL     : byte absolute $EA;
+  CTCON     : byte absolute $EB;
+  TL2       : byte absolute $EC;
+  TH2       : byte absolute $ED;
+  SETR      : byte absolute $EE;
+  RSTR      : byte absolute $EF;
+  P6        : byte absolute $F1;
+  EIP       : byte absolute $F8;
+  WDCON     : byte absolute $FF;
+
+  INT2      : boolean absolute $90;
+  INT3      : boolean absolute $91;
+  INT4      : boolean absolute $92;
+  INT5      : boolean absolute $93;
+  CT0       : boolean absolute $90;
+  CT1       : boolean absolute $91;
+  CT2       : boolean absolute $92;
+  CT3       : boolean absolute $93;
+  T2        : boolean absolute $94;
+  T2EX      : boolean absolute $95;
+  RXD1      : boolean absolute $96;
+  TXD1      : boolean absolute $97;
+  RI_0      : boolean absolute $98;
+  TI_0      : boolean absolute $99;
+  RB8_0     : boolean absolute $9A;
+  TB8_0     : boolean absolute $9B;
+  REN_0     : boolean absolute $9C;
+  SM2_0     : boolean absolute $9D;
+  SM1_0     : boolean absolute $9E;
+  SM0FE_0   : boolean absolute $9F;
+  ES0       : boolean absolute $AC;
+  ES1       : boolean absolute $AD;
+  EAD       : boolean absolute $AE;
+  RXD0      : boolean absolute $B0;
+  TXD0      : boolean absolute $B1;
+  PS0       : boolean absolute $BC;
+  PS1       : boolean absolute $BD;
+  PAD       : boolean absolute $BE;
+  CMSR0     : boolean absolute $C0;
+  CMSR1     : boolean absolute $C1;
+  CMSR2     : boolean absolute $C2;
+  CMSR3     : boolean absolute $C3;
+  CMSR4     : boolean absolute $C4;
+  CMSR5     : boolean absolute $C5;
+  CMT0      : boolean absolute $C6;
+  CMT1      : boolean absolute $C7;
+  IE2       : boolean absolute $C8;
+  IE3       : boolean absolute $C9;
+  IE4       : boolean absolute $CA;
+  IE5       : boolean absolute $CB;
+  CF0       : boolean absolute $C8;
+  CF1       : boolean absolute $C9;
+  CF2       : boolean absolute $CA;
+  CF3       : boolean absolute $CB;
+  CM0F      : boolean absolute $CC;
+  CM1F      : boolean absolute $CD;
+  CM2F      : boolean absolute $CE;
+  F1        : boolean absolute $D1;
+  RI_1      : boolean absolute $D8;
+  TI_1      : boolean absolute $D9;
+  RB8_1     : boolean absolute $DA;
+  TB8_1     : boolean absolute $DB;
+  REN_1     : boolean absolute $DC;
+  SM2_1     : boolean absolute $DD;
+  SM1_1     : boolean absolute $DE;
+  SM0FE_1   : boolean absolute $DF;
+  EX2       : boolean absolute $E8;
+  EX3       : boolean absolute $E9;
+  EX4       : boolean absolute $EA;
+  EX5       : boolean absolute $EB;
+  EC0       : boolean absolute $E8;
+  EC1       : boolean absolute $E9;
+  EC2       : boolean absolute $EA;
+  EC3       : boolean absolute $EB;
+  ECM0      : boolean absolute $EC;
+  ECM1      : boolean absolute $ED;
+  ECM2      : boolean absolute $EE;
+  ET2       : boolean absolute $EF;
+  PX2       : boolean absolute $F8;
+  PX3       : boolean absolute $F9;
+  PX4       : boolean absolute $FA;
+  PX5       : boolean absolute $FB;
+  PC0       : boolean absolute $F8;
+  PC1       : boolean absolute $F9;
+  PC2       : boolean absolute $FA;
+  PC3       : boolean absolute $FB;
+  PCM0      : boolean absolute $FC;
+  PCM1      : boolean absolute $FD;
+  PCM2      : boolean absolute $FE;
+  PT2       : boolean absolute $FF;
+
+
+const
+  SINT1     = $0B;
+  ADCONV    = $13;
+  EXTI2     = $23;
+  MATCH0    = $2B;
+  PWFAIL    = $33;
+  EXTI3     = $43;
+  MATCH1    = $4B;
+  EXTI4     = $5B;
+  MATCH2    = $63;
+  SINT0     = $6B;
+  EXTI5     = $73;
+  TIMER2    = $7B;
+
+implementation
+
+end.

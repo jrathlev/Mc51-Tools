@@ -1,0 +1,134 @@
+; Setup script for MC-Tools
+; ========================= 
+;  © Dr. J. Rathlev, D-24222 Schwentinental (kontakt(a)rathlev-home.de)
+
+;  The contents of this file may be used under the terms of the
+;  Mozilla Public License ("MPL") or
+;  GNU Lesser General Public License Version 2 or later (the "LGPL")
+
+;  Software distributed under this License is distributed on an "AS IS" basis,
+;  WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for
+;  the specific language governing rights and limitations under the License.
+
+;  Compiles with Inno Setup 6.1.2
+
+#define ApplicationVersion GetVersionNumbersString('..\Release\Win32\Mc51.exe')
+#define Year GetDateTimeString('yyyy','','')
+
+[Setup]
+PrivilegesRequired=admin
+AppName=Mc-Tools
+AppVerName=Mc-Tools {#ApplicationVersion}
+AppVersion={#ApplicationVersion}
+AppPublisher=Dr. J. Rathlev
+AppPublisherURL=http://www.rathlev-home.de/?mc/mctools.html
+AppSupportURL=http://www.rathlev-home.de/?mc/mctools.html
+AppUpdatesURL=http://www.rathlev-home.de/?mc/mctools.html#Down
+AppCopyright=© 2004-{#Year} Dr. J. Rathlev
+VersionInfoVersion={#ApplicationVersion}
+DefaultDirName={commonpf}\MC-Tools
+AppendDefaultDirName=yes
+DefaultGroupName=MC-Tools
+OutputDir=.
+OutputBaseFilename=mc-setup
+SetupIconFile=mc-51.ico
+UninstallDisplayIcon={app}\mc-uninst.ico
+DisableWelcomePage=no
+WizardImageFile=mc-install-6.bmp
+WizardSmallImageFile=mc-install-small.bmp
+Compression=lzma
+SolidCompression=yes
+ChangesAssociations=yes
+ShowLanguageDialog=auto
+DisableDirPage=auto
+DisableProgramGroupPage=auto
+
+[Languages]
+Name: "en"; MessagesFile: "compiler:Default.isl"; LicenseFile:"..\..\Common\license-en.rtf"; InfoAfterFile:"..\Dokumentation\changelog-6-e.txt";
+Name: "de"; MessagesFile: "compiler:Languages\German.isl"; LicenseFile:"..\..\Common\license-de.rtf"; InfoAfterFile:"..\Dokumentation\changelog-6.txt";
+
+[CustomMessages]
+en.AssocAllFileExtension=&Register MC-Tools file extensions
+de.AssocAllFileExtension=&Registriere MC-Tools-Dateierweiterungen
+en.CreateMctIcon=Create a &desktop icon for MC-51
+de.CreateMctIcon=&Desktop-Symbol für MC-51 erstellen
+en.CreateMcpIcon=Create a &desktop icon for Project Manager
+de.CreateMcpIcon=&Desktop-Symbol für Projekt-Manager erstellen
+en.FileAssoc=File associations:
+de.FileAssoc=Dateizuordnungen:
+en.CheckIsp=Check ISP
+de.CheckIsp=ISP überprüfen 
+en.Compare=Verify programming
+de.Compare=Programmierung prüfen
+en.Projects=Project manager
+de.Projects=Projektmanager
+
+[Tasks]
+Name: "mcticon"; Description: "{cm:CreateMctIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: checkedonce
+Name: "mcpicon"; Description: "{cm:CreateMcpIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: checkedonce
+Name: "fileassoc_mcp"; Description: "{cm:AssocFileExtension,{cm:Projects},mcp}"; GroupDescription: "{cm:FileAssoc}"; 
+Name: "fileassoc_a51"; Description: "{cm:AssocFileExtension,Mc-Tools,a51}"; GroupDescription: "{cm:FileAssoc}"; 
+Name: "fileassoc_asm"; Description: "{cm:AssocFileExtension,Mc-Tools,asm}"; GroupDescription: "{cm:FileAssoc}"; Flags: unchecked
+Name: "fileassoc_pas"; Description: "{cm:AssocFileExtension,Mc-Tools,pas}"; GroupDescription: "{cm:FileAssoc}"; Flags: unchecked
+Name: "fileassoc_c"; Description: "{cm:AssocFileExtension,Mc-Tools,c}"; GroupDescription: "{cm:FileAssoc}"; Flags: unchecked
+
+[Files]                                                                                                
+Source: "..\Release\Win32\Mc51.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\Release\Win32\CheckIsp.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\Release\Win32\McProjects.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\Release\Win32\DiffIsp.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\Release\Win32\locale\*.mo"; DestDir: "{app}\locale"; Flags: recursesubdirs ignoreversion restartreplace
+Source: "..\languages\language.cfg"; DestDir: "{app}"; Flags: recursesubdirs ignoreversion restartreplace
+Source: "..\settings\Asem-51\*"; DestDir: "{app}\Asem-51"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "..\settings\Turbo-51\*"; DestDir: "{app}\Turbo-51"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "..\settings\Turbo-51\Units\*"; DestDir: "{app}\Units"; Attribs : readonly; Flags: ignoreversion overwritereadonly uninsremovereadonly
+Source: "..\settings\Mc51-*.hlt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\settings\Mc51.key"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\settings\OpCodes.mco"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\settings\8051.mcu"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\docs\license-*.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\docs\changelog-6.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\docs\changelog-6-e.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\docs\*.chm"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\docs\*.pdf"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\docs\mc51-*.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\docs\opcodes.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "*.ico"; DestDir: "{app}"; Flags: ignoreversion
+
+; NOTE: Don't use "Flags: ignoreversion" on any shared system files
+
+[Icons]
+Name: "{group}\MC-Tools"; Filename: "{app}\Mc51.exe"
+Name: "{group}\{cm:Projects}"; Filename: "{app}\McProjects.exe"
+Name: "{group}\{cm:CheckIsp}"; Filename: "{app}\CheckIsp.exe"
+Name: "{group}\{cm:Compare}"; Filename: "{app}\DiffIsp.exe"
+Name: "{group}\{cm:UninstallProgram,Mc-Tools}"; Filename: "{uninstallexe}"; IconFilename: "{app}\mc-uninst.ico"
+Name: "{commondesktop}\MC-51"; Filename: "{app}\Mc51.exe"; Tasks: mcticon
+Name: "{commondesktop}\{cm:Projects}"; Filename: "{app}\McProjects.exe"; Tasks: mcpicon
+
+[Run]
+Filename: "{app}\Mc51.exe"; Description: "{cm:LaunchProgram,Mc-Tools}"; Flags: nowait postinstall skipifsilent
+
+[Registry]
+Root: HKCR; Subkey: ".mcp"; ValueType: string; ValueName: ""; ValueData: "Mc-Projects"; Tasks: fileassoc_mcp; Flags: uninsdeletevalue
+Root: HKCR; Subkey: ".mcp"; ValueType: string; ValueName: "PerceivedType"; ValueData: "text"; Tasks: fileassoc_mcp; Flags: uninsdeletevalue
+Root: HKCR; Subkey: ".a51"; ValueType: string; ValueName: ""; ValueData: "Mc-Tools"; Tasks: fileassoc_a51; Flags: uninsdeletevalue
+Root: HKCR; Subkey: ".a51"; ValueType: string; ValueName: "PerceivedType"; ValueData: "text"; Tasks: fileassoc_a51; Flags: uninsdeletevalue
+Root: HKCR; Subkey: ".asm"; ValueType: string; ValueName: ""; ValueData: "Mc-Tools"; Tasks: fileassoc_asm; Flags: uninsdeletevalue
+Root: HKCR; Subkey: ".asm"; ValueType: string; ValueName: "PerceivedType"; ValueData: "text"; Tasks: fileassoc_asm; Flags: uninsdeletevalue
+Root: HKCR; Subkey: ".pas"; ValueType: string; ValueName: ""; ValueData: "Mc-Tools"; Tasks: fileassoc_pas; Flags: uninsdeletevalue
+Root: HKCR; Subkey: ".pas"; ValueType: string; ValueName: "PerceivedType"; ValueData: "text"; Tasks: fileassoc_pas; Flags: uninsdeletevalue
+Root: HKCR; Subkey: ".c";   ValueType: string; ValueName: ""; ValueData: "Mc-Tools"; Tasks: fileassoc_c; Flags: uninsdeletevalue
+Root: HKCR; Subkey: ".c";   ValueType: string; ValueName: "PerceivedType"; ValueData: "text"; Tasks: fileassoc_c; Flags: uninsdeletevalue
+Root: HKCR; Subkey: ".lst"; ValueType: string; ValueName: ""; ValueData: "txtfile"; Tasks: fileassoc_a51; Flags: uninsdeletevalue
+Root: HKCR; Subkey: ".lst"; ValueType: string; ValueName: "PerceivedType"; ValueData: "text"; Tasks: fileassoc_a51; Flags: uninsdeletevalue
+
+Root: HKCR; Subkey: "Mc-Tools"; ValueType: string; ValueName: ""; ValueData: "Mc-Tools"; Tasks: fileassoc_a51 or fileassoc_asm or fileassoc_pas; Flags: uninsdeletekey
+Root: HKCR; Subkey: "Mc-Tools\DefaultIcon"; ValueType: string; ValueName: ""; ValueData: "{app}\Mc51.exe,0"; Tasks: fileassoc_a51 or fileassoc_asm or fileassoc_pas
+Root: HKCR; Subkey: "Mc-Tools\shell\open\command"; ValueType: string; ValueName: ""; ValueData: """{app}\Mc51.exe"" ""%1"""; Tasks: fileassoc_a51 or fileassoc_asm or fileassoc_pas
+Root: HKCR; Subkey: "Mc-Projects"; ValueType: string; ValueName: ""; ValueData: "Mc-Projects"; Tasks: fileassoc_mcp; Flags: uninsdeletekey
+Root: HKCR; Subkey: "Mc-Projects\DefaultIcon"; ValueType: string; ValueName: ""; ValueData: "{app}\McProjects.exe,0"; Tasks: fileassoc_mcp
+Root: HKCR; Subkey: "Mc-Projects\shell\open\command"; ValueType: string; ValueName: ""; ValueData: """{app}\McProjects.exe"" ""%1"""; Tasks: fileassoc_mcp
+
+Root: HKLM; Subkey: "Software\Mc-Tools"; ValueType: string; ValueName: "Program"; ValueData: "{app}\Mc51.exe"; Flags: uninsdeletekey
+
