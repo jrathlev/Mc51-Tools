@@ -1,0 +1,21 @@
+SynHighlighterMC51xx.pas
+========================
+This is a SynEdit-Highlighter for 51-family microcontrollers.
+To use it for a specific member of this family the appropriate special
+function registers (SFR) definitions must be loaded from a text file
+(<name>.mcu). A set for the most common types is included.
+Loading of this file is done by "InitHighlighter(Filename)".
+
+List of included microcontroller definitions:
+ 73M2910, 8044, 8051, 80512, 80515, 8052, 80C310, 80C320, 80C324, 80C32X2,
+ 80C390, 80C515, 80C517, 80C52, 80C521, 80C592, 83931AA, 83931HA, 83C151,
+ 83C152, 83C154, 83C154S, 83C451, 83C452, 83C515A, 83C51FX, 83C51GB, 83C51KB,
+ 83C51R, 83C528, 83C550, 83C552, 83C562, 83C652, 83C750, 83C751, 83C752,
+ 83C754, 83C851, 83C852, 87C520, 87C530, 87C550, 87F51RC, 87LPC762, 87LPC768,
+ 89C1051, 89C2051, 89C420, 89C51C01, 89C52, 89S4D12, 89S51, 89S52, 89S53,
+ 89S8252, 89S8253, Aduc812, ADUC814, ADUC816, ADUC824, ADUC831, ADUC832,
+ ADUC834, ADUC836, AN2131, C501, C502, C503, C504, C505, C505A, C505C, C505CA,
+ C505L, C508, C509, C511, C513, C513AO, C515, C515A, C515C, C517A, C540U,
+ C541U, C868, COM20051, DS5000, DS5001, MAX7651
+
+J. Rathlev, D-24222 Schwentinental, June 2005 - last updated: June 2026

@@ -16,4 +16,9 @@ The program package contains an **Integrated Development Environment** (IDE) for
 - Checking the ISP feature of Atmel microcontrollers and reading the program memory
 - Verifier for flash programmings using ISP for Atmel microcontrollers
 
+### Acknowledgements:
+- The program uses routines from the **SynEdit** package on [SourceForge](https://sourceforge.net/projects/synedit/)
+- The package contains the Turbo Pascal compiler for 8051 microcontrollers **Turbo51** by [Igor Funa](https://turbo51.com/)
+- The package contains the Macro Assembler **ASEM-51** by [W.W. Heinz](https://plit.de/asem-51/home.htm)
+
 [Author's homepage](https://www.rathlev-home.de/index-e.html?mc/mctools-e.html)
